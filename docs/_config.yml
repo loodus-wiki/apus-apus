@@ -20,27 +20,17 @@ include:
   - "en/*.md" 
   - "est/*.md"
 
-# Настройки многоязычности
+# Языки
 languages:
   - code: ru
     name: Русский
-    url: docs/ru
+    url: /apus-apus/ru/
   - code: en
     name: English
-    url: /en/
+    url: /apus-apus/en/
   - code: est
     name: Eesti
-    url: /est/
-collections:
-  ru:
-    output: true
-    permalink: /ru/:path/
-  en:
-    output: true
-    permalink: /en/:path/
-  est:
-    output: true
-    permalink: /est/:path/
+    url: /apus-apus/est/
 
 # Исключения из сборки
 exclude:
