@@ -1,40 +1,28 @@
-# Конфигурация сайта для GitHub Pages из папки /docs
-title: "Swift Encyclopedia"
-description: "Complete guide about swift birds care, feeding, and rehabilitation"
-url: "https://your-username.github.io"
-baseurl: "/apus-apus"
+title: "Apus apus"
+description: "Летопись стрижей"
 
-# Указываем, что сайт публикуется из /docs
-source: "."
+url: "https://loodus-wiki.github.io"
+baseurl: "/apus-apus"  
 
-# Плагины Jekyll
-plugins:
-  - jekyll-relative-links
-  - jekyll-optional-front-matter
-
-# Настройки многоязычности
+# Просто переменная для навигации по языкам (можно использовать в шаблоне)
 languages:
   - code: ru
     name: Русский
-    url: docs/ru
+    url: /apus-apus/ru/
   - code: en
     name: English
-    url: /en/
+    url: /apus-apus/en/
   - code: est
     name: Eesti
-    url: /est/
-collections:
-  ru:
-    output: true
-    permalink: /ru/:path/
-  en:
-    output: true
-    permalink: /en/:path/
-  est:
-    output: true
-    permalink: /est/:path/
+    url: /apus-apus/est/
 
-# Исключения из сборки
-exclude:
-  - README.md
-  - LICENSE
+# Подключение плагинов, поддерживаемых GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-github-metadata
+
+theme: minima
+repository: loodus-wiki/apus-apus
+markdown: kramdown
