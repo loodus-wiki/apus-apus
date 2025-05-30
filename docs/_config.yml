@@ -1,10 +1,23 @@
 title: "Apus apus"
 description: "Летопись стрижей"
-
 url: "https://loodus-wiki.github.io"
-baseurl: "/apus-apus"  
+baseurl: "/apus-apus"
 
-# Просто переменная для навигации по языкам (можно использовать в шаблоне)
+# Включить обработку markdown файлов
+include:
+  - "*.md"
+  - "*/*.md"
+  - "**/*.md"
+
+# Настройки по умолчанию
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+# Языки
 languages:
   - code: ru
     name: Русский
@@ -16,12 +29,14 @@ languages:
     name: Eesti
     url: /apus-apus/est/
 
-# Подключение плагинов, поддерживаемых GitHub Pages
+# Плагины
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-github-metadata
+  - jekyll-optional-front-matter
+  - jekyll-relative-links
 
 theme: minima
 repository: loodus-wiki/apus-apus
