@@ -1,0 +1,40 @@
+# Конфигурация сайта для GitHub Pages из папки /docs
+title: "Swift Encyclopedia"
+description: "Complete guide about swift birds care, feeding, and rehabilitation"
+url: "https://your-username.github.io"
+baseurl: "/apus-apus"
+
+# Указываем, что сайт публикуется из /docs
+source: "."
+
+# Плагины Jekyll
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+
+# Настройки многоязычности
+languages:
+  - code: ru
+    name: Русский
+    url: docs/ru
+  - code: en
+    name: English
+    url: /en/
+  - code: est
+    name: Eesti
+    url: /est/
+collections:
+  ru:
+    output: true
+    permalink: /ru/:path/
+  en:
+    output: true
+    permalink: /en/:path/
+  est:
+    output: true
+    permalink: /est/:path/
+
+# Исключения из сборки
+exclude:
+  - README.md
+  - LICENSE

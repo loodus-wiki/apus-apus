@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'en' }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | default: site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+    {% unless page.is_home %}
+        <header>
+            <nav class="main-nav" role="navigation" aria-label="Main navigation">
+                <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+                <ul id="nav-menu" class="nav-menu">
+                    {% assign nav_data = site.data.navigation-ru %}
+                    {% if page.lang == 'en' %}
+                        {% assign nav_data = site.data.navigation-en %}
+                    {% elsif page.lang == 'est' %}
+                        {% assign nav_data = site.data.navigation-est %}
+                    {% elsif page.lang == 'de' %}
+                        {% assign nav_data = site.data.navigation-de %}
+                    {% endif %}
+                    {% for item in nav_data %}
+                        <li class="nav-item">
+                            <a href="{{ item.url | relative_url }}" class="nav-link">{{ item.title }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </nav>
+        </header>
+    {% endunless %}
+    <main id="t-main-content">
+        {{ content }}
+    </main>
+    <script src="{{ '/assets/js/nav-toggle.js' | relative_url }}"></script>
+</body>
+</html>

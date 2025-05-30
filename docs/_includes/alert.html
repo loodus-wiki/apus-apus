@@ -1,0 +1,14 @@
+<div class="alert {% if include.type %}{{ include.type }}{% else %}note{% endif %}" role="alert">
+    {% if include.title %}
+        <h4>{{ include.title }}</h4>
+    {% endif %}
+    {{ include.content }}
+</div>
+
+<!--
+
+include.type позволяет задавать тип алерта (например, note, warning, danger).
+include.title — заголовок алерта.
+include.content — содержимое алерта.
+
+-->

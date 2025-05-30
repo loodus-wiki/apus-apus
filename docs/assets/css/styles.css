@@ -1,0 +1,128 @@
+/* стили для общих HTML-элементов, которые генерирует Markdown */
+/* Отступы для основного контента */
+/* Основной контейнер с отступами */
+/* body {
+  margin: 10;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: linear-gradient(to bottom, rgba(135, 206, 235, 0.6), rgba(255, 245, 238, 0.6)); /* Небесный фон */
+/*  position: relative;
+  overflow-x: hidden;
+} */
+#t-main-content {
+  max-width: 800px; /* Ограничиваем ширину */
+  margin: 0 auto; /* Центрируем */
+  padding: 20px 40px; /* Отступы: 20px сверху/снизу, 40px слева/справа */
+  position: relative;
+  z-index: 1; /* Контент поверх птиц */
+  box-sizing: border-box; /* Учитываем padding в ширине */
+}
+
+/* Явные отступы для заголовков и абзацев */
+#t-main-content h1,
+#t-main-content h2,
+#t-main-content h3,
+#t-main-content p {
+  margin: 0 0 20px 0; /* Отступ снизу, 0 слева для контроля через padding */
+  padding-left: 20px; /* Дополнительный левый отступ для текста */
+  padding-right: 20px;
+}
+
+/* Изображения внутри main */
+#t-main-content img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 0 20px 0;
+  padding-left: 20px; /* Отступ слева для изображения */
+}
+/* Переключатель языков */
+.language-switcher {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+.language-switcher a {
+    margin: 0 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.language-switcher a:hover {
+    background-color: #007cba;
+    color: white;
+}
+
+/* Страница выбора языка */
+.language-selector {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.language-options {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.lang-option {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    transition: transform 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+.lang-option:hover {
+    transform: translateY(-10px);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.lang-option img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* alert marks */
+.alert {
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 4px;
+    border: 1px solid;
+}
+.alert.note {
+    background-color: #e7f3fe;
+    border-color: #b3d7ff;
+    color: #004085;
+}
+.alert.warning {
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    color: #856404;
+}
+.alert.danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+}
+.alert h4 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+}
+
+
