@@ -6,7 +6,12 @@ is_home: false
 ---
 ## Что делать, если вы нашли стрижа
 
-![Swift](../../assets/images/swift.jpg)
+![Swift](../assets/images/swift.jpg)
+
+<figure>
+  <img src="../assets/images/adult_swift.webp" alt="Взрослые стрижи" width="400">
+  <figcaption>Подпись: Взрослые стрижи</figcaption>
+</figure>
 
 Не стремитесь сразу выпустить найденного стрижа. Попробуйте понять, что с ним могло произойти, что он оказался на земле.
 
