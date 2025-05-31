@@ -13,7 +13,13 @@ plugins:
 #  - jekyll-sitemap
 #  - jekyll-github-metadata
   - jekyll-optional-front-matter 
-  - jekyll-relative-links       
+  - jekyll-relative-links   
+  - jekyll-toc
+
+toc:
+  min_level: 1 # Минимальный уровень заголовков (1 = #, 2 = ## и т.д.)
+  max_level: 3 # Максимальный уровень заголовков
+  ordered_list: false # Использовать <ul> вместо <ol>
 
 include:
   - "ru/*.md"
