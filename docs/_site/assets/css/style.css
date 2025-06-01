@@ -203,7 +203,8 @@ body {
 
 /* Обновленные стили для основного контента */
 #t-main-content {
-  max-width: 800px;
+  max-width: 800px; /* Базовая максимальная ширина для экранов до 1200px */
+  width: 100%; /* Занимает всю доступную ширину до max-width */
   margin: 0 auto;
   padding: 20px 10px;
   position: relative;
@@ -211,7 +212,15 @@ body {
   box-sizing: border-box;
 }
 
-/* Медиа-запросы для основного контента */
+/* Медиа-запрос для больших экранов */
+@media screen and (min-width: 1200px) {
+  #t-main-content {
+    max-width: 1200px; /* Увеличиваем max-width для больших экранов */
+    padding: 20px 15px; /* Увеличиваем padding для лучшего отображения */
+  }
+}
+
+/* Медиа-запросы для меньших экранов */
 @media screen and (max-width: 768px) {
   #t-main-content {
     padding: 15px 8px;
