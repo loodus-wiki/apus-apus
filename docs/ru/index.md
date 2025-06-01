@@ -56,7 +56,9 @@ is_home: false
 
 
 4) Зарегистируйте находку и спросите совета в EestiMetsloomayhing (откроется в новом окне)<a href="https://www.metsloom.ee/kontaktid/" target="_blank" rel="noopener noreferrer">Eesti Metsloomaühing</a>
+
 Их facebook: https://www.facebook.com/EestiMetsloomayhing/ 
+
 Телефон +372 5632 2200
 
 

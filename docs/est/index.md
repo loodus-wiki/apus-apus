@@ -55,7 +55,9 @@ Mõnel juhul võivad piiritajad peopesalt lendu tõusta, kuid isegi seda proovid
 
 
 4) Registreerige leid ja küsige nõu Eesti Metsloomaühingult (avaneb uues aknas) <a href="https://www.metsloom.ee/kontaktid/" target="_blank" rel="noopener noreferrer">Eesti Metsloomaühing</a>.
+
 Nende Facebook: https://www.facebook.com/EestiMetsloomayhing/
+
 Telefon: +372 5632 2200
 
 
