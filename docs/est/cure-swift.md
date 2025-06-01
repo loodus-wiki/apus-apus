@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Лекарства
-description: О применении лекарственных препаратов.
+title: Ravimid
+description: Ravimite kasutamise kohta.
 lang: est
 is_home: false
 ---
 
-## Лечение стрижа
+## Piiritaja ravi
