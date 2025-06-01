@@ -39,6 +39,7 @@ Kõik neli varvast igal jalal on suunatud ettepoole (pääsukesel see nii ei ole
 
 0) Ärge püüdke lindu lennutada, eriti ärge visake teda õhku ega kõrgelt.
 
+
 1) Tagage linnule turvaline keskkond.
 Võimaluse korral leidke kingakarbisuurune karp, tehke sellesse ventilatsiooni jaoks augud ja asetage lind pimedasse kohta, et ta saaks rahus olla.
 Ärge kartke piiritajat karpi panna.
@@ -51,6 +52,7 @@ Mõnel juhul võivad piiritajad peopesalt lendu tõusta, kuid isegi seda proovid
 
 
 3) Pange tähele, kas linnul on nähtav veri või ilmne vigastus, kas on märgatav asümmeetria.
+
 
 4) Registreerige leid ja küsige nõu Eesti Metsloomaühingult (avaneb uues aknas) <a href="https://www.metsloom.ee/kontaktid/" target="_blank" rel="noopener noreferrer">Eesti Metsloomaühing</a>.
 Nende Facebook: https://www.facebook.com/EestiMetsloomayhing/
