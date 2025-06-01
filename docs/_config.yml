@@ -21,6 +21,10 @@ toc:
   max_level: 3 # Максимальный уровень заголовков
   ordered_list: false # Использовать <ul> вместо <ol>
 
+kramdown:
+  toc_levels: 1..6
+  auto_ids: true
+
 include:
   - "ru/*.md"
   - "en/*.md" 

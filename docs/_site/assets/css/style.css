@@ -5,30 +5,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-#t-main-content {
-  max-width: 800px; /* Ограничиваем ширину */
-  margin: 0 auto; /* Центрируем */
-  padding: 20px 10px; /* Отступы: 20px сверху/снизу, 40px слева/справа */
-  position: relative;
-  z-index: 1; /* Контент поверх птиц */
-  box-sizing: border-box; /* Учитываем padding в ширине */
-}
-
-/* Явные отступы для заголовков и абзацев */
-#t-main-content h1,
-#t-main-content h2,
-#t-main-content h3 {
-  margin: 0 10px 10px 0; /* Отступ снизу, 0 слева для контроля через padding */
-  padding-left: 10px; /* Дополнительный левый отступ для текста */
-  padding-right: 10px;
-}
-
-#t-main-content p {
-  margin: 0 30px 10px 0; /* Отступ снизу, 0 слева для контроля через padding */
-  padding-left: 30px; /* Дополнительный левый отступ для текста */
-  padding-right: 10px;
-}
-
 .main-nav {
     background-color: #2c3e50;
     padding: 10px 20px;
@@ -123,4 +99,155 @@ body {
         padding: 15px;
         font-size: 1.2em;
     }
+}
+
+
+
+
+/* Базовые стили для языкового селектора */
+.language-selector {
+  text-align: center;
+  padding: 20px;
+}
+
+.language-options {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.lang-option {
+  display: block;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  min-width: 250px;
+  max-width: 300px;
+}
+
+.lang-option:hover {
+  border-color: #007bff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.lang-option img {
+  width: 48px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.lang-option h2 {
+  margin: 10px 0 5px 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.lang-option p {
+  margin: 5px 0 0 0;
+  font-size: 0.9em;
+  color: #666;
+  line-height: 1.4;
+}
+
+/* Медиа-запросы для мобильных устройств */
+@media screen and (max-width: 768px) {
+  .language-options {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .lang-option {
+    width: 100%;
+    max-width: 350px;
+    min-width: unset;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .language-selector {
+    padding: 15px 10px;
+  }
+  
+  .language-selector h1 {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+  }
+  
+  .language-options {
+    gap: 12px;
+    margin-top: 20px;
+  }
+  
+  .lang-option {
+    padding: 15px;
+    max-width: 100%;
+  }
+  
+  .lang-option h2 {
+    font-size: 1.3em;
+  }
+  
+  .lang-option p {
+    font-size: 0.85em;
+  }
+}
+
+/* Обновленные стили для основного контента */
+#t-main-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 10px;
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+/* Медиа-запросы для основного контента */
+@media screen and (max-width: 768px) {
+  #t-main-content {
+    padding: 15px 8px;
+  }
+  
+  #t-main-content h1,
+  #t-main-content h2,
+  #t-main-content h3 {
+    margin: 0 5px 10px 0;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  
+  #t-main-content p {
+    margin: 0 15px 10px 0;
+    padding-left: 15px;
+    padding-right: 8px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #t-main-content {
+    padding: 10px 5px;
+  }
+  
+  #t-main-content h1,
+  #t-main-content h2,
+  #t-main-content h3 {
+    margin: 0 2px 8px 0;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  #t-main-content p {
+    margin: 0 8px 8px 0;
+    padding-left: 8px;
+    padding-right: 5px;
+  }
 }

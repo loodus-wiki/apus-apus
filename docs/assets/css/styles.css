@@ -8,32 +8,7 @@
 /*  position: relative;
   overflow-x: hidden;
 } */
-#t-main-content {
-  max-width: 800px; /* Ограничиваем ширину */
-  margin: 0 auto; /* Центрируем */
-  padding: 20px 40px; /* Отступы: 20px сверху/снизу, 40px слева/справа */
-  position: relative;
-  z-index: 1; /* Контент поверх птиц */
-  box-sizing: border-box; /* Учитываем padding в ширине */
-}
 
-/* Явные отступы для заголовков и абзацев */
-#t-main-content h1,
-#t-main-content h2,
-#t-main-content h3,
-#t-main-content p {
-  margin: 0 0 20px 0; /* Отступ снизу, 0 слева для контроля через padding */
-  padding-left: 20px; /* Дополнительный левый отступ для текста */
-  padding-right: 20px;
-}
-
-/* Изображения внутри main */
-#t-main-content img {
-  max-width: 100%;
-  height: auto;
-  margin: 0 0 20px 0;
-  padding-left: 20px; /* Отступ слева для изображения */
-}
 /* Переключатель языков */
 .language-switcher {
     position: fixed;
