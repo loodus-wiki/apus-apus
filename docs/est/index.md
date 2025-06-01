@@ -43,13 +43,19 @@ Kõik neli varvast igal jalal on suunatud ettepoole (pääsukesel see nii ei ole
 Võimaluse korral leidke kingakarbisuurune karp, tehke sellesse ventilatsiooni jaoks augud ja asetage lind pimedasse kohta, et ta saaks rahus olla.
 Ärge kartke piiritajat karpi panna.
 Isegi kui piiritaja teie peale susiseb, ei hammusta ta teid. Siiski olge küünistega ettevaatlik, sest ta võib neid tugevalt kokku suruda, näiteks sõrme külge klammerdudes.
+
+
 2) Püüdke mõista, mis linnuga juhtus, enne kui ta teie kätte sattus.
 Ta võis kokku põrgata või pesast välja kukkuda. Piiritajatel ei ole nn "lennuvõimelisi poegi", seega satub lind maapinnale ainult mingi õnnetuse korral.
 Mõnel juhul võivad piiritajad peopesalt lendu tõusta, kuid isegi seda proovides tuleb teha seda pehme pinnase kohal, et lind kukkumisel endale rohkem viga ei teeks.
+
+
 3) Pange tähele, kas linnul on nähtav veri või ilmne vigastus, kas on märgatav asümmeetria.
+
 4) Registreerige leid ja küsige nõu Eesti Metsloomaühingult (avaneb uues aknas) <a href="https://www.metsloom.ee/kontaktid/" target="_blank" rel="noopener noreferrer">Eesti Metsloomaühing</a>.
 Nende Facebook: https://www.facebook.com/EestiMetsloomayhing/
 Telefon: +372 5632 2200
+
 
 Sõnumi **informaatiivseks** muutmiseks teatage:
 * Linn
@@ -59,7 +65,8 @@ Lindu ei pea kaalule panema!
 Lihtsam on kaaluda karp koos linnuga ja lahutada tühja karbi kaal.
 * Veenduge, et saate kogukonna liikmetelt sõnumeid vastu võtta.
 
-1) Täiustage karp transportimiseks või edastamiseks.
+5) Täiustage karp transportimiseks või edastamiseks.
+
 
 Kui leidsite tibu, vajab ta soojust, eriti kui tal puudub udusulg.
 Võite valada pudelisse kuuma vett ja asetada see karpi nii, et pudel ei suruks tibu.
