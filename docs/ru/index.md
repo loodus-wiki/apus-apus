@@ -29,7 +29,7 @@ is_home: false
 
 ### Птенец
 <figure>
-  <img src="../assets/images/swift_14days.jpg" alt="14 day Swift" width="400">
+  <img src="../assets/images/timeline_day_11__12.webp" alt="14 day Swift" width="400">
   <figcaption>Стриж 14 дней от роду. Перо растёт из т.н. "трубочек", поэтому он похож на динозавра.</figcaption>
 </figure>
 
