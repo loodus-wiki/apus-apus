@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Piiritaja vanuse ja seisundi määramine
-lang: et
+lang: est
 is_home: false
 ---
 
