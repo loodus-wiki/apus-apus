@@ -5,6 +5,7 @@ lang: ru
 is_home: false
 ---
 
+* TOC
 {:toc}
 
 ## Что делать, если вы нашли стрижа

@@ -16,6 +16,7 @@ plugins:
   - jekyll-relative-links   
   - jekyll-toc
 
+toc: true
 toc:
   min_level: 1 # Минимальный уровень заголовков (1 = #, 2 = ## и т.д.)
   max_level: 3 # Максимальный уровень заголовков
