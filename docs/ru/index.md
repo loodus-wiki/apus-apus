@@ -58,7 +58,7 @@ is_home: false
 3) Важно отметить, видна ли кровь или явная травма, заметная ассиметричность у птицы.
 
 
-4) Зарегистируйте находку и спросите совета в EestiMetsloomayhing (откроется в новом окне)<a href="https://www.metsloom.ee/kontaktid/" target="_blank" rel="noopener noreferrer">Eesti Metsloomaühing</a>
+4) Зарегистируйте находку и спросите совета в <a href="https://www.metsloom.ee/kontaktid/"EestiMetsloomayhing (откроется в новом окне) target="_blank" rel="noopener noreferrer"></a>
 
 Их facebook: https://www.facebook.com/EestiMetsloomayhing/ 
 
