@@ -27,11 +27,11 @@
         }
     </style>
 
-        <script type="module">import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-            mermaid.initialize({
-                startOnLoad: true
-            });
-        </script>
+    <script type="module">import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({
+            startOnLoad: true
+        });
+    </script>
 
 </head>
 
@@ -43,15 +43,20 @@
                 <span class="hamburger"></span>
             </button>
             <ul id="nav-menu" class="nav-menu">
-                {% assign nav_data = site.data.navigation-ru %}
+                {% assign nav_data = site.data.navigation-est %}
                 {% if page.lang == 'en' %}
                 {% assign nav_data = site.data.navigation-en %}
-                {% elsif page.lang == 'est' %}
-                {% assign nav_data = site.data.navigation-est %}
+                {% elsif page.lang == 'ru' %}
+                {% assign nav_data = site.data.navigation-ru %}
                 {% endif %}
                 {% for item in nav_data %}
                 <li class="nav-item">
+                    {% if item.class contains 'lang-switch' %}
+                    <a href="#" class="nav-link {{ item.class }}" {% if item.class contains page.lang
+                        %}aria-current="page" {% endif %}>{{ item.title }}</a>
+                    {% else %}
                     <a href="{{ item.url | relative_url }}" class="nav-link">{{ item.title }}</a>
+                    {% endif %}
                 </li>
                 {% endfor %}
             </ul>

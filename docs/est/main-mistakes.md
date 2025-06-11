@@ -1,6 +1,6 @@
 ---
 title: Peamised vead
-layout: page
+layout: default
 lang: est
 is_home: false
 ---

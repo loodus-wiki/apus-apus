@@ -12,3 +12,7 @@
   url: /est/emergency.html
 - title: Peamised vead
   url: /est/main-mistakes.html
+- title: "ru RUS"
+  class: lang-switch lang-ru
+- title: "🇬🇧 EN"
+  class: lang-switch lang-en

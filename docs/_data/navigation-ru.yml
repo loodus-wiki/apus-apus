@@ -12,3 +12,7 @@
   url: /ru/emergency.html
 - title: Основные ошибки
   url: /ru/main-mistakes.html
+- title: "🇪🇪 EST"
+  class: lang-switch lang-est
+- title: "🇬🇧 EN"
+  class: lang-switch lang-en
