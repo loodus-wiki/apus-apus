@@ -10,17 +10,17 @@ baseurl: "/apus-apus"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-#  - jekyll-sitemap
+  - jekyll-sitemap
 #  - jekyll-github-metadata
   - jekyll-optional-front-matter 
   - jekyll-relative-links   
-  - jekyll-toc
+#  - jekyll-toc
 
-toc: true
-toc:
-  min_level: 3 # Минимальный уровень заголовков (1 = #, 2 = ## и т.д.)
-  max_level: 3 # Максимальный уровень заголовков
-  ordered_list: false # Использовать <ul> вместо <ol>
+#toc: true
+#toc:
+#  min_level: 2 # Минимальный уровень заголовков (1 = #, 2 = ## и т.д.)
+#  max_level: 3 # Максимальный уровень заголовков
+#  ordered_list: false # Использовать <ul> вместо <ol>
 
 #kramdown:
 #  toc_levels: 2..6
@@ -30,6 +30,7 @@ include:
   - "ru/*.md"
   - "en/*.md" 
   - "est/*.md"
+  - sitemap.xml
 
 # Языки
 languages:

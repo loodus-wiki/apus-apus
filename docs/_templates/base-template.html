@@ -1,26 +1,24 @@
 <!DOCTYPE html>
 <html lang="{{LANGUAGE_CODE}}">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{PAGE_TITLE}}</title>
     <meta name="description" content="{{PAGE_DESCRIPTION}}">
     <link rel="stylesheet" href="../assets/css/styles.css">
-    
+    <!-- не работает <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon"> -->
+
     <!-- hreflang для SEO -->
     <link rel="alternate" hreflang="ru" href="../ru/{{PAGE_PATH}}">
     <link rel="alternate" hreflang="en" href="../en/{{PAGE_PATH}}">
     <link rel="alternate" hreflang="est" href="../est/{{PAGE_PATH}}">
     <link rel="alternate" hreflang="x-default" href="../{{PAGE_PATH}}">
+
+
 </head>
+
 <body>
-    <!-- Переключатель языков -->
-    <div class="language-switcher">
-        <a href="../ru/{{PAGE_PATH}}" {{RU_ACTIVE}}>RU</a>
-        <a href="../en/{{PAGE_PATH}}" {{EN_ACTIVE}}>EN</a>
-        <a href="../est/{{PAGE_PATH}}" {{EST_ACTIVE}}>EST</a>
-    </div>
-    
     <!-- Навигация -->
     <header>
         {{NAVIGATION_MENU}}
@@ -30,7 +28,8 @@
     <main id="t-main-content">
         {{MAIN_CONTENT}}
     </main>
-    
+
     <script src="../assets/js/language-switcher.js"></script>
 </body>
+
 </html>
