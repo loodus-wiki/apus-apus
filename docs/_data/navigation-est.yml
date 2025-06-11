@@ -14,5 +14,5 @@
   url: /est/main-mistakes.html
 - title: "ru RUS"
   class: lang-switch lang-ru
-- title: "🇬🇧 EN"
-  class: lang-switch lang-en
+  - title: "🇬🇧 EN"
+    class: lang-switch lang-en
