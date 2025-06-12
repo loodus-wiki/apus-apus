@@ -100,4 +100,50 @@
     font-size: 1.2em;
 }
 
+/* Кнопка "Наверх" Стили для кнопки */
+#back-to-top {
+    display: none; /* Скрыта по умолчанию */
+    position: fixed; /* Фиксированное положение */
+    bottom: 20px; /* Отступ от нижнего края */
+    right: 20px; /* Отступ от правого края */
+    z-index: 1000; /* Поверх других элементов */
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Плавный переход */
+}
 
+#back-to-top:hover {
+    opacity: 0.8;
+    transform: translateY(-2px); /* Лёгкий подъём при наведении */
+}
+
+#back-to-top.visible {
+    display: block; /* Показываем, когда добавлен класс visible */
+}
+
+#back-to-top {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/*Для более плавного появления добавьте анимацию в CSS */
+#back-to-top.visible {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media screen and (max-width: 768px) {
+    #back-to-top {
+        bottom: 10px;
+        right: 10px;
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}

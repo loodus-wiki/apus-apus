@@ -26,7 +26,7 @@
             padding-left: 1rem;
         }
     </style>
-
+    <!-- mermaid loading -->
     <script type="module">import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
         mermaid.initialize({
             startOnLoad: true
@@ -91,12 +91,6 @@
                 <li class="nav-item">
                     
                     <a href="#" class="nav-link lang-switch lang-est" >🇪🇪 EST</a>
-                    
-                </li>
-                
-                <li class="nav-item">
-                    
-                    <a href="#" class="nav-link lang-switch lang-en" >🇬🇧 EN</a>
                     
                 </li>
                 
@@ -194,7 +188,13 @@ graph TD;
 <p>Для получения рекомендаций по лечению стрижей, дозировкам препаратов и другим вопросам, вы можете посетить страницу в ВКонтакте: <a href="https://vk.com/topic-100432519_32767348">vk.com/topic-100432519_32767348</a>.</p>
 
     </main>
+    <!-- Кнопка "Наверх" -->
+    <button id="back-to-top" onclick="scrollToTop()" aria-label="Вернуться наверх">
+    ↑ Наверх
+    </button>
     <script src="/apus-apus/assets/js/nav-toggle.js"></script>
+        <!-- Back-on-top button -->
+    <script src="/apus-apus/assets/js/back-to-top.js"></script>
 </body>
 
 </html>

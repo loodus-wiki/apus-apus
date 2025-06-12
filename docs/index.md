@@ -36,6 +36,6 @@ is_home: true
         </div>
     </div>
 
-    <!--  Путь к JS относительно /docs -->
+    <!--  
     <script src="assets/js/language-switcher.js"></script> -->
 </body>
