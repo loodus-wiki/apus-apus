@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('scroll', function() {
         const button = document.getElementById('back-to-top');
         if (button) { // Проверка на null
-            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+            if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
                 button.style.display = 'block';
             } else {
                 button.style.display = 'none';
