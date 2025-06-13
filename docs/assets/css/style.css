@@ -349,3 +349,75 @@ body {
         border-width: 2px 2px 0 0;
     }
 }
+
+
+/* Картинки в figure с обтеканием */
+.image-float {
+  float: left; /* или right */
+  margin: 10px 20px 10px 0;
+  max-width: 400px;
+}
+
+/* Картинки в figure без обтекания */
+.image-block {
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/*  Для обтекания на мобильных устройствах может потребоваться отключение float*/
+@media (max-width: 768px) {
+  .image-float {
+    float: none;
+    margin: 10px auto;
+    display: block;
+  }
+}
+
+/*  для разметки цитат*/
+blockquote {
+  border-left: 4px solid #8cacbb; /* Цвет полосы как в DokuWiki */
+  padding-left: 1em;
+  margin-left: 0;
+  color: #333;
+}
+
+blockquote blockquote {
+  border-left-color: #00cf00; /* Зеленая полоса для вложенных цитат */
+}
+
+blockquote blockquote blockquote {
+  border-left-color: #0000cf; /* Синяя для третьего уровня */
+}
+
+/* Стили для GFM Alerts */
+.alert {
+  padding: 0.75em 1em;
+  margin-bottom: 1em;
+  border-left: 0.25em solid;
+  background-color: #f6f8fa;
+  border-radius: 6px;
+  position: relative;
+  padding-left: 2.5em; /* Отступ для иконки */
+  line-height: 1.5; /* Улучшает читаемость многострочного текста */
+}
+
+.alert-note {
+  border-left-color: #0366d6;
+  background-color: #f0f8ff;
+}
+
+.alert-note::before {
+  content: "";
+  position: absolute;
+  left: 0.75em;
+  top: 0.75em;
+  width: 1em;
+  height: 1em;
+  content: "\2764\FE0F\200D\1FA79"; /* ❤️‍🩹 */
+}
+
+/* Обработка переносов строк для имитации абзацев */
+.alert-note {
+  white-space: pre-wrap; /* Сохраняет переносы строк */
+}

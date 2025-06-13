@@ -100,3 +100,17 @@ graph TD;
 
 ![Swift](../assets/images/swift.jpg)
 
+
+
+[!NOTE]
+
+[!TIP]
+
+[!IMPORTANT]
+
+[!WARNING]
+
+[!CAUTION]
+
+
+
