@@ -63,8 +63,14 @@
         </nav>
 
 <div id="sticky-header" class="sticky-header">
-  <a href="/apus-apus/ru/" class="sticky-button">Заглавная</a>
-  <a href="javascript:history.back()" class="sticky-button">Назад по истории</a>
+  {% assign sticky_data = site.data.sticky_menu-est %}
+  {% if page.lang == 'en' %}
+    {% assign sticky_data = site.data.sticky_menu-en %}
+  {% elsif page.lang == 'ru' %}
+    {% assign sticky_data = site.data.sticky_menu-ru %}
+  {% endif %}
+  <a href="/apus-apus/{{ page.lang }}/" class="sticky-button">{{ sticky_data.sticky_menu.home }}</a>
+  <a href="javascript:history.back()" class="sticky-button">{{ sticky_data.sticky_menu.back }}</a>
   <script>
 document.addEventListener('DOMContentLoaded', function () {
 //   console.log('Скрипт загружен');
