@@ -5,13 +5,15 @@
   url: /ru/found-swift.html
 - title: Определяем возраст
   url: /ru/identifying-swift.html
-- title: Учимся кормить
+- title: Кормление
   url: /ru/feeding-swift.html
-- title: Лечение
+- title: Вторичный осмотр
   url: /ru/cure-swift.html
-- title: Критическое состояние
+- title: Истощение
   url: /ru/emergency.html
-- title: Основные ошибки
+- title: Ошибки и мифы
   url: /ru/main-mistakes.html
+- title: Возврат в природу
+  url: /ru/back-to-nature.html
 - title: "🇪🇪 EST"
   class: lang-switch lang-est

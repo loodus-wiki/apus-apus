@@ -4,7 +4,7 @@
   url: /est/found-swift.html
 - title: Vanuse määramine
   url: /est/identifying-swift.html
-- title: Õpime toitma
+- title: Toitmine
   url: /est/feeding-swift.html
 - title: Ravi
   url: /est/cure-swift.html
@@ -12,5 +12,7 @@
   url: /est/emergency.html
 - title: Peamised vead
   url: /est/main-mistakes.html
+- title: Loodusesse tagastamine
+  url: /est/back-to-nature.html
 - title: "ru RUS"
   class: lang-switch lang-ru
