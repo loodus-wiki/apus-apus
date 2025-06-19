@@ -469,6 +469,24 @@ blockquote blockquote blockquote {
   max-width: calc(100% - 200px);
 }
 
+#sticky-header .sticky-button {
+    /* Форма капли */
+    border-radius: 0 0 25px 25px !important;
+    border-top: none !important;
+    margin-top: -10px !important;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2) !important;
+    
+    /* Базовые стили кнопки */
+    display: inline-block !important;
+    padding: 12px 20px !important;
+    background: linear-gradient(145deg, #2c3e50, #3c5b79) !important;
+    color: white !important;
+    text-decoration: none !important;
+    font-weight: 500 !important;
+    transition: all 0.3s ease !important;
+    position: relative !important;
+}
+
 /* Защита от конфликтов display */
 #sticky-header[style*="display: flex"] {
   display: flex !important;
