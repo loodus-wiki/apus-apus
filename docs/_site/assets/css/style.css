@@ -457,7 +457,6 @@ blockquote blockquote blockquote {
   left: 80px;
   width: 100%;
   background-color: #ffffff00;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   padding: 2px;
   z-index: 9999;
   display: none;
