@@ -114,3 +114,64 @@ graph TD;
 
 
 
+<div class="article-layout">
+  <!-- Боковое меню -->
+  <aside class="sidebar">
+    <div class="sidebar-content">
+      <a href="javascript:history.back()" class="back-button">← Вернуться</a>
+      
+      <!-- Оглавление для текущей статьи -->
+      {% if page.toc %}
+      <nav class="toc">
+        <h3>Содержание</h3>
+        <ul>
+          {% for item in page.toc %}
+          <li><a href="#{{ item.anchor }}">{{ item.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+      {% endif %}
+      
+      <!-- Дополнительная навигация -->
+      <nav class="article-nav">
+        <h3>Разделы</h3>
+        <ul>
+          <li><a href="{{ '/' | relative_url }}">Главная</a></li>
+          <li><a href="{{ '/birds' | relative_url }}">Все птицы</a></li>
+          <li><a href="{{ '/gallery' | relative_url }}">Фотогалерея</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+</div>
+
+
+
+<!-- Плавающее боковое меню -->
+<aside class="floating-sidebar">
+  <div class="sidebar-content">
+    <a href="javascript:history.back()" class="back-button">← Предыдущая страница</a>
+    
+    {% if page.toc %}
+    <nav class="toc">
+      <h3>Содержание</h3>
+      <ul>
+        {% for item in page.toc %}
+        <li><a href="#{{ item.anchor }}">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+    {% endif %}
+    
+    <nav class="article-nav">
+      <h3>Разделы</h3>
+      <ul>
+        <li><a href="{{ '/' | relative_url }}">Главная</a></li>
+        <li><a href="{{ '/birds' | relative_url }}">Все птицы</a></li>
+        <li><a href="{{ '/gallery' | relative_url }}">Фотогалерея</a></li>
+      </ul>
+    </nav>
+  </div>
+</aside>
+
+  ➤ **При заметной травме птице нужено обезболивание!**

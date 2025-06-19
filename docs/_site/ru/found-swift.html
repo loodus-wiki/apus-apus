@@ -96,6 +96,37 @@
                 
             </ul>
         </nav>
+
+<div id="sticky-header" class="sticky-header">
+  <a href="/apus-apus/ru/" class="sticky-button">Заглавная</a>
+  <a href="javascript:history.back()" class="sticky-button">Назад по истории</a>
+  <script>
+document.addEventListener('DOMContentLoaded', function () {
+//   console.log('Скрипт загружен');
+  const navMenu = document.getElementById('nav-menu');
+  const stickyHeader = document.getElementById('sticky-header');
+//   console.log('navMenu:', navMenu);
+//   console.log('stickyHeader:', stickyHeader);
+
+  if (navMenu && stickyHeader) {
+    window.addEventListener('scroll', function () {
+      const navMenuRect = navMenu.getBoundingClientRect();
+    //   console.log('navMenuRect.bottom:', navMenuRect.bottom);
+      if (navMenuRect.bottom < 0) {
+        stickyHeader.style.display = 'flex';
+        // console.log('Показываем sticky-header, display:', stickyHeader.style.display);
+      } else {
+        stickyHeader.style.display = 'none';
+        // console.log('Скрываем sticky-header, display:', stickyHeader.style.display);
+      }
+    });
+  } else {
+    console.log('Элементы не найдены');
+  }
+});
+  </script>
+</div>
+
     </header>
     
     <main id="t-main-content">
@@ -203,7 +234,7 @@
     <button id="back-to-top" onclick="scrollToTop()" aria-label="↑">
     </button>
     <script src="/apus-apus/assets/js/nav-toggle.js"></script>
-        <!-- Back-on-top button -->
+    <!-- Back-on-top button -->
     <script src="/apus-apus/assets/js/back-to-top.js"></script>
 </body>
 

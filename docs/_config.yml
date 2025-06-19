@@ -14,7 +14,10 @@ plugins:
 #  - jekyll-github-metadata
   - jekyll-optional-front-matter 
   - jekyll-relative-links   
-#  - jekyll-toc
+  - jekyll-toc
+jekyll_toc:
+  transliterate: true
+
 
 #toc: true
 #toc:
@@ -25,6 +28,9 @@ plugins:
 #kramdown:
 #  toc_levels: 2..6
 #  auto_ids: true
+
+#посмотреть, как нумерацию будет делать
+#markdown: CommonMark
 
 include:
   - "ru/*.md"

@@ -5,30 +5,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-#t-main-content {
-  max-width: 800px; /* Ограничиваем ширину */
-  margin: 0 auto; /* Центрируем */
-  padding: 20px 10px; /* Отступы: 20px сверху/снизу, 40px слева/справа */
-  position: relative;
-  z-index: 1; /* Контент поверх птиц */
-  box-sizing: border-box; /* Учитываем padding в ширине */
-}
-
-/* Явные отступы для заголовков и абзацев */
-#t-main-content h1,
-#t-main-content h2,
-#t-main-content h3 {
-  margin: 0 10px 10px 0; /* Отступ снизу, 0 слева для контроля через padding */
-  padding-left: 10px; /* Дополнительный левый отступ для текста */
-  padding-right: 10px;
-}
-
-#t-main-content p {
-  margin: 0 30px 10px 0; /* Отступ снизу, 0 слева для контроля через padding */
-  padding-left: 30px; /* Дополнительный левый отступ для текста */
-  padding-right: 10px;
-}
-
 .main-nav {
     background-color: #2c3e50;
     padding: 10px 20px;
@@ -41,6 +17,7 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
+    z-index: 100;
 }
 
 .nav-item {
@@ -67,6 +44,7 @@ body {
     border: none;
     cursor: pointer;
     padding: 10px;
+    z-index: 10;
 }
 
 .hamburger, .hamburger::before, .hamburger::after {
@@ -123,4 +101,323 @@ body {
         padding: 15px;
         font-size: 1.2em;
     }
+}
+
+
+
+
+/* Базовые стили для языкового селектора */
+.language-selector {
+  text-align: center;
+  padding: 20px;
+}
+
+.language-options {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.lang-option {
+  display: block;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  min-width: 250px;
+  max-width: 300px;
+}
+
+.lang-option:hover {
+  border-color: #007bff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.lang-option img {
+  width: 48px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.lang-option h2 {
+  margin: 10px 0 5px 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.lang-option p {
+  margin: 5px 0 0 0;
+  font-size: 0.9em;
+  color: #666;
+  line-height: 1.4;
+}
+
+/* Медиа-запросы для мобильных устройств */
+@media screen and (max-width: 768px) {
+  .language-options {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .lang-option {
+    width: 100%;
+    max-width: 350px;
+    min-width: unset;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .language-selector {
+    padding: 15px 10px;
+  }
+  
+  .language-selector h1 {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+  }
+  
+  .language-options {
+    gap: 12px;
+    margin-top: 20px;
+  }
+  
+  .lang-option {
+    padding: 15px;
+    max-width: 100%;
+  }
+  
+  .lang-option h2 {
+    font-size: 1.3em;
+  }
+  
+  .lang-option p {
+    font-size: 0.85em;
+  }
+}
+
+/* Обновленные стили для основного контента */
+#t-main-content {
+  max-width: 800px; /* Базовая максимальная ширина для экранов до 1200px */
+  width: 100%; /* Занимает всю доступную ширину до max-width */
+  margin: 0 auto;
+  padding: 20px 10px;
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+/* Медиа-запрос для больших экранов */
+@media screen and (min-width: 1200px) {
+  #t-main-content {
+    max-width: 1200px; /* Увеличиваем max-width для больших экранов */
+    padding: 20px 15px; /* Увеличиваем padding для лучшего отображения */
+  }
+}
+
+/* Медиа-запросы для меньших экранов */
+@media screen and (max-width: 768px) {
+  #t-main-content {
+    padding: 15px 8px;
+  }
+  
+  #t-main-content h1,
+  #t-main-content h2,
+  #t-main-content h3 {
+    margin: 0 5px 10px 0;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  
+  #t-main-content p {
+    margin: 0 15px 10px 0;
+    padding-left: 15px;
+    padding-right: 8px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #t-main-content {
+    padding: 10px 5px;
+  }
+  
+  #t-main-content h1,
+  #t-main-content h2,
+  #t-main-content h3 {
+    margin: 0 2px 8px 0;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  #t-main-content p {
+    margin: 0 8px 8px 0;
+    padding-left: 8px;
+    padding-right: 5px;
+  }
+}
+
+
+/* Кнопка "Наверх" Стили для кнопки */
+/* Кнопка "Наверх" Стили для кнопки */
+#back-to-top {
+    display: none; /* Скрыта по умолчанию */
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1100;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, #007bff, #00d4ff);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Упрощённый переход */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.3; /* Начальная прозрачность */
+    transform: translateY(10px); /* Начальное смещение */
+}
+
+/* Состояние при наведении */
+#back-to-top:hover {
+    background: linear-gradient(135deg, #0056b3, #00aaff);
+    box-shadow: 0 6px 20px rgba(0, 123, 255, 0.5);
+    transform: translateY(-5px);
+    opacity: 1;
+}
+
+/* Класс для показа кнопки */
+#back-to-top.visible {
+    display: flex; /* Показываем */
+    opacity: 1; /* Полная видимость */
+    transform: translateY(0); /* На место */
+    animation: pulse 2s infinite; /* Пульсация */
+}
+
+/* Анимация пульсации */
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(0, 123, 255, 0.4);
+    }
+    70% {
+        box-shadow: 0 0 0 15px rgba(0, 123, 255, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(0, 123, 255, 0);
+    }
+}
+
+/* Рисуем стрелку с помощью CSS */
+#back-to-top::before {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border: solid white;
+    border-width: 3px 3px 0 0;
+    transform: rotate(-45deg);
+    transition: transform 0.3s ease;
+}
+
+/* Эффект стрелки при наведении */
+#back-to-top:hover::before {
+    transform: rotate(-45deg) translateY(-2px);
+}
+
+/* Адаптивность для мобильных устройств */
+@media screen and (max-width: 768px) {
+    #back-to-top {
+        bottom: 20px;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+        box-shadow: 0 3px 10px rgba(0, 123, 255, 0.2);
+    }
+    #back-to-top::before {
+        width: 10px;
+        height: 10px;
+        border-width: 2px 2px 0 0;
+    }
+}
+
+
+/* Картинки в figure с обтеканием */
+.image-float {
+  float: left; /* или right */
+  margin: 10px 20px 10px 0;
+  max-width: 400px;
+}
+
+/* Картинки в figure без обтекания */
+.image-block {
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/*  Для обтекания на мобильных устройствах может потребоваться отключение float*/
+@media (max-width: 768px) {
+  .image-float {
+    float: none;
+    margin: 10px auto;
+    display: block;
+  }
+}
+
+/*  для разметки цитат*/
+blockquote {
+  border-left: 4px solid #8cacbb; /* Цвет полосы как в DokuWiki */
+  padding-left: 1em;
+  margin-left: 0;
+  color: #333;
+}
+
+blockquote blockquote {
+  border-left-color: #00cf00; /* Зеленая полоса для вложенных цитат */
+}
+
+blockquote blockquote blockquote {
+  border-left-color: #0000cf; /* Синяя для третьего уровня */
+}
+
+/* Стили для GFM Alerts */
+.alert {
+  padding: 0.75em 1em;
+  margin-bottom: 1em;
+  border-left: 0.25em solid;
+  background-color: #f6f8fa;
+  border-radius: 6px;
+  position: relative;
+  padding-left: 2.5em; /* Отступ для иконки */
+  line-height: 1.5; /* Улучшает читаемость многострочного текста */
+}
+
+.alert-note {
+  border-left-color: #0366d6;
+  background-color: #f0f8ff;
+}
+
+.alert-note::before {
+  content: "";
+  position: absolute;
+  left: 0.75em;
+  top: 0.75em;
+  width: 1em;
+  height: 1em;
+  content: "\2764\FE0F\200D\1FA79"; /* ❤️‍🩹 */
+}
+
+/* Обработка переносов строк для имитации абзацев */
+.alert-note {
+  white-space: pre-wrap; /* Сохраняет переносы строк */
 }
