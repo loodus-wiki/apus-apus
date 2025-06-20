@@ -1,0 +1,37 @@
+<div class="sticky-social-share">
+  {% assign share_data = site.data.share_labels-est %}
+  {% if page.lang == 'en' %}
+    {% assign share_data = site.data.share_labels-en %}
+  {% elsif page.lang == 'ru' %}
+    {% assign share_data = site.data.share_labels-ru %}
+  {% endif %}
+  <!-- Twitter/X -->
+  <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ site.baseurl }}{{ page.url | url_encode }}"
+     class="sticky-share-btn sticky-twitter" title="{{ share_data.share.twitter }}"
+     onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">
+    <i class="fab fa-x-twitter"></i>
+  </a>
+  <!-- Facebook -->
+  <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url | url_encode }}"
+     class="sticky-share-btn sticky-facebook" title="{{ share_data.share.facebook }}"
+     onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">
+    <i class="fab fa-facebook"></i>
+  </a>
+  <!-- Telegram -->
+  <a href="https://t.me/share/url?url={{ site.url }}{{ site.baseurl }}{{ page.url | url_encode }}&text={{ page.title | url_encode }}"
+     class="sticky-share-btn sticky-telegram" title="{{ share_data.share.telegram }}"
+     onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">
+    <i class="fab fa-telegram"></i>
+  </a>
+  <!-- Reddit -->
+  <a href="https://www.reddit.com/submit?url={{ site.url }}{{ site.baseurl }}{{ page.url | url_encode }}&title={{ page.title | url_encode }}"
+     class="sticky-share-btn sticky-reddit" title="{{ share_data.share.reddit }}"
+     onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;">
+    <i class="fab fa-reddit"></i>
+  </a>
+  <!-- WhatsApp (для мобильных устройств) -->
+  <a href="whatsapp://send?text={{ page.title | url_encode }}%20{{ site.url }}{{ site.baseurl }}{{ page.url | url_encode }}"
+     class="sticky-share-btn sticky-whatsapp d-lg-none" title="{{ share_data.share.whatsapp }}">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+</div>

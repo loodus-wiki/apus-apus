@@ -563,3 +563,60 @@ p {
     flex: 1 1 100%;
   }
 }
+
+
+
+
+#social-share {
+  font-size: 16px;
+  margin: 10px 0;
+}
+.share-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.btn-social {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+.btn-telegram { background-color: #0088cc; }
+.btn-telegram:hover { background-color: #006699; }
+.btn-twitter { background-color: #000; }
+.btn-twitter:hover { background-color: #333; }
+.btn-facebook { background-color: #3b5998; }
+.btn-facebook:hover { background-color: #2a4373; }
+.btn-linkedin { background-color: #007bb5; }
+.btn-linkedin:hover { background-color: #005983; }
+.btn-reddit { background-color: #ff4500; }
+.btn-reddit:hover { background-color: #cc3700; }
+.btn-whatsapp { background-color: #25D366; }
+.btn-whatsapp:hover { background-color: #1da851; }
+.d-lg-none { display: none; }
+@media (max-width: 991px) {
+  .d-lg-none { display: inline-block; }
+}
+
+.sticky-social-share {
+  margin-left: auto; /* Прижимает блок к правому краю */
+  display: inline-flex;
+  gap: 6px; /* Отступ между кнопками */
+  align-items: center;
+}
+
+.sticky-share-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%; /* Круглые кнопки */
+  text-decoration: none;
+  color: #2a4373;
+  font-size: 20px; /* Меньший размер иконки */
+  transition: background-color 0.3s;
+}
