@@ -577,7 +577,7 @@ p {
   flex-wrap: wrap;
 }
 .btn-social {
-  padding: 8px 12px;
+  padding: 4px 5px;
   border: 1px solid #ccc;
   border-radius: 4px;
   text-decoration: none;
@@ -616,7 +616,7 @@ p {
   height: 30px;
   border-radius: 50%; /* Круглые кнопки */
   text-decoration: none;
-  color: #2a4373;
-  font-size: 20px; /* Меньший размер иконки */
-  transition: background-color 0.3s;
+  color: #4e75be;
+  padding: 2px; /* Внутренний отступ */
+  transition: background-color 0.3s, border-color 0.3s;
 }

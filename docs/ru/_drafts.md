@@ -175,3 +175,16 @@ graph TD;
 </aside>
 
   ➤ **При заметной травме птице нужено обезболивание!**
+
+
+
+<figure>
+    <iframe src="https://www.youtube.com/embed/2kTd4QXjUlc" frameborder="0" allowfullscreen></iframe>
+    <figcaption>Стриж взлетает с пола балкона</figcaption>
+</figure>
+
+
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/2kTd4QXjUlc" frameborder="0" allowfullscreen></iframe>
+    <p class="caption">Стриж взлетает с пола балкона</p>
+</div>

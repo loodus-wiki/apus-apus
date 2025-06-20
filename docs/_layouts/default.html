@@ -51,6 +51,13 @@
 
     <!-- Lightbox2 JS -->
     <script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox-plus-jquery.min.js"></script>
+      <!-- Lightbox2 for video embedding 
+     <script>
+        lightbox.option({
+            'alwaysShowNavOnTouchDevices': true,
+            'wrapAround': true
+        });
+    </script>--> 
 
 </head>
 
@@ -88,8 +95,10 @@
             {% elsif page.lang == 'ru' %}
             {% assign sticky_data = site.data.sticky_menu-ru %}
             {% endif %}
-            <a href="/apus-apus/{{ page.lang }}/" class="sticky-button">{{ sticky_data.sticky_menu.home }}</a>
+              
             {% include sticky-social-share.html %}
+            <a href="/apus-apus/{{ page.lang }}/" class="sticky-button" title="{{ sticky_data.sticky_menu.home }}">
+    <i class="fas fa-home"></i>
             <a href="javascript:history.back()" class="sticky-button">{{ sticky_data.sticky_menu.back }}</a>
             <script>
                 document.addEventListener('DOMContentLoaded', function () {
