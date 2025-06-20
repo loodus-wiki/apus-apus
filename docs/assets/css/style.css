@@ -375,6 +375,9 @@ body {
 figure {
   margin-inline-start: 0;
   margin-inline-end: 0;
+  /* <cener for figure> */
+    margin: 0 auto; 
+    text-align: center;
 }
 
 figcaption {
