@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://localhost:4000/apus-apus/ru/back-to-nature.html</loc>
+</url>
+<url>
 <loc>http://localhost:4000/apus-apus/ru/cure-swift%20copy.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/apus-apus/ru/cure-swift.html</loc>
+<loc>http://localhost:4000/apus-apus/est/cure-swift.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/apus-apus/est/cure-swift.html</loc>
+<loc>http://localhost:4000/apus-apus/ru/cure-swift.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/apus-apus/est/emergency.html</loc>
