@@ -430,32 +430,24 @@ blockquote blockquote blockquote {
 
 /* Стили для GFM Alerts */
 .alert {
-  padding: 0.75em 1em;
-  margin-bottom: 1em;
-  border-left: 0.25em solid;
-  background-color: #f6f8fa;
-  border-radius: 6px;
-  position: relative;
-  padding-left: 2.5em;
-  /* Отступ для иконки */
-  line-height: 1.5;
-  /* Улучшает читаемость многострочного текста */
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-left: 45px;
 }
-
-.alert-note {
-  border-left-color: #0366d6;
-  background-color: #f0f8ff;
+.alert.warning {
+    background-color: #e79797;
+    border-color: #ffeeba;
 }
-
-.alert-note::before {
-  content: "";
-  position: absolute;
-  left: 0.75em;
-  top: 0.75em;
-  width: 1em;
-  height: 1em;
-  content: "\2764\FE0F\200D\1FA79";
-  /* ❤️‍🩹 */
+.alert ul {
+    margin: 0;
+    padding-left: 20px;
+}
+.alert li {
+    margin-bottom: 10px;
+}
+.alert strong {
+    font-weight: bold;
 }
 
 /* Обработка переносов строк для имитации абзацев */
