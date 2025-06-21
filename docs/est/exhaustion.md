@@ -5,12 +5,13 @@ lang: est
 is_home: false
 ---
 
-* TOC
-{:toc}
-
 Üksikasjalik teave selle kohta, kuidas ära tunda nõrgestatud piiritaja seisundit ja mida sellisel juhul ette võtta. Praktilised soovitused ja kogenud päästjate nõuanded, kuidas aidata piiritajat taastuda.
 
 ---
+
+[**Tabel ühe piiritaja tibule vajaliku toidukoguse kohta**](amount-of-feed.md)
+
+
 
 ## Kurnatuse määra kindlaksmääramine
 See, kui kurnatud on poeg, määrab edasised tegevused.
