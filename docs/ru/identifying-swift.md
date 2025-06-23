@@ -53,7 +53,7 @@ is_home: false
       <th style="border: 1px solid #ddd; padding: 8px; width: 20%;">Июнь</th>
       <th style="border: 1px solid #ddd; padding: 8px; width: 20%;">Июль</th>
       <th style="border: 1px solid #ddd; padding: 8px; width: 20%;">Август</th>
-      <th style="border: 1px solid #ddd; padding: 8px; width: 20%;">Сент</th>
+      <th style="border: 1px solid #ddd; padding: 8px; width: 20%;">Сентябрь</th>
     </tr>
     <tr>
       <td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">🟢 Прилет<br>Можно найти только взрослого стрижа</td>
@@ -64,6 +64,7 @@ is_home: false
     </tr>
   </table>
 </div>
+
 
 
 Важно!
@@ -94,8 +95,8 @@ is_home: false
             <td><img src="../assets/images/timeline_day_1.webp" alt="Голый птенец, розовая кожа"></td>
         </tr>
 </table>
-<details>
-  <summary style="cursor: pointer; background: #eee; padding: 10px;">Нажмите, чтобы раскрыть таблицу целиком</summary>
+<details open>
+  <summary style="cursor: pointer; background: #eee; padding: 10px;">Нажмите, чтобы свернуть таблицу</summary>
 <table>
         <tr>
             <th style="width: 65%;"></th>

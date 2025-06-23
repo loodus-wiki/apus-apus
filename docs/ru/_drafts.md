@@ -188,3 +188,9 @@ graph TD;
     <iframe src="https://www.youtube.com/embed/2kTd4QXjUlc" frameborder="0" allowfullscreen></iframe>
     <p class="caption">Стриж взлетает с пола балкона</p>
 </div>
+
+
+
+[переходите сразу к специальному разделу, время дорого.](#for-chicks)
+
+

@@ -1,8 +1,9 @@
-/* Адаптивность */
-/* Общие стили */
+/* Improve text readability */
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; /* System font stack for cross-platform consistency */
+  line-height: 1.3; /* Increased line spacing for better readability */
+  color: #2d2d2d; /* Dark gray text for softer contrast */
+  margin: 0px;
 }
 
 .main-nav {
@@ -18,6 +19,7 @@ body {
   display: flex;
   justify-content: center;
   z-index: 100;
+  font-family: Arial, sans-serif;
 }
 
 .nav-item {
@@ -211,7 +213,7 @@ body {
   #t-main-content h2,
   #t-main-content h3 {
     margin: 0 2px 8px 0;
-    padding-left: 5px;
+    padding-left: 0px;
     padding-right: 5px;
   }
 
@@ -222,17 +224,89 @@ body {
   }
 }
 
-/* Обновленные стили для основного контента */
+/* Main content styles */
 #t-main-content {
-  max-width: 800px;
-  /* Базовая максимальная ширина для экранов до 1200px */
-  width: 100%;
-  /* Занимает всю доступную ширину до max-width */
-  margin: 0 auto;
-  padding: 20px 10px;
-  position: relative;
-  z-index: 1;
-  box-sizing: border-box;
+  max-width: 800px; /* Limit content width for readability */
+  margin: 0 auto; /* Center content */
+  padding: 25px 15px; /* Comfortable padding */
+  box-sizing: border-box; /* Include padding in width calculations */
+  background-color: #ffffff; /* White background for content area */
+  border-radius: 8px; /* Rounded corners for aesthetics */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+}
+
+#t-main-content p.no-indent {
+  text-indent: 0;
+}
+
+/* Headings */
+#t-main-content h1,
+#t-main-content h2,
+#t-main-content h3 {
+  color: #1a1a1a; /* Darker color for headings */
+  line-height: 1.3; /* Tighter line spacing for headings */
+  margin-bottom: 0.75em; /* Consistent spacing below headings */
+}
+
+#t-main-content h1 {
+  font-size: 2em; /* Smaller but clear for adaptability */
+  font-weight: 700; /* Bold for prominence */
+}
+
+#t-main-content h2 {
+  font-size: 1.5em; /* Medium size for subheadings */
+  font-weight: 600; /* Semi-bold for hierarchy */
+}
+
+#t-main-content h3 {
+  font-size: 1.25em; /* Smaller for lower-level headings */
+  font-weight: 500; /* Medium weight for clarity */
+}
+
+/* Paragraphs */
+#t-main-content p {
+  margin: 1.2em 0; /* Balanced vertical spacing */
+  padding: 0 0px; /* Horizontal padding for alignment */
+  text-indent: 1.25em; /* Reduced indent for modern look */
+  font-size: 1rem; /* Standard font size */
+  color: #333333; /* Slightly lighter than headings */
+}
+
+/* Links in content */
+#t-main-content a {
+  color: #005f99; /* Soft blue for links */
+  text-decoration: none; /* Remove default underline */
+  transition: color 0.2s ease; /* Smooth color transition */
+  border-bottom: 1px dotted #005f99; /* Dotted underline for subtle emphasis */
+}
+
+#t-main-content a:hover,
+#t-main-content a:focus {
+  color: #003d66; /* Darker blue on hover/focus */
+  border-bottom: 1px solid #003d66; /* Solid underline for feedback */
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid #6b7280; /* Gray border for versatility */
+  padding-left: 1.25em; /* Comfortable padding */
+  margin: 1.5em 0; /* Vertical spacing */
+  color: #4b5563; /* Muted gray text */
+  font-style: italic; /* Italic for emphasis */
+  background-color: #f9fafb; /* Light background for distinction */
+  border-radius: 4px; /* Rounded corners */
+}
+
+/* Lists */
+#t-main-content ul,
+#t-main-content ol {
+  margin: 1.2em 0; /* Vertical spacing */
+  padding-left: 2em; /* Indent for clarity */
+  color: #333333; /* Consistent text color */
+}
+
+#t-main-content li {
+  margin-bottom: 0.5em; /* Spacing between list items */
 }
 
 /* Медиа-запрос для больших экранов */
@@ -245,6 +319,17 @@ body {
   }
 }
 
+@media (min-width: 1200px) {
+#t-main-content p {
+    margin: 0.5em;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    text-indent: 30px; /* Более выраженный отступ для длинных абзацев */
+  }
+  p.no-indent {
+    text-indent: 0; /* Сохраняем отсутствие отступа для коротких */
+  }
+}
 
 /* Кнопка "Наверх" Стили для кнопки */
 #back-to-top {
@@ -342,23 +427,31 @@ body {
   }
 
   #t-main-content {
-    padding: 15px 8px;
+    padding: 20px 10px; /* Reduced padding for tablets */
   }
 
-  #t-main-content h1,
-  #t-main-content h2,
+  #t-main-content h1 {
+    font-size: 1.75em; /* Smaller heading */
+  }
+
+  #t-main-content h2 {
+    font-size: 1.35em; /* Smaller subheading */
+  }
+
   #t-main-content h3 {
-    margin: 0 5px 10px 0;
-    padding-left: 8px;
-    padding-right: 8px;
+    font-size: 1.15em; /* Smaller lower-level heading */
   }
 
   #t-main-content p {
-    margin: 0 15px 10px 0;
-    padding-left: 15px;
-    padding-right: 8px;
+    font-size: 0.95rem; /* Slightly smaller text */
+    margin: 1em 0; /* Reduced spacing */
+    text-indent: 1em; /* Smaller indent */
   }
 
+  blockquote {
+    padding-left: 1em; /* Reduced padding */
+    margin: 1em 0; /* Reduced spacing */
+  }
   .sticky-header {
     display: flex !important;
     z-index: 1002;
@@ -383,7 +476,8 @@ figure {
 figcaption {
   font-style: italic;
   color: #272727;
-  margin-top: 0.5em;
+  margin-top: 0.0em;
+  margin-bottom: 1em;
 }
 
 .image-float {
@@ -409,25 +503,6 @@ figcaption {
   }
 }
 
-/*  для разметки цитат*/
-blockquote {
-  border-left: 4px solid #8cacbb;
-  /* Цвет полосы как в DokuWiki */
-  padding-left: 1em;
-  margin-left: 0;
-  color: #333;
-}
-
-blockquote blockquote {
-  border-left-color: #00cf00;
-  /* Зеленая полоса для вложенных цитат */
-}
-
-blockquote blockquote blockquote {
-  border-left-color: #0000cf;
-  /* Синяя для третьего уровня */
-}
-
 /* Стили для GFM Alerts */
 .alert {
     padding: 15px;
@@ -444,7 +519,12 @@ blockquote blockquote blockquote {
     padding-left: 20px;
 }
 .alert li {
-    margin-bottom: 10px;
+    /*margin-bottom: 10px; */
+    margin: 10px 0 0 0;
+    text-indent: 0;
+}
+.alert li:first-child {
+    margin-top: 0; /* Без верхнего отступа для первого элемента */
 }
 .alert strong {
     font-weight: bold;
@@ -454,6 +534,19 @@ blockquote blockquote blockquote {
 .alert-note {
   white-space: pre-wrap;
   /* Сохраняет переносы строк */
+}
+
+@media (max-width: 768px) {
+    .alert ul {
+        padding-left: 15px; /* Ещё меньший отступ на мобильных */
+    }
+    .alert li {
+        margin: 0.8em 0 0 0; /* Меньший верхний отступ на мобильных */
+        text-indent: 0; /* Без красной строки, если не нужна */
+    }
+    .alert li:first-child {
+        margin-top: 0;
+    }
 }
 
 
@@ -518,12 +611,14 @@ blockquote blockquote blockquote {
 p {
   margin: 1.5em 0;
   padding: 0 15px;
+  text-indent: 1.5em;
 }
 
 @media (max-width: 768px) {
   p {
     margin: 1em 0;
     padding: 0 15px;
+    text-indent: 1.5em;
   }
 }
 
@@ -531,6 +626,7 @@ p {
   p {
     margin: 0.8em 0;
     padding: 0 10px;
+    text-indent: 1em;
   }
 }
 
@@ -563,8 +659,8 @@ p {
 
 
 #social-share {
-  font-size: 16px;
-  margin: 10px 0;
+  font-size: px;
+  margin: 30px 0;
 }
 .share-buttons {
   display: flex;
@@ -580,6 +676,7 @@ p {
   color: #fff;
   font-weight: 500;
 }
+
 .btn-telegram { background-color: #0088cc; }
 .btn-telegram:hover { background-color: #006699; }
 .btn-twitter { background-color: #000; }
@@ -615,4 +712,5 @@ p {
   color: #4e75be;
   padding: 2px; /* Внутренний отступ */
   transition: background-color 0.3s, border-color 0.3s;
+  font-size: 25px;
 }
