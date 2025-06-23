@@ -8,7 +8,8 @@ is_home: true
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Swift Encyclopedia | Стрижепедия | Mauersegler-Enzyklopädie</title>
+    <title>Swift Encyclopedia | Помощь стрижам Apus apus | Abistamine piiritajaid Apus apus
+</title>
     <!--  Путь относительно /docs -->
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
@@ -19,17 +20,14 @@ is_home: true
 
         <div class="language-options">
             <a href="est/" class="lang-option">
-                <!-- <img src="assets/images/flags/est.svg" alt="Eesti"> -->
                 <h2>Eesti</h2>
-                <p>Piiritaja entsüklopeedia - Kõik piiritajate kohta</p>
+                <p>Abistamine piiritajaid Apus apus</p>
             </a>
             <a href="ru/" class="lang-option">
-                <!-- <img src="assets/images/flags/ru.svg" alt="Русский"> -->
                 <h2>Русский</h2>
-                <p>Стрижепедия - энциклопедия о стрижах</p>
+                <p>Энциклопедия о стрижах Apus apus</p>
             </a>
             <!-- <a href="en/" class="lang-option">
-                <img src="assets/images/flags/en.svg" alt="English">
                 <h2>English</h2>
                 <p>Swift Encyclopedia - Complete guide about swifts</p>
             </a> -->

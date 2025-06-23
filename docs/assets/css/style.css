@@ -1,6 +1,6 @@
 /* Improve text readability */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; /* System font stack for cross-platform consistency */
+  font-family: Arial, sans-serif; /* System font stack for cross-platform consistency */
   line-height: 1.3; /* Increased line spacing for better readability */
   color: #2d2d2d; /* Dark gray text for softer contrast */
   margin: 0px;
@@ -259,7 +259,7 @@ body {
 }
 
 #t-main-content h3 {
-  font-size: 1.25em; /* Smaller for lower-level headings */
+  font-size: 1.2em; /* Smaller for lower-level headings */
   font-weight: 500; /* Medium weight for clarity */
 }
 
@@ -317,6 +317,11 @@ blockquote {
     padding: 20px 15px;
     /* Увеличиваем padding для лучшего отображения */
   }
+  #t-main-content h3 {
+  font-size: 1,5em; /* Medium size for subheadings */
+  font-weight: 600; /* Semi-bold for hierarchy */
+}
+#t-main-content li {    margin-bottom: 0.0em; font-size: 1.2rem; }
 }
 
 @media (min-width: 1200px) {
