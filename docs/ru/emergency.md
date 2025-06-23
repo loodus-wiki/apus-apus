@@ -8,5 +8,5 @@ is_home: false
 
 ## Неотложные состояния
 
-[Истощение](exhaustion.html)
+
 

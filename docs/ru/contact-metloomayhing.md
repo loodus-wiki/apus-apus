@@ -12,12 +12,12 @@ is_home: false
 - Чёткое фото и, если возможно, видео.
 - Вес птицы, это многое скажет о её состоянии.
   
-  Класть птицу на весы при этом не требуется!
+Класть птицу на весы при этом не требуется!
 Намного проще взвесить коробку со стрижом и вычесть вес коробки без птицы.
 
-* Проверьте, что вы можете получать сообщения от участников сообщества.
+Проверьте, что вы можете получать сообщения от участников сообщества.
 
-1) **Зарегистируйте находку и спросите совета** в <a href="https://www.metsloom.ee/kontaktid/" target="_blank" rel="noopener noreferrer">Eesti Metsloomaühing (откроется в новом окне)</a>
+**Зарегистируйте находку и спросите совета** в <a href="https://www.metsloom.ee/kontaktid/" target="_blank" rel="noopener noreferrer">Eesti Metsloomaühing (откроется в новом окне)</a>
 
 <a href="https://www.facebook.com/EestiMetsloomayhing/" target="_blank" rel="noopener noreferrer">facebook: Eesti Metsloomaühing (откроется в новом окне)</a> 
 

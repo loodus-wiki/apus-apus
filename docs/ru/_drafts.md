@@ -194,3 +194,9 @@ graph TD;
 [переходите сразу к специальному разделу, время дорого.](#for-chicks)
 
 
+
+<figure>
+    <iframe  data-fancybox="my-gallery" src="../assets/video/Trauma-Сoncussion.mp4" frameborder="0" allowfullscreen></iframe>
+    <figcaption>Поведение стрижа с черепно-мозговой травмой</figcaption>
+</figure>
+
