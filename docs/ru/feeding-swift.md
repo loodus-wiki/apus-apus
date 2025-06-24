@@ -88,7 +88,10 @@ is_home: false
 
 
 <figure>
-    <iframe src="../assets/video/Lunch-of-Chamba-and-Africa.mp4" frameborder="0" allowfullscreen></iframe>
+    <video controls preload="metadata" poster="../assets/video/poster.jpg">
+        <source src="../assets/video/Lunch-of-Chamba-and-Africa.mp4" type="video/mp4">
+        Ваш браузер не поддерживает воспроизведение видео. Пожалуйста, обновите браузер.
+    </video>
     <figcaption>Кормят совсем маленьких стрижат. Видно, как они активно хватают пальцы и еду.</figcaption>
 </figure>
 
@@ -170,6 +173,9 @@ is_home: false
 ## Анатомия стрижа
 
 <figure>
-    <iframe src="../assets/video/Respiratory-opening-of-swift.mp4" frameborder="0" allowfullscreen></iframe>
+    <video controls preload="metadata" poster="../assets/video/poster.jpg">
+        <source src="../assets/video/Respiratory-opening-of-swift.mp4" type="video/mp4">
+        Ваш браузер не поддерживает воспроизведение видео. Пожалуйста, обновите браузер.
+    </video>
     <figcaption>Кормят совсем маленьких стрижат. Видно, как они активно хватают пальцы и еду.</figcaption>
 </figure>
