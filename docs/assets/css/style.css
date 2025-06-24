@@ -719,3 +719,11 @@ p {
   transition: background-color 0.3s, border-color 0.3s;
   font-size: 25px;
 }
+
+
+video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
