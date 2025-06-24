@@ -166,3 +166,10 @@ is_home: false
 Лапы, головы, скорлупки — сохранить в морозилке, добавлять зимой в корм для синичек
 
 
+
+## Анатомия стрижа
+
+<figure>
+    <iframe src="../assets/video/Respiratory-opening-of-swift.mp4" frameborder="0" allowfullscreen></iframe>
+    <figcaption>Кормят совсем маленьких стрижат. Видно, как они активно хватают пальцы и еду.</figcaption>
+</figure>
