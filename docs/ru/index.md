@@ -5,10 +5,10 @@ lang: ru
 is_home: false
 ---
 
-**Этот сайт создан в помощь волонтёрам, спасающим стрижей (Apus apus).
+**Этот сайт создан в помощь волонтёрам, спасающим стрижей (Apus apus)**
 
+В Эстонии это <a href="https://www.metsloom.ee/kontaktid/" target="_blank" rel="noopener noreferrer">Eesti Metsloomaühing (откроется в новом окне)</a>
 
-Вы можете стать волонтёром, подав заявку на сайте** <a href="https://www.metsloom.ee/kontaktid/" target="_blank" rel="noopener noreferrer">Eesti Metsloomaühing (откроется в новом окне)</a>
 
 ## Отказ от ответственности
 
