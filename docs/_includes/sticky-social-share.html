@@ -5,11 +5,16 @@
   {% elsif page.lang == 'ru' %}
     {% assign share_data = site.data.share_labels-ru %}
   {% endif %}
+  <!-- Copy Link -->
+  <a href="javascript:void(0)" class="sticky-share-btn sticky-copy-link" title="{{ share_data.share.copy_link }}"
+     onclick="navigator.clipboard.writeText('{{ site.url }}{{ site.baseurl }}{{ page.url }}'); alert('{{ share_data.share.copy_link_success }}');">
+    <i class="fas fa-link"></i>
+  </a>
   <!-- Twitter/X -->
   <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ site.baseurl }}{{ page.url | url_encode }}"
      class="sticky-share-btn sticky-twitter" title="{{ share_data.share.twitter }}"
      onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">
-    <i class="fab fa-x-twitter"></i>
+    <i class="fab fa-twitter"></i>
   </a>
   <!-- Facebook -->
   <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url | url_encode }}"

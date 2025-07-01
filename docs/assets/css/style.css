@@ -476,6 +476,7 @@ figure {
   /* <cener for figure> */
     margin: 0 auto; 
     text-align: center;
+    overflow: hidden;
 }
 
 figcaption {
@@ -682,11 +683,11 @@ p {
   font-weight: 500;
 }
 
-.btn-telegram { background-color: #0088cc; }
+.btn-telegram { background-color: #0088cc;  }
 .btn-telegram:hover { background-color: #006699; }
-.btn-twitter { background-color: #000; }
+.btn-twitter { background-color: #000; color: rgb(150, 150, 150) !important; }
 .btn-twitter:hover { background-color: #333; }
-.btn-facebook { background-color: #3b5998; }
+.btn-facebook { background-color: #3b5998; color:rgb(150, 150, 150) !important; }
 .btn-facebook:hover { background-color: #2a4373; }
 .btn-linkedin { background-color: #007bb5; }
 .btn-linkedin:hover { background-color: #005983; }

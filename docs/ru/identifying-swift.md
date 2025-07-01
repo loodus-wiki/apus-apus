@@ -47,23 +47,34 @@ is_home: false
 В это время еще нет птенцов.
 
 <div style="overflow-x: auto; max-width: 100%;">
-  <table style="border-collapse: collapse; width: 100%; min-width: 600px; table-layout: fixed;">
+  <table style="border-collapse: collapse; width: 60%; table-layout: auto;">
     <tr style="background-color: #f2f2f2;">
-      <th style="border: 1px solid #ddd; padding: 8px; width: 20%;">Май</th>
-      <th style="border: 1px solid #ddd; padding: 8px; width: 20%;">Июнь</th>
-      <th style="border: 1px solid #ddd; padding: 8px; width: 20%;">Июль</th>
-      <th style="border: 1px solid #ddd; padding: 8px; width: 20%;">Август</th>
-      <th style="border: 1px solid #ddd; padding: 8px; width: 20%;">Сентябрь</th>
+      <th style="border: 1px solid #ddd; padding: 8px; width: 80px; white-space: nowrap;">Месяц</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Описание</th>
     </tr>
     <tr>
-      <td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">🟢 Прилет<br>Можно найти только взрослого стрижа</td>
-      <td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">🟡 Гнездование и яйца<br>Можно найти только взрослого стрижа</td>
-      <td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">🐣 Птенцы</td>
-      <td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;">🔴 Отлёт<br>Находят брошенных и истощённых стрижат</td>
-      <td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"></td>
+      <td style="border: 1px solid #ddd; padding: 8px; white-space: nowrap;">Май</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">🟢 Прилет<br>Можно найти только взрослого стрижа</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px; white-space: nowrap;">Июнь</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">🟡 Гнездование и яйца<br>Можно найти только взрослого стрижа</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px; white-space: nowrap;">Июль</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">🐣 Птенцы</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px; white-space: nowrap;">Август</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">🔴 Отлёт<br>Находят брошенных и истощённых стрижат</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px; white-space: nowrap;">Сентябрь</td>
+      <td style="border: 1px solid #ddd; padding: 8px;"></td>
     </tr>
   </table>
 </div>
+
 
 
 
