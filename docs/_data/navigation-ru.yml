@@ -1,4 +1,3 @@
-
 - title: Основная
   url: /ru/
 - title: Вторичный осмотр
@@ -7,15 +6,9 @@
   url: /ru/identifying-swift.html
 - title: Кормление
   url: /ru/feeding-swift.html
-- title: Лечение
-  url: /ru/cure-swift.html
 - title: Истощение
   url: /ru/exhaustion.html
 - title: Ошибки и мифы
   url: /ru/main-mistakes.html
-- title: Возврат в природу
-  url: /ru/back-to-nature.html
-- title: Допматериалы
-  url: /ru/more-information.html
 - title: "🇪🇪 EST"
   class: lang-switch lang-est

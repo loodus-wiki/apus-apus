@@ -90,5 +90,5 @@ toc: false
 <tr><td>43</td><td></td><td style='background-color:#f5deb3'>12</td><td>36</td><td>60</td><td>120</td><td>48</td><td>96</td></tr>
 <tr><td>44</td><td>*</td><td style='background-color:#f5deb3'>12</td><td>36</td><td>60</td><td>120</td><td>48</td><td>96</td></tr>
 <tr><td>45</td><td>*</td><td style='background-color:#f5deb3'>12</td><td>36</td><td>60</td><td>120</td><td>48</td><td>96</td></tr>
-<tr><td><b>ИТОГО</b></td><td style='background-color:#f5deb3'><b>569</b></td><td><b>1707</b></td><td><b>2845</b></td><td><b>5690</b></td><td><b>2276</b></td><td><b>4552</b></td></tr>
+<tr><td><b>ИТОГО</b></td><td></td><td style='background-color:#f5deb3'><b>569</b></td><td><b>1707</b></td><td><b>2845</b></td><td><b>5690</b></td><td><b>2276</b></td><td><b>4552</b></td></tr>
 </table>
