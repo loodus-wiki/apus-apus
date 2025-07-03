@@ -51,7 +51,7 @@
 
     <!-- Lightbox2 JS -->
     <script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox-plus-jquery.min.js"></script>
-      <!-- fancybox4 for video embedding -->
+    <!-- fancybox4 for video embedding -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 
@@ -91,42 +91,42 @@
             {% elsif page.lang == 'ru' %}
             {% assign sticky_data = site.data.sticky_menu-ru %}
             {% endif %}
-              
+
             {% include sticky-social-share.html %}
             <a href="/apus-apus/{{ page.lang }}/" class="sticky-button" title="{{ sticky_data.sticky_menu.home }}">
-    <i class="fas fa-home"></i>
-            <a href="javascript:history.back()" class="sticky-button">{{ sticky_data.sticky_menu.back }}</a>
-            <script>
-                document.addEventListener('DOMContentLoaded', function () {
-                    //   console.log('Скрипт загружен');
-                    const navMenu = document.getElementById('nav-menu');
-                    const stickyHeader = document.getElementById('sticky-header');
-                    //   console.log('navMenu:', navMenu);
-                    //   console.log('stickyHeader:', stickyHeader);
+                <i class="fas fa-home"></i>
+                <a href="javascript:history.back()" class="sticky-button">{{ sticky_data.sticky_menu.back }}</a>
+                <script>
+                    document.addEventListener('DOMContentLoaded', function () {
+                        //   console.log('Скрипт загружен');
+                        const navMenu = document.getElementById('nav-menu');
+                        const stickyHeader = document.getElementById('sticky-header');
+                        //   console.log('navMenu:', navMenu);
+                        //   console.log('stickyHeader:', stickyHeader);
 
-                    if (navMenu && stickyHeader) {
-                        window.addEventListener('scroll', function () {
-                            const navMenuRect = navMenu.getBoundingClientRect();
-                            //   console.log('navMenuRect.bottom:', navMenuRect.bottom);
-                            if (navMenuRect.bottom < 0) {
-                                stickyHeader.style.display = 'flex';
-                                // console.log('Показываем sticky-header, display:', stickyHeader.style.display);
-                            } else {
-                                stickyHeader.style.display = 'none';
-                                // console.log('Скрываем sticky-header, display:', stickyHeader.style.display);
-                            }
-                        });
-                    } else {
-                       // console.log('Элементы не найдены');
-                    }
-                });
-            </script>
+                        if (navMenu && stickyHeader) {
+                            window.addEventListener('scroll', function () {
+                                const navMenuRect = navMenu.getBoundingClientRect();
+                                //   console.log('navMenuRect.bottom:', navMenuRect.bottom);
+                                if (navMenuRect.bottom < 0) {
+                                    stickyHeader.style.display = 'flex';
+                                    // console.log('Показываем sticky-header, display:', stickyHeader.style.display);
+                                } else {
+                                    stickyHeader.style.display = 'none';
+                                    // console.log('Скрываем sticky-header, display:', stickyHeader.style.display);
+                                }
+                            });
+                        } else {
+                            // console.log('Элементы не найдены');
+                        }
+                    });
+                </script>
         </div>
 
     </header>
     {% endunless %}
     <main id="t-main-content">
-        {{ content }}    
+        {{ content }}
         <!-- Social buttons --> {% include social-share.html %}
     </main>
     <!-- Кнопка "Наверх" -->
@@ -137,6 +137,15 @@
     <script src="{{ '/assets/js/back-to-top.js' | relative_url }}"></script>
     <!-- Choose no-indent depends on <p> lenght -->
     <script src="{{ '/assets/js/no-indent.js' | relative_url }}"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V09H25RR9E"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-V09H25RR9E');
+    </script>
 </body>
 
 </html>
