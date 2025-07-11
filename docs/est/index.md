@@ -26,7 +26,7 @@ Järgmine samm – [võtke ühendust Eesti Metsloomaühinguga](contact-metloomay
 
 ### Poeg
 
-Kui teie kätte sattus poeg, [liikuge kohe spetsiaalsele jaotisele, aeg on kallis.](#for-chicks)
+Kui teie kätte sattus poeg, [liikuge kohe spetsiaalsele jaotisele, aeg on kallis.](exhaustion.md)
 
 Kui kahtlete, siin on [piltidega juhend linnu vanuse määramiseks päevade kaupa](identifying-swift.html)
 
@@ -103,10 +103,3 @@ Kui kaal on alla normaalse 38–42 grammi, tuleb alustada soojendamist ja sööt
 Sügava nälja korral on vajalik spetsiaalne näljast väljatoomise protokoll putukate ekstrakti kasutamisega (link?).
 
 Lisateave: [**Kurnatuse märgid**](exhaustion.html)
-
-## Spetsiaalsed juhised poegadele {#for-chicks}
-
-Väga sageli satuvad pojad teie kätte juba dehüdreerununa ja märgatava kurnatusega.  
-Tuleb kiiresti tegutseda, et lind sellest seisundist minimaalse kahjuga välja tuua.
-
-Kriitiline kaal poja elu jaoks on 22–18 grammi. Kurnatud piiritaja pojad kaaluvad tavaliselt **20–27 grammi**.
