@@ -1,20 +1,14 @@
 - title: Avaleht
   url: /est/
-- title: Leidsite piiritaja
-  url: /est/found-swift.html
+- title: Teisene kontroll
+  url: /est/secondary-inspection.html
 - title: Vanuse määramine
   url: /est/identifying-swift.html
 - title: Toitmine
   url: /est/feeding-swift.html
-- title: Ravi
-  url: /est/cure-swift.html
-- title: Kriitiline seisund
+- title: Kurnatus
   url: /est/exhaustion.html
-- title: Peamised vead
+- title: Vead ja müüdid
   url: /est/main-mistakes.html
-- title: Loodusesse tagastamine
-  url: /est/back-to-nature.html
-- title: Lisamaterjalid
-  url: /est/more_information.html
 - title: "ru RUS"
   class: lang-switch lang-ru
