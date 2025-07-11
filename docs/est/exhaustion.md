@@ -138,6 +138,11 @@ Esmalt anna piiritaja nokka **0,2–0,3 ml** füsioloogilise lahuse ja meevee se
 
 Noka avamiseks hoia piiritaja pead ühe käe sõrmedega külgedelt, teisega tõmba nahast (koos sulgedega, mitte ainult sulgedest) nokk õrnalt allapoole. Avatud nokka saab sõrmega fikseerida. Ära pigista nokka külgedelt, see vigastab liigest. Ära hoia nokka otstest ega ava nii – see võib alalõua murda.
 
+<figure class="image-float">
+ <img src="../assets/images/respiratory_slit.jpg" alt="Piiritaja hingamisavad" width="300">
+  <figcaption>Piiritaja hingamisavad</figcaption>
+</figure>
+
 Oota 20 minutit. Lind peab kogu aeg olema soojas. Mugav on hoida soojenduskotti süles ja piiritajat käes selle kohal.
 
 Seedetrakti töö alustamiseks toida sageli väikeste portsjonitega. Valmista ritsika või prussaka mahl. Eemalda putukalt pea koos maoga ja pigista kõhust välja “liha”. Kitiinist kest on surevale linnule liiga jäme, seda ära anna. Mida suuremad putukad, seda rohkem mahla saab. Koguge **0,2–0,25 ml** mahla. Lisa portsjonisse Mezymi pulbrit seesamiseemne suuruses. Silitage piiritaja kurku ülalt alla, et tal oleks kergem neelata. Kui mahl jääb kurku, tõmba pea ettevaatlikult ette ja üles (diagonaalis), et kael sirguks ja mahl liiguks söögitorusse. Hoia lähedal vatitikke, et vajadusel kiiresti puhastada hingamisavad, kui vedel toit sinna satub. Iga tilk toitu pigista süstlast alles siis, kui eelmine tilk on kindlasti alla neelatud.
