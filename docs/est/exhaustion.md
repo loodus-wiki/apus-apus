@@ -130,7 +130,7 @@ Vaja läheb ka vatitikke ja salvrätikuid.
 
 Mezym tablette (saadaval apteegis, sisaldab seedimist soodustavaid ensüüme). Eemalda tabletilt roosa kate (kraabi noaga) ja purusta tablett pulbriks.
 
-Toiduputukad, ideaalis ritsikad. Lisateave toiduputukate kohta: [toitmine](feeding-swift.md).
+Toiduputukad, ideaalis kilgad. Lisateave toiduputukate kohta: [toitmine](feeding-swift.md).
 
 ### Reanimatsioon
 
@@ -145,11 +145,11 @@ Noka avamiseks hoia piiritaja pead ühe käe sõrmedega külgedelt, teisega tõm
 
 Oota 20 minutit. Lind peab kogu aeg olema soojas. Mugav on hoida soojenduskotti süles ja piiritajat käes selle kohal.
 
-Seedetrakti töö alustamiseks toida sageli väikeste portsjonitega. Valmista ritsika või prussaka mahl. Eemalda putukalt pea koos maoga ja pigista kõhust välja “liha”. Kitiinist kest on surevale linnule liiga jäme, seda ära anna. Mida suuremad putukad, seda rohkem mahla saab. Koguge **0,2–0,25 ml** mahla. Lisa portsjonisse Mezymi pulbrit seesamiseemne suuruses. Silitage piiritaja kurku ülalt alla, et tal oleks kergem neelata. Kui mahl jääb kurku, tõmba pea ettevaatlikult ette ja üles (diagonaalis), et kael sirguks ja mahl liiguks söögitorusse. Hoia lähedal vatitikke, et vajadusel kiiresti puhastada hingamisavad, kui vedel toit sinna satub. Iga tilk toitu pigista süstlast alles siis, kui eelmine tilk on kindlasti alla neelatud.
+Seedetrakti töö alustamiseks toida sageli väikeste portsjonitega. Valmista kilkide või marmorprussaka mahl. Eemalda putukalt pea koos maoga ja pigista kõhust välja “liha”. Kitiinist kest on surevale linnule liiga jäme, seda ära anna. Mida suuremad putukad, seda rohkem mahla saab. Koguge **0,2–0,25 ml** mahla. Lisa portsjonisse Mezymi pulbrit seesamiseemne suuruses. Silitage piiritaja kurku ülalt alla, et tal oleks kergem neelata. Kui mahl jääb kurku, tõmba pea ettevaatlikult ette ja üles (diagonaalis), et kael sirguks ja mahl liiguks söögitorusse. Hoia lähedal vatitikke, et vajadusel kiiresti puhastada hingamisavad, kui vedel toit sinna satub. Iga tilk toitu pigista süstlast alles siis, kui eelmine tilk on kindlasti alla neelatud.
 
 Kui putukaid pole, ära asenda neid muu toiduga. Piiritajat võib 1 päeva hoida füsioloogilise lahuse ja meevee segul (1:1), kuid anna maksimaalselt **5 tilka** ühe “toitmise” kohta. Sama kehtib, kui leidsid piiritaja õhtul ja midagi osta ei saa. Kogenud vabatahtlikel on soovitatav kodus varu hoida.
 
-Esimesel päeval toida ainult mahladega. Valmista putukatest **0,2–0,25 ml** mahla (2–3 ritsika või prussaka mahl) ja toida iga **25–40 minuti** tagant esimesed 5 toitmist. Pärast viiendat toitmist ilmub tavaliselt väljaheide. Kui väljaheide on olemas, suurenda portsjonit **0,3–0,35 ml-ni** (4–5 mahla) ja pikenda intervalli 1 tunnini kuni päeva lõpuni. Öised pausid toitmiste vahel ei tohi olla pikemad kui 3 tundi.
+Esimesel päeval toida ainult mahladega. Valmista putukatest **0,2–0,25 ml** mahla (2–3 kilg või marmorprussaka mahl) ja toida iga **25–40 minuti** tagant esimesed 5 toitmist. Pärast viiendat toitmist ilmub tavaliselt väljaheide. Kui väljaheide on olemas, suurenda portsjonit **0,3–0,35 ml-ni** (4–5 mahla) ja pikenda intervalli 1 tunnini kuni päeva lõpuni. Öised pausid toitmiste vahel ei tohi olla pikemad kui 3 tundi.
 
 ### Kaalu kontroll
 
@@ -161,7 +161,7 @@ Kui toidad piiritajat, kuid väljaheidet ei tule, võib tekkida probleem. Välja
 
 ### Putukatest tükeldatud toit
 
-Kui piiritaja suuõõs on hele roosa, mahl imendub ja väljaheide on regulaarne, võid järk-järgult alustada tükeldatud putukatega toitmist, **1,5-tunnise intervalliga**. Tükeldatud toit on maniküürikääridega hakitud ritsika- või prussakakõhud.
+Kui piiritaja suuõõs on hele roosa, mahl imendub ja väljaheide on regulaarne, võid järk-järgult alustada tükeldatud putukatega toitmist, **1,5-tunnise intervalliga**. Tükeldatud toit on maniküürikääridega hakitud kilgi- või marmorprussakakõhud.
 
 Asenda üks mahlatoitmine sama koguse tükeldatud toiduga. Lisa Mezymi pulbrit. Kui väljaheide on korras ja selles on vähe või üldse mitte seedimata jääke, tähendab see, et piiritaja seedib toitu. Siis asenda kaks mahlatoitmist sama koguse tükeldatud toiduga. Üleminek tükeldatud toidule võib kesta terve päeva või isegi paar päeva, suurendades järk-järgult tükeldatud toidu kogust ja viies piiritaja sujuvalt täielikult tükeldatud toidule.
 
@@ -169,7 +169,7 @@ Kontrolli piiritaja suud pärast toitmist, veendumaks, et hingamisavad on korras
 
 ### Kõhutäitega toitmine
 
-Terved, tükeldamata ritsikakõhud võta kasutusele järk-järgult. Anna 2–3 kõhtu koos tükeldatud toiduga ja vaata, milline on väljaheide ning kas tükeldamata toit seedub. Kui toit ei seedu, on kõhud veel liiga vara. Kui piiritajat hakkab iiveldama, ära anna rohkem kõhutäiteid ja naase mahlatoitmisele. Kui iiveldust ei esine, ritsikad seeduvad ja piiritaja teeb tunni jooksul väljaheite, võid jätkata, suurendades järk-järgult portsjoni suurust **2–4 kõhuni**, kuni jõuad vanusele vastava normaalse portsjonini.
+Terved, tükeldamata kilkikõhud võta kasutusele järk-järgult. Anna 2–3 kõhtu koos tükeldatud toiduga ja vaata, milline on väljaheide ning kas tükeldamata toit seedub. Kui toit ei seedu, on kõhud veel liiga vara. Kui piiritajat hakkab iiveldama, ära anna rohkem kõhutäiteid ja naase mahlatoitmisele. Kui iiveldust ei esine, kilgid seeduvad ja piiritaja teeb tunni jooksul väljaheite, võid jätkata, suurendades järk-järgult portsjoni suurust **2–4 kõhuni**, kuni jõuad vanusele vastava normaalse portsjonini.
 
 ## August – hüljatud ja kurnatud piiritajapoegade kuu
 
