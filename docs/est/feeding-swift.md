@@ -14,7 +14,7 @@ Ta **saab mürgituse**, kui teda toita "kohupiima ja hakklihaga", tõukude, ussi
 ### Põhitoidus
 
 - **Toasärjed või banaanisärjed**
-- **Marmor- või Türkmenistani prussakad**
+- **Marmor- või Türkmenistani tarakanid**
 
 Need putukad peavad olema elusad (värskelt tapetud) või külmutatud. Putukatel on erinevad arengustaadiumid. Imago – suguküpsed (tiibadega) – sobivad halvasti: nad on kõvad ja vajavad palju töötlemist. Preimago – suured, kuid mitte suguküpsed – sobivad ideaalselt. Väga väikesed, veel mitte preimago – sobivad samuti, kuid on kallid, kuna neid kulub palju.
 
