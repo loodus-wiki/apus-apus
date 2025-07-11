@@ -5,78 +5,108 @@ lang: est
 is_home: false
 ---
 
-## Kuidas lind välja näeb
+**See veebileht on loodud vabatahtlikele, kes päästvad piiritajaid (Apus apus)**
 
-Veenduge, et leidsite just piiritaja, mitte pääsukese või tuvi.
+Eestis on selleks <a href="https://www.metsloom.ee/kontaktid/" target="_blank" rel="noopener noreferrer">Eesti Metsloomaühing (avaneb uues aknas)</a>
 
-Väike lind, umbes peopesa suurune, tumepruun, peaaegu ühevärviline, tumepruunide pärlilaadsete silmadega.
+## Kuidas näeb välja piiritaja (must- või tornipiiritaja, Apus apus)
 
-Tiivad on pikad, sirbikujulised, **täiskasvanud linnul** ulatuvad sabast umbes 3,5 cm kaugusele.
+Piiritaja on väike, peopesa suurune lind, tumepruuni, peaaegu ühevärvilise sulestikuga, millel on väike valge laik nokk all ja tumepruunid pärlilaadsed silmad. Tiivad on pikad, sirbikujulised, **täiskasvanud linnul** ulatuvad sabast umbes 3,5 cm võrra välja, normaalne kaal on 38–43 grammi.
 
-Kõik neli varvast igal jalal on suunatud ettepoole (pääsukesel see nii ei ole) ja neil on pikad teravad küünised.
+Täiskasvanud linnu jalad on tumedat värvi, kõigil neljal varbal mõlemal jalal on suund ettepoole (räästalindudel on see teisiti), neil on pikad teravad küünised.
+
+## Kui piiritaja on maas, vajab ta abi
+
+Kui olete leidnud täiskasvanud piiritaja, kellel pole sulgedel heledat äärist ja nähtavaid vigastusi, võite ta üles tõsta ja hoida avatud kohas sirutatud käel, ilma teda õhku viskamata.  
+Seda tuleb proovida pehme pinnase kohal, et lind võimaliku kukkumise korral end rohkem ei vigastaks.
+
+Võimalik, et ta on juba toibunud ja suudab ära lennata. Kui ta ei lenda, vajab ta abi ja teile on vaja pappkasti, kuhu lind panna.
+
+Järgmine samm – [võtke ühendust Eesti Metsloomaühinguga](contact-metloomayhing.html)
+
+### Poeg
+
+Kui teie kätte sattus poeg, [liikuge kohe spetsiaalsele jaotisele, aeg on kallis.](#for-chicks)
+
+Kui kahtlete, siin on [piltidega juhend linnu vanuse määramiseks päevade kaupa](identifying-swift.html)
+
+<div class="image-gallery">
+<figure>
+  <img src="../assets/images/timeline_day_6__7.webp" alt="Птенец стрижа 6 дней от роду" width="400">
+  <figcaption>Piiritaja poeg 6 päeva vanuselt, ta on veel paljas</figcaption>
+</figure>
+<figure>
+  <img src="../assets/images/timeline_day_11__12.webp" alt="Птенец стрижа 11 дней от роду" width="400">
+  <figcaption>Piiritaja poeg 11 päeva vanuselt. Suled kasvavad nn "torukestest", mistõttu ta näeb välja nagu dinosaur.</figcaption>
+</figure>
+<figure>
+  <img src="../assets/images/timeline_day_28__29.webp" alt="Подросток стрижа" width="400">
+  <figcaption>Ka see on poeg! Nooruk, kes pole veel Aafrikasse lennanud, tal on peas ja tiibadel heledad sulgede äärised. Ja roosad, veel päevitamata jalad.</figcaption>
+</figure>
+</div>
 
 ### Täiskasvanud lind
 <figure>
-  <img src="../assets/images/adult_swift.webp" alt="Täiskasvanud piiritaja" width="400">
-  <figcaption>Täiskasvanud piiritaja. Selle aasta noorlinnud näevad välja peaaegu samasugused, välja arvatud mõned eristavad tunnused.</figcaption>
+  <img src="../assets/images/adult_swift.webp" alt="Взрослый стриж" width="400">
+  <figcaption>Täiskasvanud piiritaja. On lennanud Aafrikasse</figcaption>
 </figure>
 
-### Selle aasta noorlind
-<figure>
-  <img src="../assets/images/timeline_day_28__29.webp" alt="Piiritaja noorlind" width="400">
-  <figcaption>Selle aasta noorlinnud võivad välja näha peaaegu nagu täiskasvanud, kuid neil on heledamad suled kaelal ja peal ning roosad, veel päevitamata jalad.</figcaption>
-</figure>
+### Piiritajatel pole lennuvõimetuid poegi
 
-### Tibu
-<figure>
-  <img src="../assets/images/timeline_day_11__12.webp" alt="11-päevane piiritaja tibu" width="400">
-  <figcaption>11-päevane piiritaja. Sulg kasvab nn "torukestest", mistõttu ta näeb välja nagu dinosaur.</figcaption>
-</figure>
+Maapinnal satub lind olema ainult mingi probleemi korral.
 
-Üksikasjalik vanuse määraja linnule päevade kaupa [munast koorumisest kuni pesast lahkumiseni](identifying-swift.md)
+Täiskasvanud linnud võivad klaasi vastu lennata, kukkuda liiga külma ilma tõttu jne.
 
-## Üldine tegevusalgoritm esmajärjekorras:
+Poeg võib välja kukkuda. Või välja hüpata, kui vanemad on ta hüljanud, eriti augustis.
 
-0) Ärge püüdke lindu lennutada, eriti ärge visake teda õhku ega kõrgelt.
+### Kiireloomulised seisundid
+- Kõrge kurnatuse tase.  
 
+Märgid: poja kaal alla 25 grammi, täiskasvanud linnu puhul alla 35 grammi.  
 
-1) Tagage linnule turvaline keskkond.
-Võimaluse korral leidke kingakarbisuurune karp, tehke sellesse ventilatsiooni jaoks augud ja asetage lind pimedasse kohta, et ta saaks rahus olla.
-Ärge kartke piiritajat karpi panna.
-Isegi kui piiritaja teie peale susiseb, ei hammusta ta teid. Siiski olge küünistega ettevaatlik, sest ta võib neid tugevalt kokku suruda, näiteks sõrme külge klammerdudes.
+Piiritaja vajab välist soojendamist ja tuleb hakata tegutsema vastavalt [kurnatuse leevendamise skeemile](exhaustion.html), kuna isegi õige toidu seedimiseks ei pruugi pojal jõudu olla.
 
+[Lisateave: Kurnatus](exhaustion.html)
 
-2) Püüdke mõista, mis linnuga juhtus, enne kui ta teie kätte sattus.
-Ta võis kokku põrgata või pesast välja kukkuda. Piiritajatel ei ole nn "lennuvõimelisi poegi", seega satub lind maapinnale ainult mingi õnnetuse korral.
-Mõnel juhul võivad piiritajad peopesalt lendu tõusta, kuid isegi seda proovides tuleb teha seda pehme pinnase kohal, et lind kukkumisel endale rohkem viga ei teeks.
+- Kassihammustus – vajalik on veterinaari määratud antibiootikumikuur – pasteurella vastu.  
 
+Täiskasvanud piiritajale Ciprofloxacin, pojale Amoxicillin/clavulanate.  
+Ciprofloxacin võib mõjutada sulgede kasvu, seetõttu püütakse seda poegadele mitte anda.
 
-3) Pange tähele, kas linnul on nähtav veri või ilmne vigastus, kas on märgatav asümmeetria.
+### Piiritaja turvaline majutamine
 
+Piiritajale ei sobi puur, see on traumaatiline ja rikub sulgi.
 
-4) Registreerige leid ja küsige nõu Eesti Metsloomaühingult (avaneb uues aknas) <a href="https://www.metsloom.ee/kontaktid/" target="_blank" rel="noopener noreferrer">Eesti Metsloomaühing</a>.
+Otsige jalatsikarbi suurune või suurem karp, tehke seestpoolt väljapoole ventilatsiooniavad. Sobib ka kauss või mõni plastkonteiner, mis on kaetud kangaga. Põhja pange lõhnata ja värvaineta kuivad paberisalvrätikud.
 
-Nende Facebook: https://www.facebook.com/EestiMetsloomayhing/
+Asetage lind pimedasse kohta, et ta saaks rahus olla.
 
-Telefon: +372 5632 2200
+Ärge kartke piiritajat karpi panna.  
+Isegi kui piiritaja teie peale susiseb, ei hammusta ta teid. Siiski olge ettevaatlik küünistega, ta võib neid tugevalt pigistada, näiteks sõrme kinni haarates.
 
+Ärge pange karpi heinu, toitu ega proovige panna veega kaussi, kuna piiritaja ei oska nokaga toitu võtta.  
+Piisab salvrätikutest või pehmest kangast, millesse linnu küüned ei takerdu, karbi ventilatsioonist, soojendamiseks mõeldud pudelist ja rahust.
 
-Sõnumi **informaatiivseks** muutmiseks teatage:
-* Linn
-* Selge foto ja võimalusel video linnu liikumisest põrandal.
-* Oleks suurepärane, kui saaksite teada linnu kaalu, see annab palju infot tema seisundi kohta.
-Lindu ei pea kaalule panema!
-Lihtsam on kaaluda karp koos linnuga ja lahutada tühja karbi kaal.
-* Veenduge, et saate kogukonna liikmetelt sõnumeid vastu võtta.
+Loodusesse naasmiseks peab piiritajal olema täiuslik sulestik. Võtke piiritaja kätte puhaste kinnastega või mähkige ta kangasse.  
+Ärge proovige lindu toita talle mittesobiva toiduga: **piiritajad on eranditult putuktoidulised**.
 
-5) Täiustage karp transportimiseks või edastamiseks.
+Paljudel on kodus lemmikloomi, see ei tohiks teid linnu abistamisel segada.  
+Asetage piiritajaga karp lemmikloomadele kättesaamatusse kohta, näiteks kapi otsa.
 
+### Kaal ja kurnatuse seisund
 
-Kui leidsite tibu, vajab ta soojust, eriti kui tal puudub udusulg.
-Võite valada pudelisse kuuma vett ja asetada see karpi nii, et pudel ei suruks tibu.
+Püüdke lind kaaluda – see on tema seisundi väga oluline näitaja.  
+Kui köögikaalu pole, võib piiritajat kaaluda poes karbis, seejärel võtta lind välja ja vaadata karbi kaalu. Vahe on linnu kaal.
 
-ÄRGE pange karpi õlgi, toitu ega proovige lindu joota. Piiritajad on ainult putuktoidulised ega nokiks toitu.
-Piisab pehmest materjalist, milles linnu küünised ei takerdu, karbi ventilatsioonist, soojendamiseks mõeldud pudelist ja rahust.
+Kui kaal on alla normaalse 38–42 grammi, tuleb alustada soojendamist ja söötmist kindlate kellaaegade järgi. Kaalu taastumisel ja hea ilmaga naasevad need linnud loodusesse. Kui leitud täiskasvanud piiritajal ei ole kaalupuudust, pole vaja esimese ööpäeva jooksul teda iga hinna eest sööta, tal on varud olemas.
 
-## Täiendavad tegevused
-Nüüd on lind karbis ja olete ühendust võtnud Metsloomaühinguga.
+Sügava nälja korral on vajalik spetsiaalne näljast väljatoomise protokoll putukate ekstrakti kasutamisega (link?).
+
+Lisateave: [**Kurnatuse märgid**](exhaustion.html)
+
+## Spetsiaalsed juhised poegadele {#for-chicks}
+
+Väga sageli satuvad pojad teie kätte juba dehüdreerununa ja märgatava kurnatusega.  
+Tuleb kiiresti tegutseda, et lind sellest seisundist minimaalse kahjuga välja tuua.
+
+Kriitiline kaal poja elu jaoks on 22–18 grammi. Kurnatud piiritaja pojad kaaluvad tavaliselt **20–27 grammi**.
