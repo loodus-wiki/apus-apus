@@ -11,7 +11,7 @@ Eestis on selleks <a href="https://www.metsloom.ee/kontaktid/" target="_blank" r
 
 ## Kuidas näeb välja piiritaja (must- või tornipiiritaja, Apus apus)
 
-Piiritaja on väike, peopesa suurune lind, tumepruuni, peaaegu ühevärvilise sulestikuga, millel on väike valge laik nokk all ja tumepruunid pärlilaadsed silmad. Tiivad on pikad, sirbikujulised, **täiskasvanud linnul** ulatuvad sabast umbes 3,5 cm võrra välja, normaalne kaal on 38–43 grammi.
+Piiritaja on väike, peopesa suurune lind, tumepruuni, peaaegu ühevärvilise sulestikuga, millel on väike valge laik noka all ja tumepruunid pärlilaadsed silmad. Tiivad on pikad, sirbikujulised, **täiskasvanud linnul** ulatuvad sabast umbes 3,5 cm võrra välja, normaalne kaal on 38–43 grammi.
 
 Täiskasvanud linnu jalad on tumedat värvi, kõigil neljal varbal mõlemal jalal on suund ettepoole (räästalindudel on see teisiti), neil on pikad teravad küünised.
 
