@@ -50,7 +50,7 @@ Mis värvi on piiritaja suu seest?
 - **Valge, kollane, hall**  
   Piiritajapoeg on surma lähedal.  
 
-  **Tähelepanu!** Suud **ei tohi** avada nokkade otstest – see võib nokka murda. Hoidke piiritaja pead ühe käe sõrmedega külgedelt, teisega tõmmake nokk nahast (koos sulgedega, mitte ainult sulgedest) õrnalt allapoole, et nokk avaneks. Avatud nokka saab sõrmega fikseerida. Ärge pigistage nokka külgedelt, see vigastab liigest.
+  **Tähelepanu!** Suud **ei tohi** avada nokka otstest – see võib nokka murda. Hoidke piiritaja pead ühe käe sõrmedega külgedelt, teisega tõmmake nokk nahast (koos sulgedega, mitte ainult sulgedest) õrnalt allapoole, et nokk avaneks. Avatud nokka saab sõrmega fikseerida. Ärge pigistage nokka külgedelt, see vigastab liigest.
 
 ### Silmad
 
@@ -90,7 +90,7 @@ Kurnatud piiritaja on kühmus, seljasuled on püsti (seda võib märgata ka foto
 - Normaalselt on suled siledalt keha vastas.
 
 Hingamine on aeglane, sarnane inimese aeglase hingamisega, selg võib märgatavalt tõusta. Kui piiritaja avab nokka rütmiliselt iga hingetõmbega – ta on juba surma lähedal.  
-- Normaalselt on hingamine kiire, kaks korda kiirem kui inimesel, ja selja liikumist on vaevu näha.
+- Linnul on normaalselt kiire hingamine, kaks korda kiirem kui inimesel, ja selja liikumist on vaevu näha.
 
 ## Reanimatsioon algab soojendamisest {#reanimation}
 
@@ -110,7 +110,7 @@ Kõik vedelikud ja toit tuleb anda **soojalt**! Soe toit imendub paremini, organ
 
 ### Hügieen
 
-Enne reanimatsiooni või mis tahes tegevust piiritajaga pese käed põhjalikult puhtaks ja töötle antiseptikumiga. Kõik kasutatavad vahendid ja esemed peavad olema pestud või steriilsed. Valmista ette puhtad salvrätid, paberirätikud ja puhas nõu.
+Enne reanimatsiooni või mis tahes tegevust piiritajaga pese käed põhjalikult puhtaks ja töötle antiseptikuga. Kõik kasutatavad vahendid ja esemed peavad olema pestud või steriilsed. Valmista ette puhtad salvrätikud, paberirätikud ja puhas nõu.
 
 Kui toiduputukas kukub põrandale, ei tohi seda piiritajale anda. Piiritajad on väga vastuvõtlikud nakkustele! Kurnatusele ei tohi lisada veel probleeme.
 
