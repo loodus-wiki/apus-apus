@@ -55,7 +55,7 @@ Kui kahtlete, siin on [piltidega juhend linnu vanuse määramiseks päevade kaup
 
 Maapinnal satub lind olema ainult mingi probleemi korral.
 
-Vanad linnud võivad klaasi vastu lennata, kukkuda liiga külma ilma tõttu jne.
+Vanalinnud võivad lennata vastu klaasi, kukkuda liiga külma ilma tõttu jne.
 
 Poeg võib välja kukkuda. Või välja hüpata, kui vanemad on ta hüljanud, eriti augustis.
 

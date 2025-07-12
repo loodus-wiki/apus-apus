@@ -130,7 +130,7 @@ Vaja läheb ka vatitikke ja salvrätikuid.
 
 Mezym tablette (saadaval apteegis, sisaldab seedimist soodustavaid ensüüme). Eemalda tabletilt roosa kate (kraabi noaga) ja purusta tablett pulbriks.
 
-Toiduputukad, ideaalis kilgad. Lisateave toiduputukate kohta: [toitmine](feeding-swift.md).
+Toiduks kasvstatud putukad, ideaalis kilgid. Lisateave toiduputukate kohta: [toitmine](feeding-swift.md).
 
 ### Reanimatsioon
 
@@ -169,7 +169,7 @@ Kontrolli piiritaja suud pärast toitmist, veendumaks, et hingamisavad on korras
 
 ### Kõhutäitega toitmine
 
-Terved, tükeldamata kilkikõhud võta kasutusele järk-järgult. Anna 2–3 kõhtu koos tükeldatud toiduga ja vaata, milline on väljaheide ning kas tükeldamata toit seedub. Kui toit ei seedu, on kõhud veel liiga vara. Kui piiritajat hakkab iiveldama, ära anna rohkem kõhutäiteid ja naase mahlatoitmisele. Kui iiveldust ei esine, kilgid seeduvad ja piiritaja teeb tunni jooksul väljaheite, võid jätkata, suurendades järk-järgult portsjoni suurust **2–4 kõhuni**, kuni jõuad vanusele vastava normaalse portsjonini.
+Terved, tükeldamata kilkikõhud võta kasutusele järk-järgult. Anna 2–3 kõhtu koos tükeldatud toiduga ja vaata, milline on väljaheide ning kas tükeldamata toit seedub. Kui toit ei seedu, on kõhud veel liiga vara. Kui piiritajat hakkab iiveldama, ära anna rohkem kõhutäiteid ja naase mahlatoitmisele. Kui iiveldust ei esine, kilgid seedivad ja piiritaja teeb tunni jooksul väljaheite, võid jätkata, suurendades järk-järgult portsjoni suurust **2–4 kõhuni**, kuni jõuad vanusele vastava normaalse portsjonini.
 
 ## August – hüljatud ja kurnatud piiritajapoegade kuu
 
