@@ -139,7 +139,7 @@ Esmalt anna piiritaja nokka **0,2–0,3 ml** füsioloogilise lahuse ja meevee se
 Noka avamiseks hoia piiritaja pead ühe käe sõrmedega külgedelt, teisega tõmba nahast (koos sulgedega, mitte ainult sulgedest) nokk õrnalt allapoole. Avatud nokka saab sõrmega fikseerida. Ära pigista nokka külgedelt, see vigastab liigest. Ära hoia nokka otstest ega ava nii – see võib alalõua murda.
 
 <figure class="image-float">
- <img src="../assets/images/respiratory_slit.jpg" alt="Piiritaja hingamisavad" width="300">
+ <img src="../assets/images/respiratory_slit-est.jpg" alt="Piiritaja hingamisavad" width="300">
   <figcaption>Piiritaja hingamisavad</figcaption>
 </figure>
 
