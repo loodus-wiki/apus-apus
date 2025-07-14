@@ -95,22 +95,27 @@ is_home: false
 
 Птенец, который попал к людям маленьким, и подросток, который уже успел привыкнуть к родителю, будут кормиться по-разному. В случае с подростком кормление, скорее всего, будет принудительным. Взрослого стрижа кормят принудительно.
 
-<figure>
-<video width="300" height="405" controls>
-  <source src="{{ 'assets/video/feeding-adult-swift1.mp4' | relative_url }}" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-<figcaption>Кормление взрослого стрижа. Таракана закладываем глубоко и после этого поглаживаем</figcaption>
-</figure>
+<div class="video-gallery">
+  <figure>
+    <video width="300" height="405" controls>
+      <source src="{{ 'assets/video/feeding-adult-swift1.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <figcaption>
+      Кормление взрослого стрижа. Таракана закладываем глубоко и после этого поглаживаем
+    </figcaption>
+  </figure>
 
-<figure>
-<video width="300" height="405" controls>
-  <source src="{{ 'assets/video/feeding-adult-swift2-rus.mp4' | relative_url }}" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-<figcaption>Подробное объяснение как кормить стрижа</figcaption>
-</figure>
-
+  <figure>
+    <video width="300" height="405" controls>
+      <source src="{{ 'assets/video/feeding-adult-swift2-rus.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <figcaption>
+      Подробное объяснение как кормить стрижа
+    </figcaption>
+  </figure>
+</div>
 
 Замечено, что группа из нескольких птенцов обычно кормятся лучше, чем одиночки. 
 
