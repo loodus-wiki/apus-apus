@@ -79,6 +79,11 @@ Piiritajale ei sobi puur, see on traumaatiline ja rikub sulgi.
 
 Otsige jalatsikarbi suurune või suurem karp, tehke seestpoolt väljapoole ventilatsiooniavad. Sobib ka kauss või mõni plastkonteiner, mis on kaetud kangaga. Põhja pange lõhnata ja värvaineta kuivad paberisalvrätikud.
 
+  <figure class="image-float">
+  <img src="../assets/images/swift-in-box.jpg" alt="Tibu karbis" width="300">
+  <figcaption>Tibu karbis, allpool soojendatakse matiga</figcaption>
+  </figure>
+
 Asetage lind pimedasse kohta, et ta saaks rahus olla.
 
 Ärge kartke piiritajat karpi panna.  
