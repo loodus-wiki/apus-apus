@@ -42,7 +42,8 @@ Looduslik toit:
 - **Mitteered, karvutud röövikud** (mitte ussid!)
 - **Sipelga "munad"**
 
-Tähtis! Kärbsed ja kilgid vajavad vähemalt 4-tunnist külmutamist, et vältida linnu nakatumist parasiitidega.
+Tähtis! Looduses püütud kärbsed ja kilgid vajavad vähemalt 4-tunnist külmutamist, et vältida linnu nakatumist parasiitidega.
+
 
 <style>
   table {
