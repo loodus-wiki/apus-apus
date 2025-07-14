@@ -37,7 +37,7 @@ Mustlesta kärbes on koostiselt täisväärtuslik, see on väga hea toit. Ainus 
 
 Looduslik toit:
 - **Külmutatud kärbsed** (mitte kleepuva lindi pealt)
-- **Kilgide või rohutirtsude kõhud**
+- **Ritsikate või heinamaakurade kõhud** (või rohutirtsude)
 - **Mitteered värvusega tiibadeta liblikad** (eelkõige öised)
 - **Mitteered, karvutud röövikud** (mitte ussid!)
 - **Sipelga "munad"**
@@ -84,8 +84,6 @@ Ja lingil [**üksikasjalik tabel päevade kaupa** vajaliku toidukoguse ja kaaluk
 [Üksikasjalikult lugege toidu liikide kohta spetsiaalses jaotises, seal on palju nüansse](#types-of-food)
 
 # Piiritaja toitmise eripärad
-
-Vanem toidab tibu suurte peenikestest putukatest koosnevate tükkidega, mis on liimitud kokku süljega. Ta paneb selle tüki sõna otseses mõttes tibu kurku. Toitja peab asendama vanema.
 
 Tibu, kes sattus inimeste juurde väiksena, ja teismeline, kes on juba harjunud vanemaga, toituvad erinevalt. Teismelise puhul on toitmine tõenäoliselt sundtoitmine. Täiskasvanud piiritajat toidetakse sundtoitmise teel.
 
