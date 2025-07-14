@@ -102,9 +102,6 @@ Märkuseks, et mitme tibu grupp toitub tavaliselt paremini kui üksikud.
     </figcaption>
   </figure>
 
-
-Märkuseks, et mitme tibu grupp toitub tavaliselt paremini kui üksikud.
-
 # Nüüd toidu liikide kohta üksikasjalikult {#types-of-food}
 ## Kilgid
 
