@@ -98,21 +98,21 @@ is_home: false
 <div class="video-gallery">
   <figure>
     <video width="300" height="405" controls>
-      <source src="{{ 'assets/video/feeding-adult-swift1.mp4' | relative_url }}" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-    <figcaption>
-      Кормление взрослого стрижа. Таракана закладываем глубоко и после этого поглаживаем
-    </figcaption>
-  </figure>
-
-  <figure>
-    <video width="300" height="405" controls>
       <source src="{{ 'assets/video/feeding-adult-swift2-rus.mp4' | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
     <figcaption>
-      Подробное объяснение как кормить стрижа
+      Подробное объяснение как кормить стрижа.
+    </figcaption>
+  </figure>
+
+  <figure>
+    <video width="570" height="405" controls>
+      <source src="{{ 'assets/video/feeding-adult-swift1.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <figcaption>
+      Кратко (видео без звука): кормим взрослого стрижа. Таракана закладываем глубоко и после этого поглаживаем.
     </figcaption>
   </figure>
 </div>
