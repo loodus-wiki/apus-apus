@@ -79,4 +79,100 @@ Tähtis! Looduses püütud kärbsed ja kilgid vajavad vähemalt 4-tunnist külmu
   <tr><td>21-38</td><td style='background-color:#f4a460'>15</td><td>45</td><td>75</td><td>150</td><td>60</td><td>120</td></tr>
 </table>
 
-Ja lingil [
+Ja lingil [**üksikasjalik tabel päevade kaupa** vajaliku toidukoguse ja kaalukontrolliga ühe piiritaja tibu jaoks](amount-of-feed.md)
+
+[Üksikasjalikult lugege toidu liikide kohta spetsiaalses jaotises, seal on palju nüansse](#types-of-food)
+
+# Piiritaja toitmise eripärad
+
+Vanem toidab tibu suurte peenikestest putukatest koosnevate tükkidega, mis on liimitud kokku süljega. Ta paneb selle tüki sõna otseses mõttes tibu kurku. Toitja peab asendama vanema.
+
+Tibu, kes sattus inimeste juurde väiksena, ja teismeline, kes on juba harjunud vanemaga, toituvad erinevalt. Teismelise puhul on toitmine tõenäoliselt sundtoitmine. Täiskasvanud piiritajat toidetakse sundtoitmise teel.
+
+Märkuseks, et mitme tibu grupp toitub tavaliselt paremini kui üksikud.
+
+
+  <figure>
+    <video width="570" height="405" controls>
+      <source src="{{ 'assets/video/feeding-adult-swift1.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <figcaption>
+       Lühidalt (video ilma helita): toidame täiskasvanud piiritajat. Prussaka paneme sügavale ja seejärel silitame.
+    </figcaption>
+  </figure>
+
+
+Märkuseks, et mitme tibu grupp toitub tavaliselt paremini kui üksikud.
+
+# Nüüd toidu liikide kohta üksikasjalikult {#types-of-food}
+## Kilgid
+
+### Ainult eelimaago (mitte tiivulised):
+- Kodukilgid: 1,5–2 cm, kõrge seeduvus, proteiin 17,8%, rasv 5,33%
+- Banaanikilgid: kuni 3 cm, proteiin 17,51%, rasv 5,33%
+- Kahepunktilised kilgid: kuni 3 cm, proteiin 17,7%, rasv 5,33%
+
+#### Ettevalmistus:
+1. Külmutatud kilgiseid raputada karbis, et eemaldada jalad  
+2. Sulatada soojas vees (mitte keevas vees) 
+3. Panna salvrätikule, eemaldada järelejäänud jalad, purustada pea (kui see on kõva), suuremate puhul on parem tõmmata pea ja soolik välja.
+
+## Prussakad
+
+Sobivad ainult kultiveeritud söödaliigid, punaseid prussakaid ei tohi kasutada.
+
+- **Marmorprussakas**: kuni 3,5 cm, proteiin 22,13%
+- **Turkmeeni prussakas**: ~2,5 cm, proteiin 18,16%, rasv 8,645%
+
+#### Ettevalmistus:
+- Marmorprussakas: suurte puhul kasutada ainult kõhtusid, lõigata need pikuti. Väikseid (1 cm) anda tervelt, eemaldades jalad.
+- Turkmeeni prussakas: eemaldada jalad
+
+## Zofobas (vastsed)
+
+- Proteiin 17,4%, rasv 16,56%  
+- Mitte külmutada!
+
+## Toitmise sagedus ja portsjonite arvutamine
+
+- Tibu sööb 15–20 g päevas, toidetakse iga 1,5–2 tunni tagant – umbes 8–9 korda päevas, öine paus 6 tundi.
+- Täiskasvanud piiritaja – ~12 g päevas, 3–4 toitmist (võib olla ka 2 toitmist, kui ta suudab süüa päevanormi kahe korraga)
+
+**Portsjonite näited toitmiseks**:  
+- Kodukilgid: 15–20 tükki (1,5–2 cm)  
+- Banaanikilgid: 10–15 suurt või 15–20 väikest  
+- Marmorprussakad: 10–15 kõhtu või 20–25 väikest  
+- Sipelga "munad": 1 tl “kühmuga”
+
+Kasutage kaalu täpsusega 0,01 g portsjonite kontrollimiseks.
+
+## Mida teha, kui söödaputukaid pole
+
+Kiire hankimise võimalused:
+
+- Öised liblikad – püüda veega täidetud kausi abil, mille taha on tõmmatud hele kangas ja sisse lülitatud taskulamp.  
+- Ritsikad/rohutirtsud – püüda rohus, paluda lastel sellega aidata. Külmutada, anda ainult kõhtusid.
+- Kärbsepüünis (mitte kleepuv lint), püütud kärbsed külmutada.
+- Sipelga "munad" – pesta, moodustada “tükk”.
+- Mesilaste haudmetõugud – läbi mesilaste kasvatajate (foorum pchelovod.info)
+
+## Vitamiinid
+
+Mitmekesisuse puudumisel:
+- **Multibiotin‑Birds (ExoticMenu)** või **NEKTON‑Biotin**
+- Anda iga päev kuni vabastamiseni. Pulbrit kanda toidule kuivade kätega või lahustada vees ja anda süstlaga nagu ravimit keele taha, vältides hingamisteede pilusid.
+
+## Kuidas juua anda, vältides hingamisteede pilude täitmist
+
+<figure>
+<video width="300" height="405" controls>
+  <source src="{{ '/assets/video/how-to-give-water-to-swift.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<figcaption>Anname piiritajale vett, riputades tilga nokale. Kahtlustatava põrutuse korral vett ei anta.</figcaption>
+</figure>
+
+## Jäätmed tihaste toiduks
+
+Putukate jalad, pead ja koorikud võib säilitada sügavkülmas ja lisada talvel tihaste toidule.
