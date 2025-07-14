@@ -169,6 +169,13 @@ is_home: false
 /моё старое видео/
 
 
+<figure>
+<video width="300" height="405" controls>
+  <source src="{{ '/assets/video/how-to-give-water-to-swift.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<figcaption>Даём воду стрижу, подвешивая каплю на клюв. При подозрении на сотрясение, воду не даём.</figcaption>
+</figure>
   
 ## Отходы как корм для синичек
 

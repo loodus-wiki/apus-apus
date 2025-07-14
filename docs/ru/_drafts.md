@@ -285,3 +285,12 @@ ISSN 1026-5627
     Кормят совсем маленьких стрижат. Видно, как они активно хватают пальцы и еду.
   </figcaption>
 </figure>
+
+
+
+<video width="720" height="405" controls>
+  <source src="{{ '/assets/videos/demo.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
