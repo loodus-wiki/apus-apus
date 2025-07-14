@@ -78,6 +78,12 @@ Normaalne linnu väljaheide koosneb kolmest osast: fekaalid, uraadid ja uriin. V
 - **Ideaalse väljaheide**  
   Hästi vormitud valge kapsel, mis ei valgu laiali, väikese musta sabaga.
 
+  <figure class="image-block">
+  <img src="../assets/images/chick_droppings.jpg" alt="Näide hästi välja nägevast puskardi väljaheitest" width="300">
+  <figcaption>Näide hästi välja nägevast puskardi väljaheitest</figcaption>
+  </figure>
+    
+
 - **Väljaheide rohutirtsudega toitmisel**  
   Kapsel on laialivalguvam, must saba pikem, võib olla roosakas, peedivärvi või rohekas.
 
@@ -178,3 +184,8 @@ Parv lendab lõunasse augusti alguses või keskel, jättes osa poegi alatoitunul
 Kiiluu on terav ja õhuke nagu vineer, silmad on suletud ja sissevajunud, suuõõs on hele roosa või valge, kaal **20–24 grammi**.
 
 Vabatahtlikult on vaja erilist visadust, kiiret otsustamist ja valmisolekut raskusteks. Aeg tiksub minutitega! Kui kiireid meetmeid ei võeta, hukkub piiritajapoeg ööpäeva jooksul. Reanimeeritud piiritajapojad taastuvad järk-järgult, jõuavad normaalse kaalu ja arenguni ning võivad potentsiaalselt loodusesse naasta.
+
+
+<!-- 
+ #Lightbox for all images  -->
+<script src="{{ '/assets/js/wrap-img.js' | relative_url }}"></script>

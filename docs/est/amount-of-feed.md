@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Таблица количества корма и примерное количество насекомых
-lang: ru
+lang: est
 is_home: false
 toc: false
 ---

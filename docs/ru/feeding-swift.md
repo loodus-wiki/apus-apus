@@ -98,17 +98,7 @@ is_home: false
 Замечено, что группа из нескольких птенцов обычно кормятся лучше, чем одиночки. 
 
 
-<figure style="max-width: 560px; margin: auto;">
-  <iframe width="560" height="315" 
-    src="https://www.youtube.com/embed/fjgkGPyduDA?si=uEGnf8Y-4A8H3ddc" 
-    title="YouTube video player" frameborder="0" 
-    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-  </iframe>
-  <figcaption style="text-align: center; font-size: 0.95em; margin-top: 8px;">
-    Кормят совсем маленьких стрижат. Видно, как они активно хватают пальцы и еду.
-  </figcaption>
-</figure>
+
 
 
 # Теперь по видам корма подробно (дальше - генерённая часть) {#types-of-food}
@@ -177,19 +167,6 @@ is_home: false
 /процесс кормления, описание тексом/
 /танино видео с субтитрами/
 /моё старое видео/
-
-<figure>
-  <iframe width="560" height="315" 
-    src="../assets/video/Respiratory-opening-of-swift.mp4"
-    title="YouTube video player"
-    frameborder="0"
-    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen>
-  </iframe>
-  <figcaption>
-    Видна дыхательная щель стрижа. https://www.youtube.com/shorts/62tC8CFZS2k
-  </figcaption>
-
 
 
   
