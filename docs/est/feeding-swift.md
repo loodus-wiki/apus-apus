@@ -9,7 +9,7 @@ is_home: false
 
 Piiritaja on täielikult putuktoiduline lind. Kategoriliselt.
 
-Tema seedesüsteem ei ole üldse kohandatud loomse valgu (kohupiim, lihatooted) ega tõukude, vereusside, vihmausside, gammari jms tõhusaks seedimiseks. Piiritaja loomulik toit on õhuplankton. Lihtsamalt öeldes, sääsed. Kõige sarnasema koostisega on söödaputukad: ritsikad ja prussakad.
+Tema seedesüsteem ei ole üldse kohandatud loomse valgu (kohupiim, lihatooted) ega tõukude, vereusside, vihmausside, gammari jms tõhusaks seedimiseks. Piiritaja loomulik toit on õhuplankton. Lihtsamalt öeldes, sääsed. Kõige sarnasema koostisega on söödaputukad: kilgid ja prussakad.
 
 Puskardi jaoks on oluline eesmärk moodustada lendamiseks sobiv sulg. Piiritajad elavad sõna otseses mõttes taevas: nad mitte ainult ei toitu, vaid ka magavad õhus. Pesa kasutatakse ainult paljunemishooajal. Teie juures kasvanud sulestik peab võimaldama piiritajal jõuda Aafrika lõunaosani. Kui puskard jääb ellu, kuid tal kujuneb halb sulg, ei saa ta loodusesse naasta või hukkub varsti pärast vabastamist. Siinsed nõuanded on konservatiivsed ja suunatud kogemusele, kuidas saavutada hea sulestik ja puskardi organismi täielik areng.
 
@@ -18,7 +18,7 @@ Piiritajate sundtoitmise viise vaadake allpool põhi- ja lisatoidu kirjeldustest
 
 ### Põhitoidus
 
-- **Kodu- või banaaniritsikad**
+- **Kodu- või banaanikilgid**
 - **Marmor- või turkmeeni prussakad**
 
 Need putukad võivad olla elusad (värskelt tapetud) või külmutatud. Parem on osta elusaid ja külmutada need ise. Putukad on erinevates arengustaadiumides. Imaago – täiskasvanud (tiivulised) – sobivad toitmiseks halvasti: need on kõvad ja vajavad palju töötlemist. Eelimaago – suured, kuid mitte täiskasvanud – sobivad ideaalselt. Väga väikesed, veel mitte eelimaago – sobivad samuti, kuid on kallid, kuna neid kulub palju. Kõik putukate kõvad ja teravad osad tuleb eemaldada.
@@ -37,12 +37,12 @@ Mustlesta kärbes on koostiselt täisväärtuslik, see on väga hea toit. Ainus 
 
 Looduslik toit:
 - **Külmutatud kärbsed** (mitte kleepuva lindi pealt)
-- **Ritsikate või rohutirtsude kõhud**
+- **Kilgide või rohutirtsude kõhud**
 - **Mitteered värvusega tiibadeta liblikad** (eelkõige öised)
 - **Mitteered, karvutud röövikud** (mitte ussid!)
 - **Sipelga "munad"**
 
-Tähtis! Kärbsed ja ritsikad vajavad vähemalt 4-tunnist külmutamist, et vältida linnu nakatumist parasiitidega.
+Tähtis! Kärbsed ja kilgid vajavad vähemalt 4-tunnist külmutamist, et vältida linnu nakatumist parasiitidega.
 
 <style>
   table {
@@ -67,9 +67,9 @@ Tähtis! Kärbsed ja ritsikad vajavad vähemalt 4-tunnist külmutamist, et vält
   <tr>
     <th>Puskardi vanus (päevad)</th>
     <th>Vajalik toidukogus päevas (g)</th>
-    <th>Banaaniritsikaid päevas (tk)</th>
-    <th>Koduritsikaid päevas (tk)</th>
-    <th>Väikeseid koduritsikaid päevas (tk)</th>
+    <th>Kilgide päevas (tk)</th>
+    <th>Kodukilgide päevas (tk)</th>
+    <th>Väikeseid kodukilgide päevas (tk)</th>
     <th>Suurte marmorprussakate kõhtusid päevas (tk)</th>
     <th>Väikeseid marmorprussakaid tervelt (tk)</th>
   </tr>
@@ -78,4 +78,4 @@ Tähtis! Kärbsed ja ritsikad vajavad vähemalt 4-tunnist külmutamist, et vält
   <tr><td>21-38</td><td style='background-color:#f4a460'>15</td><td>45</td><td>75</td><td>150</td><td>60</td><td>120</td></tr>
 </table>
 
-Ja lingil [**üksikasjalik tabel päevade kaupa** vajaliku toidukoguse ja kaalukontrolliga ühe piiritaja puskardi jaoks](amount-of-feed.md)
+Ja lingil [
