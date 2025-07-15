@@ -150,7 +150,7 @@ Kiire hankimise võimalused:
 - Ritsikad/rohutirtsud – püüda rohus, paluda lastel sellega aidata. Külmutada, anda ainult kõhtusid.
 - Kärbsepüünis (mitte kleepuv lint), püütud kärbsed külmutada.
 - Sipelga "munad" – pesta, moodustada “tükk”.
-- Mesilaste haudmetõugud – läbi mesilaste kasvatajate (foorum pchelovod.info)
+- Mesilaste haudmetõugud – läbi mesilaste kasvatajate
 
 ## Vitamiinid
 
