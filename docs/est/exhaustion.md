@@ -194,6 +194,23 @@ Kui toidad piiritajat, kuid väljaheidet ei tule, võib tekkida probleem. Välja
 
 Kui piiritaja suuõõs on hele roosa, mahl imendub ja väljaheide on regulaarne, võid järk-järgult alustada tükeldatud putukatega toitmist, **1,5-tunnise intervalliga**. Tükeldatud toit on maniküürikääridega hakitud kilgi- või marmorprussakakõhud.
 
+<div class="video-gallery">
+<figure>
+    <img src="../assets/images/feeding-with-finely-chopped-insects.jpg" alt="Peeneks hakitud putukate ettevalmistamine" width="300">
+    <figcaption>Peeneks hakitud putukate ettevalmistamine</figcaption>
+</figure>
+
+  <figure>
+    <video width="500" height="405" controls>
+      <source src="{{ 'assets/video/feeding-with-finely-chopped-insects.mp4' | relative_url }}" type="video/mp4">
+      Teie brauser ei toeta videot.
+    </video>
+    <figcaption>
+      Söötmine peeneks hakitud putukatega. Paneme toidupalli suhu, püüdes vältida nokk ümber määrimist. Pühkige vatitikuga, kui piiritaja saab mustaks.
+    </figcaption>
+  </figure>
+</div>
+
 Asenda üks mahlatoitmine sama koguse tükeldatud toiduga. Lisa Mezymi pulbrit. Kui väljaheide on korras ja selles on vähe või üldse mitte seedimata jääke, tähendab see, et piiritaja seedib toitu. Siis asenda kaks mahlatoitmist sama koguse tükeldatud toiduga. Üleminek tükeldatud toidule võib kesta terve päeva või isegi paar päeva, suurendades järk-järgult tükeldatud toidu kogust ja viies piiritaja sujuvalt täielikult tükeldatud toidule.
 
 Kontrolli piiritaja suud pärast toitmist, veendumaks, et hingamisavad on korras! Peenikesed tükeldatud kitiiniosakesed võivad kleepuda suulaele või sattuda hingamisavadesse.
