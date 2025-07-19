@@ -157,6 +157,31 @@ Kui putukaid pole, ära asenda neid muu toiduga. Piiritajat võib 1 päeva hoida
 
 Esimesel päeval toida ainult mahladega. Valmista putukatest **0,2–0,25 ml** mahla (2–3 kilg või marmorprussaka mahl) ja toida iga **25–40 minuti** tagant esimesed 5 toitmist. Pärast viiendat toitmist ilmub tavaliselt väljaheide. Kui väljaheide on olemas, suurenda portsjonit **0,3–0,35 ml-ni** (4–5 mahla) ja pikenda intervalli 1 tunnini kuni päeva lõpuni. Öised pausid toitmiste vahel ei tohi olla pikemad kui 3 tundi.
 
+### Putukasisu
+
+Putukasisu valmistamine mezimi tableti puru lisamisega marmorprussaka näitel (predümaag).
+
+<div class="image-gallery">
+<figure>
+  <img src="../assets/images/mezim.jpg" alt="Puhastame tableti värvilisest kestast, saame pulbri, mille lisame hiljem putukasisule" width="400">
+  <figcaption>Puhastame tableti värvilisest kestast, saame pulbri, mille segame putukasisule</figcaption>
+</figure>
+<figure>
+  <img src="../assets/images/insect-extract1.jpg" alt="Eemaldame pea, tõmmates kaasa soolestiku" width="400">
+  <figcaption>Eemaldame prussaka pea, tõmmates kaasa soolestiku</figcaption>
+</figure>
+<figure>
+  <img src="../assets/images/insect-extract2.jpg" alt="Saame kõhust valge vedeliku" width="400">
+  <figcaption>Saame kõhust valge vedeliku ja lisame paar mezimi puru</figcaption>
+</figure>
+<figure>
+  <img src="../assets/images/insect-extract3.jpg" alt="Tõmbame segu süstlasse, et hiljem ettevaatlikult pigistada keele kõrvalt, vältides segu sattumist hingamislõhedesse" width="400">
+  <figcaption>Tõmbame segu süstlasse, et hiljem ettevaatlikult pigistada keele kõrvalt, vältides segu sattumist hingamislõhedesse</figcaption>
+</figure>
+</div>
+
+
+
 ### Kaalu kontroll
 
 Igal hommikul enne esimest toitmist kaalu piiritaja tühja kõhuga. Iga päev peab piiritaja juurde võtma vähemalt **1–1,5 grammi**. Esimesed paar grammi tulevad esimestel tundidel dehüdratsiooni taastumisel. Edasi peab kaal järk-järgult suurenema, kuni see vastab vanusele. Eriti oluline on poega piisavalt toita. Näljase piiritajapoja sulestik ja siseorganid arenevad halvasti, sulgedel võivad olla defektid, need võivad murduda või välja langeda. Halva sulestikuga piiritaja ei ela looduses ellu.

@@ -190,17 +190,21 @@ toc: true
 
 #### Выжимка 
 
-Подготовка выжимки на примере мраморного таракана (предымаго).
+Подготовка выжимки с добавлением крошек таблетки mezim на примере мраморного таракана (предымаго).
 
 
 <div class="image-gallery">
+<figure>
+  <img src="../assets/images/mezim.jpg" alt="Очищаем таблетку от цветной оболочки, получаем порошок, который потом добавим к выжимке" width="400">
+  <figcaption>Очищаем таблетку от цветной оболочки, получаем порошок, который подмешаем к выжимке</figcaption>
+</figure>
 <figure>
   <img src="../assets/images/insect-extract1.jpg" alt="Отделяем голову, вытаскивая и кишечник" width="400">
   <figcaption>Отделяем голову таракана, вытаскивая вместе с ней и кишечник</figcaption>
 </figure>
 <figure>
   <img src="../assets/images/insect-extract2.jpg" alt="Получаем белую жижу из брюшка" width="400">
-  <figcaption>Получаем белую жижу из брюшка</figcaption>
+  <figcaption>Получаем белую жижу из брюшка и добавляем несколько крошек mezim</figcaption>
 </figure>
 <figure>
   <img src="../assets/images/insect-extract3.jpg" alt="Набираем смесь в шприц, чтобы потом аккуратно выдавливать сбоку от языка, избегая попадания смеси в дыхательные щели" width="400">

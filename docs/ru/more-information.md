@@ -44,3 +44,26 @@ https://www.youtube.com/watch?v=Fjz6g2PzoQ4
 Стрижи: Дети Воздуха | Интересные факты про стрижей
 https://www.youtube.com/watch?v=9JJ15bSb-Aw
 
+
+Swifts are born to eat and sleep in the air
+Date: March 6, 2019
+Source: Lund University
+https://www.sciencedaily.com/releases/2019/03/190306110651.htm
+
+
+
+Local homebuilder signs Homes for Nature commitment to support wildlife
+https://www.reddit.com/r/RewildingUK/comments/1ee2i32/local_homebuilder_signs_homes_for_nature/
+
+
+Просто научный документ.
+Phenological changes in arrival and breeding incommon swifts (Apus apus) in central Israel
+https://www.researchgate.net/publication/383359648_Phenological_changes_in_arrival_and_breeding_in_Common_Swifts_Apus_apus_in_central_Israel
+
+
+
+Swifts and house martins join UK red list of endangered birds
+"RSPB warns wildlife is in freefall with 70 of Britain’s 245 bird species now seriously at risk"
+https://www.theguardian.com/environment/2021/dec/01/britain-endangered-birds-red-list-rises-to-70-species
+
+
