@@ -749,3 +749,26 @@ video {
     display: block;
     margin: 0 auto;
 }
+
+
+/* Стили для стрелок Lightbox */
+.lb-nav a.lb-prev,
+.lb-nav a.lb-next {
+  opacity: 1 !important; /* Заставляем стрелки быть всегда видимыми */
+  visibility: visible !important; /* Убираем скрытие */
+  display: block !important; /* Убеждаемся, что стрелки отображаются */
+}
+
+/* Для мобильных устройств */
+@media (max-width: 768px) {
+  .lb-nav a.lb-prev,
+  .lb-nav a.lb-next {
+    opacity: 1 !important;
+    visibility: visible !important;
+    display: block !important;
+    /* Опционально: уменьшаем размер стрелок для мобильных */
+    width: 40px !important;
+    height: 40px !important;
+    background-size: 20px !important; /* Если используются фоновые изображения */
+  }
+}

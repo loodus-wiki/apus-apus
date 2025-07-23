@@ -67,3 +67,15 @@ Swifts and house martins join UK red list of endangered birds
 https://www.theguardian.com/environment/2021/dec/01/britain-endangered-birds-red-list-rises-to-70-species
 
 
+
+https://www.youtube.com/watch?v=oriWdSEDOXo
+Edward Mayer (Swift Conservation https://www.swift-conservation.org/)
+
+
+Swift Bricks
+the ‘universal’ nest brick
+https://www.swift-conservation.org/universal_swift_nest_brick02.pdf
+
+Action for Swifts
+https://swiftsoversherborne.co.uk/pdf/Action-for-Swifts.pdf
+
