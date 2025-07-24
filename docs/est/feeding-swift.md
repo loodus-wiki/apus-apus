@@ -11,6 +11,14 @@ Piiritaja on täielikult putuktoiduline lind. Kategoriliselt.
 
 Tema seedesüsteem ei ole üldse kohandatud loomse valgu (kohupiim, lihatooted) ega tõukude, vereusside, vihmausside, gammari jms tõhusaks seedimiseks. Piiritaja loomulik toit on õhuplankton. Lihtsamalt öeldes, sääsed. Kõige sarnasema koostisega on söödaputukad: kilgid ja prussakad.
 
+
+<div class="image-gallery">
+<figure>
+    <img data-fancybox="my-gallery" src="../assets/images/chicks-grab-fingers.jpg" frameborder="0">
+    <figcaption>Väikesed piiritajad haaravad sõrmedest</figcaption>
+</figure> 
+</div>
+
 Puskardi jaoks on oluline eesmärk moodustada lendamiseks sobiv sulg. Piiritajad elavad sõna otseses mõttes taevas: nad mitte ainult ei toitu, vaid ka magavad õhus. Pesa kasutatakse ainult paljunemishooajal. Teie juures kasvanud sulestik peab võimaldama piiritajal jõuda Aafrika lõunaosani. Kui puskard jääb ellu, kuid tal kujuneb halb sulg, ei saa ta loodusesse naasta või hukkub varsti pärast vabastamist. Siinsed nõuanded on konservatiivsed ja suunatud kogemusele, kuidas saavutada hea sulestik ja puskardi organismi täielik areng.
 
 Sel põhjusel välistab see juhend igasugused linnusegud, sealhulgas need, mis on väidetavalt mõeldud putuktoidulistele lindudele.
