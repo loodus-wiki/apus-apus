@@ -62,7 +62,12 @@ Piiritaja lendukaal varieerub väiksemate isendite puhul 37 grammist kuni suurem
 
 Pärast pesast lahkumist on piiritaja kodu taevas. Piiritajad ei naase pesadesse, nad isegi magavad lennul. Mahutiivad moodustavad tiheda pinna, nagu ka sabasuled. Pildistage laiali sirutatud tiib ja saba heledal taustal mõlemalt poolt, uurige fotot suurenduses. Kui toitsite piiritajat putukatega, järgides vanusele vastavaid toitmise intervalle, näete tõenäoliselt tihedat elastset sulestikku, millel on tugevad, sirged ja ühtlaselt värvunud sulevarded.
 
-< foto heade sulgedega >
+<div class="image-gallery">
+<figure>
+    <img  data-fancybox="my-gallery"  src="../assets/images/fethers-count-est.png" frameborder="0">
+    <figcaption>Sulgede nummerdus</figcaption>
+</figure>
+</div>
 
 Inimeste kätte satuvad pojad on sageli nälginud ja kurnatud, mida võib näha sulgedel nn stressijoonte või -triipudena. Vale toitmise korral on suled hõredad, mitte tihedad, haprad. Selline lind ei ela looduses kaua.
 
@@ -85,7 +90,6 @@ Inimeste kätte satuvad pojad on sageli nälginud ja kurnatud, mida võib näha 
 
 Kui märkate, et mõned mahutiivad või sabasuled puuduvad, kontrollige, kas nende kohal nahas kasvab uus sulg. Kui jah, laske piiritaja pojal see enne vabastamist täielikult kasvatada. Eriti kriitilised on tiiva kolm välimist mahusulge või saba kolm välimist sabasulge.
 
-< Foto, kus on näha sulgede numeratsioon >
 
 # Vabastamiseks ettevalmistamine
 

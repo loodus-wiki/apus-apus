@@ -9,6 +9,7 @@ is_home: false
 
 В Эстонии это  <a href="https://www.metsloom.ee/kontaktid/" target="_blank" rel="noopener noreferrer">Eesti Metsloomaühing (откроется в новом окне)</a>
 
+Сайт содержит фото 
 
 ### Как выглядит стриж (чёрный или башенный стриж, Apus apus)
 
