@@ -65,7 +65,7 @@ Pärast pesast lahkumist on piiritaja kodu taevas. Piiritajad ei naase pesadesse
 <div class="image-gallery">
 <figure>
     <img  data-fancybox="my-gallery"  src="../assets/images/fethers-count-est.png" frameborder="0">
-    <figcaption>Sulgede nummerdus</figcaption>
+    <figcaption>Sulgede loendamine ja nummerdamine</figcaption>
 </figure>
 </div>
 

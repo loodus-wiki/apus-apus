@@ -73,7 +73,7 @@ is_home: false
 <div class="image-gallery">
 <figure>
     <img  data-fancybox="my-gallery"  src="../assets/images/fethers-count-rus.png" frameborder="0">
-    <figcaption>Нумерация перьев</figcaption>
+    <figcaption>Подсчёт и нумерация перьев</figcaption>
 </figure>
 </div>
 
