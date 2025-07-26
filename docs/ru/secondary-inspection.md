@@ -10,7 +10,66 @@ is_home: false
 
 
 ### Есть ли заметная травма?
-  Видна ли кровь или явная травма, заметная ассиметричность у птицы. Если травма очевидна, обезболивание (Melox) делается до более подробного осмотра.
+  Видна ли кровь или явная травма, заметная ассиметричность у птицы. Если травма очевидна, обезболивание (Melox) делаем до более подробного осмотра.
+
+<p>Калькулятор дозировки мелоксикама</p>
+
+Формула:
+(0,2) х (вес в птицы в формате 0,030 кг для птицы в 30грамм) : (% melox, обычно 0.5 или 1.5)
+
+<h4>Вес птицы (кг):</h4>
+<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 8px;">
+  <button onclick="setWeightFromButton(0.03)">30 г</button>
+  <button onclick="setWeightFromButton(0.096)">96 г</button>
+  <input type="number" id="weightInput" step="0.001" placeholder="Введите вес вручную" style="width: 100px;">
+</div>
+
+<h4>% раствора мелоксикама:</h4>
+<div style="display: flex; align-items: center; gap: 10px;">
+  <button onclick="setPercent(0.5)">0.5%</button>
+  <button onclick="setPercent(1.5)">1.5%</button>
+  <span>Выбранный процент: <strong id="selectedPercent">—</strong></span>
+</div>
+
+<br>
+<div style="display: flex; align-items: center; gap: 15px;">
+  <button onclick="calculateDose()">Рассчитать дозу</button>
+  <p id="result" style="margin: 0; font-weight: bold;"></p>
+</div>
+
+<script>
+  let percent = null;
+
+  function setWeightFromButton(val) {
+    // Записать значение в поле ввода веса
+    document.getElementById("weightInput").value = val.toFixed(3);
+  }
+
+  function setPercent(val) {
+    percent = val;
+    document.getElementById("selectedPercent").innerText = val + " %";
+  }
+
+  function calculateDose() {
+    // Считать вес из поля ввода
+    let weight = parseFloat(document.getElementById("weightInput").value);
+    if (isNaN(weight) || weight <= 0) {
+      document.getElementById("result").innerText = "Введите корректный вес птицы.";
+      return;
+    }
+    if (percent === null || percent === 0) {
+      document.getElementById("result").innerText = "Пожалуйста, выберите процент раствора (не 0).";
+      return;
+    }
+
+    let dose = (0.2 * weight) / percent;
+    document.getElementById("result").innerText =
+      "Доза: " + dose.toFixed(4) + " мл раствора мелоксикама.";
+  }
+</script>
+<br>
+
+При весе в 30 грамм и 0.5% у вас должно получиться количество примерно на одно маленькое деление инсулинового шприца на 100 единиц и объемом 1мл.
 
 ### ЧМТ (черепно-мозговая травма)
 

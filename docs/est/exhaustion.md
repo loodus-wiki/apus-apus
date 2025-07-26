@@ -78,6 +78,10 @@ Normaalne linnu väljaheide koosneb kolmest osast: fekaalid, uraadid ja uriin. V
 - **Ideaalse väljaheide**  
   Hästi vormitud valge kapsel, mis ei valgu laiali, väikese musta sabaga.
 
+
+  Huvitav fakt: kapslikujulist väljaheidet kasutavad poegade vanemad, et seda pesast tõhusalt eemaldada.
+
+
   <figure class="image-block">
   <img src="../assets/images/chick_droppings.jpg" alt="Näide hästi välja nägevast puskardi väljaheitest" width="300">
   <figcaption>Näide hästi välja nägevast puskardi väljaheitest</figcaption>
