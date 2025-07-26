@@ -5,8 +5,9 @@ lang: est
 is_home: false
 ---
 
-### Kas on nähtav trauma?
-Kas linnul on näha verd või ilmset traumat, märgatavat asümmeetriat? Kui trauma on ilmne, tehakse valuvaigistus (Melox) enne põhjalikumat uurimist.
+### Nähtavad vigastused
+Kas linnul on näha verd, ilmset vigastust või silmatorkavat asümmeetriat?
+Kui vigastus on ilmne, antakse valuvaigistit (Melox) enne edasist läbivaatust.
 
 <p>Meloksikaami annuse kalkulaator</p>
 
