@@ -15,12 +15,12 @@ Valem:
 
 <h4>Linnu kaal (kg):</h4>
 <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 8px;">
-  <button onclick="setWeightFromButton(0.03)">30 g</button>
-  <button onclick="setWeightFromButton(0.096)">96 g</button>
+  <button onclick="setWeightFromButton(0.030)">30 g</button>
+  <button onclick="setWeightFromButton(0.050)">50 g</button>
   <input type="number" id="weightInput" step="0.001" placeholder="Sisestage kaal käsitsi" style="width: 100px;">
 </div>
 
-<h4>Meloksikaami lahuse %:</h4>
+<h4>Meloks %:</h4>
 <div style="display: flex; align-items: center; gap: 10px;">
   <button onclick="setPercent(0.5)">0,5%</button>
   <button onclick="setPercent(1.5)">1,5%</button>
@@ -38,7 +38,7 @@ Valem:
 
   function setWeightFromButton(val) {
     // Kirjutab kaalu sisestusväljale
-    document.getElementById("weightInput").value = val.toFixed(3);
+    document.getElementById("weightInput").value = 1000 * val.toFixed(3);
   }
 
   function setPercent(val) {
@@ -58,9 +58,9 @@ Valem:
       return;
     }
 
-    let dose = (0.2 * weight) / percent;
+    let dose = (0.2 * weight) / percent / 1000;
     document.getElementById("result").innerText =
-      "Annus: " + dose.toFixed(4) + " ml meloksikaami lahust.";
+      "Annus: " + dose.toFixed(4) + " ml Meloks lahust.";
   }
 </script>
 <br>
@@ -104,10 +104,10 @@ Esmased tegevused:
 
 Pöörake tähelepanu väljaheitele. Kui väljaheites on midagi pruunikat, võib see olla hüübinud veri. Tilgutage vesinikperoksiidi – kui see kihiseb, on tegemist verega ja esineb sisemine verejooks.
 
-Arvestage, et KAT korral esineb sageli "valge aken" – ajutine seisundi paranemine, millele järgneb järsk halvenemine. Tavaliselt toimub see esimeste tundide või paari päeva jooksul.
+Arvestage, et peapõrutuse korral esineb sageli "valgusaken" – see on ajutine periood, mil linnu seisund paraneb, millele järgneb järsk halvenemine. Tavaliselt toimub see esimeste tundide või paari päeva jooksul, seega veenduge, et lind on traumast tõesti taastunud.
 
 ### Seljalt ümberpööramise test
-- **Kui nähtavaid vigastusi pole**, võib piiritajat testida seljalt ümberpööramisega.  
+**Kui nähtavaid vigastusi pole**, võib piiritajat testida seljalt ümberpööramisega.  
 Selleks peske käed põhjalikult või pange kindad, et vältida sule rasvaga määrimist.  
 Seejärel keerake piiritaja ettevaatlikult selili ja eemaldage käed, püüdes mitte kinni jääda tema küünte taha.
 
