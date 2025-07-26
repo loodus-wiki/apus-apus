@@ -19,8 +19,10 @@ Lihtsam on kaaluda karp koos piiritajaga ja lahutada karbi kaal ilma linnuta.
 
 Veenduge, et saate kogukonna liikmetelt sõnumeid vastu võtta.  
 
-**Registreerige leid ja küsige nõu** aadressil <a href="https://www.metsloom.ee/kontaktid/" target="_blank" rel="noopener noreferrer">Eesti Metsloomaühing (avaneb uues aknas)</a>  
+### Registreerige leid ja küsige nõu
 
-<a href="https://www.facebook.com/EestiMetsloomayhing/" target="_blank" rel="noopener noreferrer">Facebook: Eesti Metsloomaühing (avaneb uues aknas)</a>  
+**WWW**: <a href="https://www.metsloom.ee/kontaktid/" target="_blank" rel="noopener noreferrer">Eesti Metsloomaühing (avaneb uues aknas)</a>
+
+**Facebook**: <a href="https://www.facebook.com/EestiMetsloomayhing/" target="_blank" rel="noopener noreferrer">Facebook: Eesti Metsloomaühing (avaneb uues aknas)</a>
 
 Telefon: +372 5632 2200

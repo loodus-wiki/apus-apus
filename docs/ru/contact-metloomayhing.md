@@ -19,8 +19,11 @@ is_home: false
 
 Проверьте, что вы можете получать сообщения от участников сообщества.
 
-**Зарегистируйте находку и спросите совета** в <a href="https://www.metsloom.ee/kontaktid/" target="_blank" rel="noopener noreferrer">Eesti Metsloomaühing (откроется в новом окне)</a>
 
-<a href="https://www.facebook.com/EestiMetsloomayhing/" target="_blank" rel="noopener noreferrer">facebook: Eesti Metsloomaühing (откроется в новом окне)</a> 
+### Зарегистируйте находку и спросите совета
+
+**WWW**: <a href="https://www.metsloom.ee/kontaktid/" target="_blank" rel="noopener noreferrer">Eesti Metsloomaühing (откроется в новом окне)</a>
+
+**Facebook**: <a href="https://www.facebook.com/EestiMetsloomayhing/" target="_blank" rel="noopener noreferrer">facebook: Eesti Metsloomaühing (откроется в новом окне)</a> 
 
 Телефон +372 5632 2200
