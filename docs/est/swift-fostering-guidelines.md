@@ -7,6 +7,9 @@ is_home: false
 
 # Piiritajate kasvatamise juhised
 
+Dokumendi tõlge <a href="https://www.bristolswifts.co.uk/wp-content/uploads/2020/08/Swift-fostering-guidelines.pdf" target="_blank">www.bristolswifts.co.uk</a>
+
+
 Need juhised on mõeldud inimestele, kellel on kogemusi piiritajate pesakastidega ja kes tunnevad piiritajate käitumist. Kasvatamist peaksid läbi viima ainult need, kes tunnevad end selleks pädevana. Soovitatav on kasutada ainult pesakaste, millel on kaamerad.
 
 Piiritajate kasvatamine on protsess, mille käigus kasutatakse pesas olevat piiritajapaari, et võtta kasvatamiseks tibu või mune. On mitmeid olukordi, näiteks:  
