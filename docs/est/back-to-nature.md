@@ -20,7 +20,7 @@ Sulgede torukesed, millest suled kasvavad, peituvad tiiva siseküljel olevate v�
 
 <div class="image-gallery">
 <figure>
-    <img data-fancybox="my-gallery" src="../assets/images/tubular-base-of-the-feather.png" frameborder="0">
+    <img data-fancybox="my-gallery" src="../assets/images/tubular-base-of-the-feather.jpg" frameborder="0">
     <figcaption>Sulg kasvab torukestest, mis peavad enne vabastamist täielikult kaduma.</figcaption>
 </figure>
 </div>

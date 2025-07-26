@@ -13,6 +13,8 @@ is_home: false
 - **Viga – Õhku viskamine**  
   Inimesed, kes on linnu leidnud, arvavad, et kui seda õhku visata, on tal justkui lihtsam lendu tõusta, eriti kõrguselt. Kahjuks süvendab see sageli varasemaid vigastusi. Kahjuks suudavad käitumise anomaaliaid visuaalselt kindlaks teha ainult spetsialistid foto- või videomaterjali põhjal. Ärge kunagi visake lindu.
 
+  **Tõde**: Hea tervise juures olev piiritaja tõuseb maast kergesti õhku.  Teine asi on see, et tal on lendutõusmiseks vaja vaba ruumi, mistõttu soovitatakse viia piiritaja avatud alale ja tõsta ta sirutatud käel üles, et tal oleks võimalus lennuks valmistuda, ringi vaadata ja võib-olla meelt muuta.  Samas ei tohi kätt raputada ega lindu muul viisil lendama provotseerida.
+
 - **Viga – Vale toidukoguse arvutamine**  
   Orienteeruv norm: täiskasvanud linnule 12 grammi puhastatud putukaid ja pojale kuni 20 grammi ööpäevas(!). Mida vanem on piiritaja, seda vähem ta sööb. Alatoitluse sümptom: kõrge aktiivsus. Kõht täis piiritaja pigem tukastab, kui jookseb karbis ringi. Kuid ärge laske end petta: surev piiritaja ei jookse samuti, vaid istub nokk põrandal.
 

@@ -23,7 +23,7 @@ is_home: false
 
 <div class="image-gallery">
 <figure>
-    <img  data-fancybox="my-gallery"  src="../assets/images/tubular-base-of-the-feather.png" frameborder="0">
+    <img  data-fancybox="my-gallery"  src="../assets/images/tubular-base-of-the-feather.jpg" frameborder="0">
     <figcaption>Перо растёт из трубочек, которые должны сойти до выпуска.</figcaption>
 </figure>
 </div>
