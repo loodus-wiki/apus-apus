@@ -9,7 +9,7 @@ is_home: false
 Kas linnul on näha verd, ilmset vigastust või silmatorkavat asümmeetriat?
 Kui vigastus on ilmne, antakse valuvaigistit (Melox) enne edasist läbivaatust.
 
-<p>Meloksikaami annuse kalkulaator</p>
+<p>Melox (Meloksikaami) annuse kalkulaator</p>
 
 Valem:  
 (0,2) × (linnu kaal formaadis 0,030 kg 30-grammise linnu puhul) : (% meloksikaami, tavaliselt 0,5 või 1,5)
