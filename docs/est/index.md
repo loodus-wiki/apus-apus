@@ -111,4 +111,8 @@ Kui kaal on alla normaalse 38–42 grammi, tuleb alustada soojendamist ja sööt
 **Sügava nälja korral on vajalik spetsiaalne näljast väljatoomise protokoll** [putukate ekstrakti kasutamisega](exhaustion.md#extraction)
 
 
-Lisateave: [**Kurnatuse märgid**](exhaustion.html)
+## Muud veebisaidi jaotised:
+
+- [**Kurnatuse märgid**](exhaustion.html)
+- [**Linnu vabastamise kriteeriumid**](back-to-nature.md)
+- [**Tibu paigutamine kasupesasse**](swift-fostering-guidelines.md)
