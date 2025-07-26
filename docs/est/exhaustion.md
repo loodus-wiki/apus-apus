@@ -157,7 +157,7 @@ Kui putukaid pole, ära asenda neid muu toiduga. Piiritajat võib 1 päeva hoida
 
 Esimesel päeval toida ainult mahladega. Valmista putukatest **0,2–0,25 ml** mahla (2–3 kilg või marmorprussaka mahl) ja toida iga **25–40 minuti** tagant esimesed 5 toitmist. Pärast viiendat toitmist ilmub tavaliselt väljaheide. Kui väljaheide on olemas, suurenda portsjonit **0,3–0,35 ml-ni** (4–5 mahla) ja pikenda intervalli 1 tunnini kuni päeva lõpuni. Öised pausid toitmiste vahel ei tohi olla pikemad kui 3 tundi.
 
-### Putukasisu
+### Putukasisu {#extraction}
 
 Putukasisu valmistamine mezimi tableti puru lisamisega marmorprussaka näitel (predümaag).
 

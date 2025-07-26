@@ -105,6 +105,7 @@ Kui köögikaalu pole, võib piiritajat kaaluda poes karbis, seejärel võtta li
 
 Kui kaal on alla normaalse 38–42 grammi, tuleb alustada soojendamist ja söötmist kindlate kellaaegade järgi. Kaalu taastumisel ja hea ilmaga naasevad need linnud loodusesse. Kui leitud täiskasvanud piiritajal ei ole kaalupuudust, pole vaja esimese ööpäeva jooksul teda iga hinna eest sööta, tal on varud olemas.
 
-Sügava nälja korral on vajalik spetsiaalne näljast väljatoomise protokoll putukate ekstrakti kasutamisega (link?).
+**Sügava nälja korral on vajalik spetsiaalne näljast väljatoomise protokoll** [putukate ekstrakti kasutamisega](exhaustion.md#extraction)
+
 
 Lisateave: [**Kurnatuse märgid**](exhaustion.html)
