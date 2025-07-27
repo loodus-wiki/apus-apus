@@ -100,7 +100,7 @@ Kui teie piiritaja poeg on sulgede kasvatamise lõpetanud ja tal on lendukaal, v
 
 ## Vabastamise aeg ja koht
 
-Looduses lahkuvad valmis piiritaja pojad pesast õhtul või öösel. Valige ka õhtune aeg, mil päevased röövloomad on juba söönud ja ei jahti nii aktiivselt. Siiski peaks olema piisavalt valge, et vajadusel leida lind rohust, kui midagi läheb valesti.
+Looduses lahkuvad valmis piiritaja pojad pesast õhtul või öösel. Valige ka õhtune aeg, mil päevased röövlinnud on juba söönud ja ei jahti nii aktiivselt. Siiski peaks olema piisavalt valge, et vajadusel leida lind rohust, kui midagi läheb valesti.
 
 Vabastamiskoht peab olema avatud, hästi nähtav ja ilma traumaohtlike tingimusteta: suurte peegeldavate pindade, juhtmete, maanteede jms läheduses. Kui piiritaja kukub, peaks ta maanduma rohtu, mitte asfaldile. Sobib koolistaadion, väli või suur lagendik.
 
@@ -114,7 +114,7 @@ Oluline on vaadata ilmaprognoosi, kas vabastamiskohast lõunapoolsetesse piirkon
 
 # Piiritaja poja vabastamine
 
-Asetage lind peopessa ja tõstke käsi üles. Ärge visake teda õhku ega liigutage kätt. Tal on vaja aega, sest tal on palju tegemist. Ta uurib ümbrust, otsides röövloomi ja peidupaiku, kust need võiksid välja lennata. Samuti peab ta orienteeruma tuule suunas (tavaliselt stardivad nad vastutuult) ja soojendama lihaseid vibratsiooniga. Kui piiritaja poeg vaatab ringi ja väriseb või “sumiseb” kehaga, on ta peagi lendamas.
+Asetage lind peopessa ja tõstke käsi üles. Ärge visake teda õhku ega liigutage kätt. Tal on vaja aega, sest tal on palju tegemist. Ta uurib ümbrust, otsides röövlinde ja peidupaiku, kust need võiksid välja lennata. Samuti peab ta orienteeruma tuule suunas (tavaliselt stardivad nad vastutuult) ja soojendama lihaseid vibratsiooniga. Kui piiritaja poeg vaatab ringi ja väriseb või “sumiseb” kehaga, on ta peagi lendamas.
 
 Kui hoiate teda rahulikult tõstetud käel ja ta ei lenda, on sellel põhjus. Võite proovida panna ta tagasi kasti, liikuda mõne vahemaa võrra ja pakkuda uuesti võimalust startida. Kui ta ikkagi ei lenda, lükake vabastamine järgmisele päevale või proovige leida täiesti uus vabastamiskoht.
 

@@ -79,3 +79,7 @@ https://www.swift-conservation.org/universal_swift_nest_brick02.pdf
 Action for Swifts
 https://swiftsoversherborne.co.uk/pdf/Action-for-Swifts.pdf
 
+
+Эксперименты и открытия: как мы узнали, что стрижи не садятся
+https://sponsr.ru/better_tit/101472/Pticy_bez_posadki_kak_striji_jivut_vnebe/
+

@@ -7,10 +7,12 @@ is_home: false
 
 **See veebileht on loodud vabatahtlikele, kes päästvad piiritajaid (Apus apus)**
 
-Veebisait sisaldab naturalistlikke fotosid, sealhulgas putukaid, nende osi, meditsiinilisi protseduure jms.
-
 
 Eestis on selleks <a href="https://www.metsloom.ee/kontaktid/" target="_blank" rel="noopener noreferrer">Eesti Metsloomaühing (avaneb uues aknas)</a>
+
+
+Veebisait sisaldab naturalistlikke fotosid, sealhulgas putukaid, nende osi, meditsiinilisi protseduure jms.
+
 
 ## Kuidas näeb välja piiritaja (must- või tornipiiritaja, Apus apus)
 
