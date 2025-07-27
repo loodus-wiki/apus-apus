@@ -26,10 +26,11 @@ Sulgede torukesed, millest suled kasvavad, peituvad tiiva siseküljel olevate v�
 </div>
 
 **Vabatahtlike sage viga on mitte märgata, et sulgede kasv veel jätkub.**
+Tiiva pikkus võrreldes sabaga või tiiva pikkus õlast võib olla ainult orientiiriks, kuid see ei ole tibu vabastamiseks valmisoleku kriteerium. Kõige olulisem on linnu täielik kasvamine, sealhulgas sulgede areng.
 
-Torukeste puudumise kontrollimiseks niisutage mahutiibade kohal olevaid katvuslugusid veega, et näha kohta, kust suled kasvavad. Katvuslugusid tuleb mitu korda niisutada, kuna need ei märgu kohe.
+Täielikult kasvanud sulg väljub otse nahast (sulestikust, mida palja silmaga ei näe). Kasvav sulg väljub torukesest, mis on silmaga nähtav ja mille lind ise eemaldab, kui sulg on valmis. Kasvava sule vars on verega varustatud, samas kui valmis sule vars seda enam ei ole.
 
-Täielikult kasvanud sulg väljub otse nahast (sulenahast, mida palja silmaga ei näe). Kasvav sulg väljub torukesest, mida on näha, ja mida lind ise eemaldab, kui sulg on valmis. Kasvava sule varres on veel vereringe, valmis sule varres seda enam ei ole.
+
 
 <div class="image-gallery">
 <figure>
@@ -42,6 +43,8 @@ Täielikult kasvanud sulg väljub otse nahast (sulenahast, mida palja silmaga ei
     <figcaption>Näiteks, nii näeb välja piiritaja 38. päeval torukestega. Ilmselgelt pole ta veel lendamiseks valmis.</figcaption>
 </figure>
 </div>
+
+Torukeste puudumise kontrollimiseks niisutage mahutiibade kohal olevaid katvuslugusid veega, et näha kohta, kust suled kasvavad. Katvuslugusid tuleb mitu korda niisutada, kuna need ei märgu kohe.
 
 Enneaegselt pesast välja lennanud piiritaja pojad laskuvad maapinnale, kuna nad ei suuda pikka lendu taluda. Kui vabatahtlik vabastab lennuks mittevalmis linnu, võib see lennata meetreid või kilomeetreid, enne kui väsib enneaegsest koormusest ja langeb maapinnale kellegi saagiks.
 
