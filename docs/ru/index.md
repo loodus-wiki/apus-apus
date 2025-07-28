@@ -114,6 +114,8 @@ is_home: false
 
 
 ## Другие Разделы сайта:
+
+ - [**Вторичный осмотр**](secondary-inspection.md)
  - [**Признаки истощения**](exhaustion.md)
  - [**Критерии готовности птицы к выпуску**](back-to-nature.md)
  - [**Подсаживание птенца в приёмное гнездо**](swift-fostering-guidelines.md)

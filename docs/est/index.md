@@ -115,6 +115,7 @@ Kui kaal on alla normaalse 38–42 grammi, tuleb alustada soojendamist ja sööt
 
 ## Muud veebisaidi jaotised:
 
+- [**Teisese ülevaatus**](secondary-inspection.md)
 - [**Kurnatuse märgid**](exhaustion.html)
 - [**Linnu vabastamise kriteeriumid**](back-to-nature.md)
 - [**Tibu paigutamine kasupesasse**](swift-fostering-guidelines.md)
