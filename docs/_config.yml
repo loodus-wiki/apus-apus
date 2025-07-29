@@ -10,7 +10,7 @@ baseurl: "/apus-apus"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-sitemap
+#  - jekyll-sitemap
 #  - jekyll-github-metadata
   - jekyll-optional-front-matter 
   - jekyll-relative-links   

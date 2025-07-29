@@ -83,3 +83,7 @@ https://swiftsoversherborne.co.uk/pdf/Action-for-Swifts.pdf
 Эксперименты и открытия: как мы узнали, что стрижи не садятся
 https://sponsr.ru/better_tit/101472/Pticy_bez_posadki_kak_striji_jivut_vnebe/
 
+
+Shocking Moment as Swifts Eject Viable Egg from Nest
+https://youtu.be/cDmivffSxIg
+
