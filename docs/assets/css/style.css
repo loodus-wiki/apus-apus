@@ -23,7 +23,7 @@ body {
 }
 
 .nav-item {
-  margin: 0 15px;
+  margin: 0 8px;
 }
 
 .nav-link {
@@ -101,7 +101,7 @@ body {
     top: 60px;
     left: 0;
     width: 100%;
-    padding: 10px 0;
+    padding: 8px 0;
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
   }
 
@@ -110,13 +110,13 @@ body {
   }
 
   .nav-item {
-    margin: 10px 0;
+    margin: 8px 0;
     text-align: center;
   }
 
   .nav-link {
     display: block;
-    padding: 15px;
+    padding: 2px;
     font-size: 1.2em;
   }
 }
