@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://loodus-wiki.github.io/sitemap.xml
+Sitemap: https://loodus-wiki.github.io/apus-apus/sitemap.xml
