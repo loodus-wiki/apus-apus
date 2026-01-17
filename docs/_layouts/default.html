@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.default_language }}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+
+    <!-- better sharing with Open Graph и Twitter Cards  -->
+    <meta property="og:title" content="{{ page.title | escape }}">
+    <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+    <meta property="og:description" content="{{ page.description | default: site.description | escape }}">
+    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ page.title | escape }}">
+    <meta name="twitter:description" content="{{ page.description | default: site.description | escape }}">
+    <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/og-image.jpg">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+    <!-- Favicons -->
+    <link rel="icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
+    <style>
+        #markdown-toc {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 0.25rem;
+            padding: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        #markdown-toc ul {
+            list-style: none;
+            padding-left: 1rem;
+        }
+    </style>
+    <!-- mermaid loading -->
+    <script type="module">import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({
+            startOnLoad: true
+        });
+    </script>
+
+    <!-- Lightbox2 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Lightbox2 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox-plus-jquery.min.js"></script>
+    <!-- fancybox4 for video embedding -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
+</head>
+
+<body>
+    {% unless page.is_home %}
+    <header>
+        <nav class="main-nav" role="navigation" aria-label="Main navigation">
+            <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul id="nav-menu" class="nav-menu">
+                {% assign nav_data = site.data.navigation-est %}
+                {% if page.lang == 'en' %}
+                {% assign nav_data = site.data.navigation-en %}
+                {% elsif page.lang == 'ru' %}
+                {% assign nav_data = site.data.navigation-ru %}
+                {% endif %}
+                {% for item in nav_data %}
+                <li class="nav-item">
+                    {% if item.class contains 'lang-switch' %}
+                    <a href="#" class="nav-link {{ item.class }}" {% if item.class contains page.lang
+                        %}aria-current="page" {% endif %}>{{ item.title }}</a>
+                    {% else %}
+                    <a href="{{ item.url | relative_url }}" class="nav-link">{{ item.title }}</a>
+                    {% endif %}
+                </li>
+                {% endfor %}
+            </ul>
+        </nav>
+
+        <div id="sticky-header" class="sticky-header">
+            {% assign sticky_data = site.data.sticky_menu-est %}
+            {% if page.lang == 'en' %}
+            {% assign sticky_data = site.data.sticky_menu-en %}
+            {% elsif page.lang == 'ru' %}
+            {% assign sticky_data = site.data.sticky_menu-ru %}
+            {% endif %}
+
+            {% include sticky-social-share.html %}
+            <a href="/apus-apus/{{ page.lang }}/" class="sticky-button" title="{{ sticky_data.sticky_menu.home }}">
+                <i class="fas fa-home"></i>
+                <a href="javascript:history.back()" class="sticky-button">{{ sticky_data.sticky_menu.back }}</a>
+                <script>
+                    document.addEventListener('DOMContentLoaded', function () {
+                        //   console.log('Скрипт загружен');
+                        const navMenu = document.getElementById('nav-menu');
+                        const stickyHeader = document.getElementById('sticky-header');
+                        //   console.log('navMenu:', navMenu);
+                        //   console.log('stickyHeader:', stickyHeader);
+
+                        if (navMenu && stickyHeader) {
+                            window.addEventListener('scroll', function () {
+                                const navMenuRect = navMenu.getBoundingClientRect();
+                                //   console.log('navMenuRect.bottom:', navMenuRect.bottom);
+                                if (navMenuRect.bottom < 0) {
+                                    stickyHeader.style.display = 'flex';
+                                    // console.log('Показываем sticky-header, display:', stickyHeader.style.display);
+                                } else {
+                                    stickyHeader.style.display = 'none';
+                                    // console.log('Скрываем sticky-header, display:', stickyHeader.style.display);
+                                }
+                            });
+                        } else {
+                            // console.log('Элементы не найдены');
+                        }
+                    });
+                </script>
+        </div>
+
+    </header>
+    {% endunless %}
+    <main id="t-main-content">
+        {{ content }}
+        <!-- Social buttons --> {% include social-share.html %}
+    </main>
+    <!-- Кнопка "Наверх" -->
+    <button id="back-to-top" onclick="scrollToTop()" aria-label="↑">
+    </button>
+    <script src="{{ '/assets/js/nav-toggle.js' | relative_url }}"></script>
+    <!-- Back-on-top button -->
+    <script src="{{ '/assets/js/back-to-top.js' | relative_url }}"></script>
+    <!-- Choose no-indent depends on <p> lenght -->
+    <script src="{{ '/assets/js/no-indent.js' | relative_url }}"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V09H25RR9E"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-V09H25RR9E');
+    </script>
+</body>
+
+</html>

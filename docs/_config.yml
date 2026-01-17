@@ -1,0 +1,59 @@
+title: "Swift Encyclopedia"
+description: "Complete guide about swift birds care, feeding, and rehabilitation"
+url: "https://loodus-wiki.github.io"
+baseurl: "/apus-apus"
+
+# Указываем, что сайт публикуется из /docs
+#source: "."
+
+# Плагины Jekyll
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+#  - jekyll-sitemap
+#  - jekyll-github-metadata
+  - jekyll-optional-front-matter 
+  - jekyll-relative-links   
+  - jekyll-toc
+jekyll_toc:
+  transliterate: true
+
+
+#toc: true
+#toc:
+#  min_level: 2 # Минимальный уровень заголовков (1 = #, 2 = ## и т.д.)
+#  max_level: 3 # Максимальный уровень заголовков
+#  ordered_list: false # Использовать <ul> вместо <ol>
+
+#kramdown:
+#  toc_levels: 2..6
+#  auto_ids: true
+markdown: kramdown
+kramdown:
+  input: GFM
+
+#посмотреть, как нумерацию будет делать
+#markdown: CommonMark
+
+include:
+  - "ru/*.md"
+  - "en/*.md" 
+  - "est/*.md"
+  - sitemap.xml
+
+# Языки
+languages:
+  - code: ru
+    name: Русский
+    url: /apus-apus/ru/
+  - code: en
+    name: English
+    url: /apus-apus/en/
+  - code: est
+    name: Eesti
+    url: /apus-apus/est/
+
+# Исключения из сборки
+exclude:
+  - README.md
+  - LICENSE
