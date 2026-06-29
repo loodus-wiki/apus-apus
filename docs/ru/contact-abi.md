@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Контакт с Metsloomayhing 
+title: Контакт с Metsloomaabi и Metsloomaühing
 lang: ru
 is_home: false
 ---
 
-Итак, птица находится в коробке, вы пишете в Metsloomaühing 
+Итак, птица находится в коробке, вы пишете в **Metsloomaabi** или **Metsloomaühing**.
 
 Для того, чтобы сообщение было <b>информативным</b>, укажите: 
 - Город, адрес
@@ -19,8 +19,18 @@ is_home: false
 
 Проверьте, что вы можете получать сообщения от участников сообщества.
 
+### MTÜ Metsloomaabi
 
-### Зарегистируйте находку и спросите совета
+**Registrikood**: 80659032  
+**Arveldusarve**: EE547700771012044943
+
+**E-mail**: info@metsloomaabi.ee
+
+**Facebook**: [Metsloomaabi – Помощь диким животным](https://www.facebook.com/profile.php?id=61579913521431) — мы ответим при первой возможности.
+
+**Телефон**: +372 5883 8443 (только на эстонском или английском языке).
+
+### Eesti Metsloomaühing
 
 **WWW**: <a href="https://www.metsloom.ee/kontaktid/" target="_blank" rel="noopener noreferrer">Eesti Metsloomaühing (откроется в новом окне)</a>
 

@@ -27,7 +27,7 @@ Seda tuleb proovida pehme pinnase kohal, et lind võimaliku kukkumise korral end
 
 Võimalik, et ta on juba toibunud ja suudab ära lennata. Kui ta ei lenda, vajab ta abi ja teile on vaja pappkasti, kuhu lind panna.
 
-Järgmine samm – [võtke ühendust Eesti Metsloomaühinguga](contact-metloomayhing.html)
+Järgmine samm – [võtke ühendust Metsloomaabiga või Metsloomaühinguga](contact-abi.html)
 
 ### Poeg
 
