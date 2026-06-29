@@ -7,7 +7,8 @@ is_home: false
 
 **Этот сайт создан в помощь волонтёрам, спасающим стрижей (Apus apus)**
 
-В Эстонии это  <a href="https://www.metsloom.ee/kontaktid/" target="_blank" rel="noopener noreferrer">Eesti Metsloomaühing (откроется в новом окне)</a>
+В Эстонии это [Eesti Metsloomaabi (откроется в новом окне)](https://www.facebook.com/profile.php?id=61579913521431/) 
+или [Eesti Metsloomaühing (откроется в новом окне)](https://www.metsloom.ee/kontaktid/)
 
 Сайт содержит натуралистичные фотографии, в том числе насекомых, их частей, медицинских процедур и т.д.
 
@@ -25,7 +26,7 @@ is_home: false
 Возможно, он уже пришёл в себя и сможет улететь. Если он не улетает, значит ему требуется помощь, а вам — картонная коробка, чтобы положить туда птицу. 
 
 
-Следующий шаг - [связаться с Metsloomaabi или Eesti MetloomaÜhing](contact-abi.html)
+Следующий шаг - [связаться с Metsloomaabi или Eesti Metsloomaühing](contact-abi.html)
 
   
 ### Птенец

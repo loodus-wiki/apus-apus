@@ -8,7 +8,8 @@ is_home: false
 **See veebileht on loodud vabatahtlikele, kes päästvad piiritajaid (Apus apus)**
 
 
-Eestis on selleks <a href="https://www.metsloom.ee/kontaktid/" target="_blank" rel="noopener noreferrer">Eesti Metsloomaühing (avaneb uues aknas)</a>
+Eestis on selleks [Eesti Metsloomaabi (avaneb uues aknas)](https://www.facebook.com/profile.php?id=61579913521431/) 
+või [Eesti Metsloomaühing (avaneb uues aknas)](https://www.metsloom.ee/kontaktid/)
 
 
 Veebisait sisaldab naturalistlikke fotosid, sealhulgas putukaid, nende osi, meditsiinilisi protseduure jms.
