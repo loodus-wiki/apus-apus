@@ -7,7 +7,7 @@ is_home: false
 
 Seega, lind on karbis ja te kirjutate **Metsloomaabiga** või **Metsloomaühingule**.
 
-Sõnumi <b>informatiivseks</b> muutmiseks märkige ära:  
+Sõnumi <b>informatiivsemaks</b> muutmiseks märkige ära:  
 - Linn, aadress  
 - Selge foto ja võimalusel video  
 - Võimalusel piiritaja kaal (et mõista tema seisundi kriitilisust)  

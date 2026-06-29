@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Таблица количества корма и примерное количество насекомых
+title: Toidukoguse tabel ja ligikaudne putukate arv
 lang: est
 is_home: false
 toc: false

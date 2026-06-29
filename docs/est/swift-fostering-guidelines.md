@@ -9,16 +9,15 @@ is_home: false
 
 Dokumendi tõlge <a href="https://www.bristolswifts.co.uk/wp-content/uploads/2020/08/Swift-fostering-guidelines.pdf" target="_blank">www.bristolswifts.co.uk</a>
 
+Need juhised on mõeldud inimestele, kellel on juba kogemusi piiritajate pesakastidega ja kes tunnevad selle liigi käitumist. Kasvatamist peaksid läbi viima ainult need, kes tunnete end selleks pädevana. Soovitatav on kasutada ainult pesakaste, millel on kaamerad.
 
-Need juhised on mõeldud inimestele, kellel on kogemusi piiritajate pesakastidega ja kes tunnevad piiritajate käitumist. Kasvatamist peaksid läbi viima ainult need, kes tunnevad end selleks pädevana. Soovitatav on kasutada ainult pesakaste, millel on kaamerad.
+Piiritajate kasvatamine on protsess, mille käigus kasutatakse pesas olevat piiritajapaari, et võtta kasvatamiseks tibu või mune. Selline olukord võib tekkida näiteks siis, kui:
+- mahajäetud muna pannakse pesasse, kus on kuni 2 sarnase munemiskuupäevaga muna;
+- mahajäetud tibu viiakse pesasse, kus on kuni 2 sarnases vanuses tibu;
+- tibu ümberpaigutatakse 3 tibuga pesast, kui üks vanem on kadunud;
+- maapinnale kukkunud piiritajatibu paigutatakse pesasse, kus on kuni 2 sama või sarnase vanusega tibu.
 
-Piiritajate kasvatamine on protsess, mille käigus kasutatakse pesas olevat piiritajapaari, et võtta kasvatamiseks tibu või mune. On mitmeid olukordi, näiteks:  
-● Mahajäetud muna paigutamine pesasse, kus on kuni 2 sarnase munemiskuupäevaga muna.  
-● Mahajäetud tibu viimine pesasse, kus on kuni 2 sarnases vanuses tibu. See võib hõlmata ka 2 tibu viimist pesasse, kus on 1 sarnases vanuses tibu.  
-● Tibu ümberpaigutamine 3 tibuga pesast, kui üks vanem on kadunud.  
-● Maapinnale kukkunud piiritajatibu paigutamine pesasse, kus on kuni 2 sama või sarnase vanusega tibu.  
-
-Võrreldes piiritajate rehabilitatsiooniga on eeliseks see, et see võtab vähem aega ja kulusid ning on vaieldamatu, et piiritajad ise on parimad vanemad.
+Võrreldes piiritajate rehabilitatsiooniga on kasvatamise eeliseks see, et see võtab vähem aega ja kulusid ning on vaieldamatu, et piiritajad ise on parimad vanemad.
 
 ## Sihtpesa  
 Esmalt veenduge, et sihtpesa külastab kaks vanemlindu.  

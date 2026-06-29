@@ -12,7 +12,7 @@ Eestis on selleks [Eesti Metsloomaabi (avaneb uues aknas)](https://www.facebook.
 või [Eesti Metsloomaühing (avaneb uues aknas)](https://www.metsloom.ee/kontaktid/)
 
 
-Veebisait sisaldab naturalistlikke fotosid, sealhulgas putukaid, nende osi, meditsiinilisi protseduure jms.
+Veebisait sisaldab looduslikke fotosid, sealhulgas putukatest, nende osadest ja meditsiinilistest protseduuridest jms.
 
 
 ## Kuidas näeb välja piiritaja (must- või tornipiiritaja, Apus apus)
