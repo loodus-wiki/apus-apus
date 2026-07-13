@@ -5,9 +5,15 @@
   {% elsif page.lang == 'ru' %}
     {% assign share_data = site.data.share_labels-ru %}
   {% endif %}
+  {% assign copy_message = 'Link kopeeritud' %}
+  {% if page.lang == 'ru' %}
+    {% assign copy_message = 'Ссылка скопирована' %}
+  {% elsif page.lang == 'en' %}
+    {% assign copy_message = 'Link copied' %}
+  {% endif %}
   <!-- Copy Link -->
   <a href="javascript:void(0)" class="sticky-share-btn sticky-copy-link" title="{{ share_data.share.copy_link }}"
-     onclick="navigator.clipboard.writeText('{{ site.url }}{{ site.baseurl }}{{ page.url }}'); alert('{{ share_data.share.copy_link_success }}');">
+     onclick="if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText('{{ site.url }}{{ site.baseurl }}{{ page.url }}').catch(function(){}); } showCopyMessage('{{ copy_message }}'); return false;">
     <i class="fas fa-link"></i>
   </a>
   <!-- Twitter/X -->
@@ -40,3 +46,16 @@
     <i class="fab fa-whatsapp"></i>
   </a>
 </div>
+<div id="copy-link-toast" class="copy-link-toast" role="status" aria-live="polite"></div>
+<script>
+  function showCopyMessage(message) {
+    var toast = document.getElementById('copy-link-toast');
+    if (!toast) return;
+    toast.textContent = message;
+    toast.classList.add('show');
+    clearTimeout(toast.hideTimer);
+    toast.hideTimer = setTimeout(function () {
+      toast.classList.remove('show');
+    }, 2200);
+  }
+</script>

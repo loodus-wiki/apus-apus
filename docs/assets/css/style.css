@@ -742,6 +742,26 @@ p {
   font-size: 25px;
 }
 
+.copy-link-toast {
+  position: fixed;
+  left: 50%;
+  bottom: 24px;
+  transform: translateX(-50%) translateY(16px);
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  z-index: 2000;
+}
+
+.copy-link-toast.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
 
 video {
     max-width: 100%;
