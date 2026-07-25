@@ -17,11 +17,11 @@ is_home: false
 Формула:
 (0,2) х (вес в птицы в формате 0,030 кг для птицы в 30грамм) : (% melox, обычно 0.5 или 1.5)
 
-<h4>Вес птицы (кг):</h4>
+<h4>Вес птицы (г):</h4>
 <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 8px;">
   <button onclick="setWeightFromButton(0.030)">30 г</button>
   <button onclick="setWeightFromButton(0.050)">50 г</button>
-  <input type="number" id="weightInput" step="0.001" placeholder="Введите вес вручную" style="width: 100px;">
+  <input type="number" id="weightInput" step="1" placeholder="Введите вес вручную (г)" style="width: 100px;">
 </div>
 
 <h4>% раствора мелоксикама:</h4>
@@ -41,8 +41,8 @@ is_home: false
   let percent = null;
 
   function setWeightFromButton(val) {
-    // Записать значение в поле ввода веса
-    document.getElementById("weightInput").value = 1000 * val.toFixed(3);
+    // val приходит в килограммах (0.030), записываем в граммах
+    document.getElementById("weightInput").value = (val * 1000).toFixed(0);
   }
 
   function setPercent(val) {
@@ -51,8 +51,9 @@ is_home: false
   }
 
   function calculateDose() {
-    // Считать вес из поля ввода
-    let weight = parseFloat(document.getElementById("weightInput").value);
+    // Считать вес (в граммах) из поля ввода и привести к килограммам
+    let weightGrams = parseFloat(document.getElementById("weightInput").value);
+    let weight = weightGrams / 1000; // вес в кг
     if (isNaN(weight) || weight <= 0) {
       document.getElementById("result").innerText = "Введите корректный вес птицы.";
       return;
@@ -62,7 +63,8 @@ is_home: false
       return;
     }
 
-    let dose = (0.2 * weight) / percent / 1000;
+    // Формула: (0.2 * вес(кг)) / процент
+    let dose = (0.2 * weight) / percent;
     document.getElementById("result").innerText =
       "Доза: " + dose.toFixed(4) + " мл раствора мелоксикама.";
   }

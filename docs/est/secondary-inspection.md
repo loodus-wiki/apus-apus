@@ -14,11 +14,11 @@ Kui vigastus on ilmne, antakse valuvaigistit (Melox) enne edasist läbivaatust.
 Valem:  
 (0,2) × (linnu kaal formaadis 0,030 kg 30-grammise linnu puhul) : (% meloksikaami, tavaliselt 0,5 või 1,5)
 
-<h4>Linnu kaal (kg):</h4>
+<h4>Linnu kaal (g):</h4>
 <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 8px;">
   <button onclick="setWeightFromButton(0.030)">30 g</button>
   <button onclick="setWeightFromButton(0.050)">50 g</button>
-  <input type="number" id="weightInput" step="0.001" placeholder="Sisestage kaal käsitsi" style="width: 100px;">
+  <input type="number" id="weightInput" step="1" placeholder="Sisestage kaal käsitsi (g)" style="width: 100px;">
 </div>
 
 <h4>Meloks %:</h4>
@@ -38,8 +38,8 @@ Valem:
   let percent = null;
 
   function setWeightFromButton(val) {
-    // Kirjutab kaalu sisestusväljale
-    document.getElementById("weightInput").value = 1000 * val.toFixed(3);
+    // val tuleb kilogrammides (0.030) — kirjutame sisestusväljale grammides
+    document.getElementById("weightInput").value = (val * 1000).toFixed(0);
   }
 
   function setPercent(val) {
@@ -48,8 +48,9 @@ Valem:
   }
 
   function calculateDose() {
-    // Loeb kaalu sisestusväljalt
-    let weight = parseFloat(document.getElementById("weightInput").value);
+    // Loeb kaalu (grammides) sisestusväljalt ja teisendab kilogrammideks
+    let weightGrams = parseFloat(document.getElementById("weightInput").value);
+    let weight = weightGrams / 1000; // kaal kilogrammides
     if (isNaN(weight) || weight <= 0) {
       document.getElementById("result").innerText = "Sisestage linnu korrektne kaal.";
       return;
@@ -59,7 +60,8 @@ Valem:
       return;
     }
 
-    let dose = (0.2 * weight) / percent / 1000;
+    // Valem: (0.2 * kaal(kg)) / protsent
+    let dose = (0.2 * weight) / percent;
     document.getElementById("result").innerText =
       "Annus: " + dose.toFixed(4) + " ml Meloks lahust.";
   }
