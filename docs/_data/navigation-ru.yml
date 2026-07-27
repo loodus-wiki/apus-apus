@@ -1,16 +1,23 @@
-- title: Основная
+﻿- title: "Основная"
   url: /ru/
-- title: Вторичный осмотр
+- title: "Вторичный осмотр"
   url: /ru/secondary-inspection.html
-- title: Определяем возраст
+- title: "Определяем возраст"
   url: /ru/identifying-swift.html
-- title: Кормление
+- title: "Кормление"
   url: /ru/feeding-swift.html
-- title: Истощение
+- title: "Истощение"
   url: /ru/exhaustion.html
-- title: Возвращение в природу
+- title: "Возвращение в природу"
   url: /ru/back-to-nature.html
-- title: Ошибки и мифы
+- title: "Ошибки и мифы"
   url: /ru/main-mistakes.html
-- title: "🇪🇪 EST"
-  class: lang-switch lang-est
+- title: "Язык ▾"
+  class: lang-dropdown-trigger
+  submenu:
+    - title: Eesti
+      lang: est
+    - title: "Русский"
+      lang: ru
+    - title: "Українська"
+      lang: ua

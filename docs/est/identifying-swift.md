@@ -1,14 +1,11 @@
----
+﻿---
 layout: default
 title: Piiritaja vanuse ja seisundi määramine
 lang: est
 is_home: false
 ---
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
+<style>
         table {
             border-collapse: collapse;
             width: 100%;
@@ -38,9 +35,6 @@ is_home: false
             display: block;
         }
     </style>
-
-
-</head>
 
 ## Kuupäevad
 Kui leidsite rästiku maikuus või juunikuus, siis on tegemist täiesti kindlasti täiskasvanud rästikuga, kes on lennanud Aafrikast(!). 
@@ -107,10 +101,7 @@ Keha pikkus 40 mm. Tiiva pikkus 7−8 mm.<br>Kaal 3,0 (2,5−3,6) g.<br>
   <summary style="cursor: pointer; background: #eee; padding: 10px;">Klõpsake tabeli kokkuvoltimiseks</summary>
 <table>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
+<style>
         table {
             border-collapse: collapse;
             width: 100%;
@@ -137,7 +128,6 @@ Keha pikkus 40 mm. Tiiva pikkus 7−8 mm.<br>Kaal 3,0 (2,5−3,6) g.<br>
             display: block;
         }
     </style>
-</head>
 
 <body>
 

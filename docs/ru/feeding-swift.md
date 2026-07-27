@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: Правильное кормление стрижа
 lang: ru
@@ -101,7 +101,7 @@ is_home: false
 <div class="video-gallery">
   <figure>
     <video width="300" height="405" controls>
-      <source src="{{ 'assets/video/feeding-adult-swift2-rus.mp4' | relative_url }}" type="video/mp4">
+      <source src="{{ 'assets/video/feeding-adult-swift2-ru.mp4' | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
     <figcaption>

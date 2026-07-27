@@ -1,4 +1,4 @@
-<div class="sticky-social-share">
+﻿<div class="sticky-social-share">
   {% assign share_data = site.data.share_labels-est %}
   {% if page.lang == 'en' %}
     {% assign share_data = site.data.share_labels-en %}
@@ -8,12 +8,14 @@
   {% assign copy_message = 'Link kopeeritud' %}
   {% if page.lang == 'ru' %}
     {% assign copy_message = 'Ссылка скопирована' %}
+  {% elsif page.lang == 'ua' %}
+    {% assign copy_message = 'Посилання скопійовано' %}
   {% elsif page.lang == 'en' %}
     {% assign copy_message = 'Link copied' %}
   {% endif %}
   <!-- Copy Link -->
   <a href="javascript:void(0)" class="sticky-share-btn sticky-copy-link" title="{{ share_data.share.copy_link }}"
-     onclick="if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText('{{ site.url }}{{ site.baseurl }}{{ page.url }}').catch(function(){}); } showCopyMessage('{{ copy_message }}'); return false;">
+     onclick="if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(window.location.href).catch(function(){}); } showCopyMessage('{{ copy_message }}'); return false;">
     <i class="fas fa-link"></i>
   </a>
   <!-- Twitter/X -->

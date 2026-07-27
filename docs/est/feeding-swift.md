@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: Piiritaja õige toitmine
 lang: est
@@ -9,7 +9,7 @@ is_home: false
 
 Piiritaja on täielikult putuktoiduline lind. Absoluutselt.
 
-Tema seedesüsteem ei ole üldse kohanenud loomsest valgust (kodujuust, lihatooted) ega tõukude, kirpude, vihmausside, gammaruse jms tõhusaks seedimiseks. Piiritaja loomulik toit on õhuplankton. Lihtsamalt öeldes: sääsed ja muu pisipuder. Kõige lähedasem koostiselt on söödaputukad: ritsikad ja prussakad.
+Tema seedesüsteem ei ole üldse kohanenud loomsest valgust (kodujuust, lihatooted) ega tõukude, kirpude, vihmausside, gammaruse jms tõhusaks seedimiseks. Piiritaja loomulik toit on õhuplankton. Lihtsamalt öeldes: sääsed ja muu pisipuder. Kõige lähedasem koostiselt on söödaputukad: kilgid ja söödavad prussakad.
 
 <div class="image-gallery">
 <figure>
@@ -25,8 +25,8 @@ Sundtoitmise viise piiritajate puhul vaata allpool põhi- ja lisatoidu kirjeldus
 
 ## Põhitoidud
 
-- **Toaritsikad või banaaniritsikad**
-- **Marmor- või Türkmenistani prussakad**
+- **Toakilgid või banaanikilgid**
+- **Söödavad marmorprussakad või türkmeeni prussakad**
 
 Need putukad võivad olla elusad (värskelt tapetud) või külmutatud. Parim on osta elusaid ja külmutada need ise. Putukatel on erinevad arengustaadiumid. Täiskasvanud (tiibadega) isendid sobivad halvasti toitmiseks: need on kõvad ja vajavad palju töötlemist. Eeltäiskasvanud – suured, kuid mitte täiskasvanud – sobivad ideaalselt. Väga väikesed, veel mitte eeltäiskasvanud – sobivad samuti, kuid on kallid, kuna neid kulub palju. Kõik kõvad ja teravad putukaosad tuleb eemaldada.
 
@@ -34,22 +34,22 @@ Need putukad võivad olla elusad (värskelt tapetud) või külmutatud. Parim on 
 
 - **Zophobas (vastsed)**
 - **Jahuussid**
-- **Mustlase kärbsed**
+- **Musta sõduri kärbse vastsed (Hermetia illucens)**
 
 Zophobas on liiga rasvane, et olla põhitoit. Kuid 3–5 zophobast päevas võib olla lisand põhitoidule. Zophobas antakse ilma pea ja soolikata.
 Jahuussid on koostiselt kehvemad, seega ei sobi need põhitoitmiseks. Hädaolukorras võib neid kasutada koos vitamiinikompleksidega. Neil on kõva kest, seega vali karbist värskelt sulanud (valged) ussid.
-Mustlase kärbsed on koostiselt täisväärtuslikud ja väga hea toit. Ainus puudus on nende väike kaal. Ühe toitmise jaoks on vaja väga palju kärbseid, mistõttu on piiritaja söötmine ainult kärbestega töömahukas.
+Musta sõduri kärbse vastsed on koostiselt täisväärtuslikud ja väga hea toit. Ainus puudus on nende väike kaal. Ühe toitmise jaoks on vaja väga palju vastseid/kärbseid, mistõttu on piiritaja söötmine ainult nendega töömahukas.
 
 ## Kui söödaputukaid pole võimalik osta
 
 Looduslik toit:
 - **Külmutatud kärbsed** (mitte kleepuva lindi pealt)
-- **Ritsikate või rohutirtsude kõhud**
+- **Kilkide või rohutirtsude kõhud**
 - **Mittevärvilised tiibadeta liblikad** (eelkõige öised)
 - **Mittevärvilised karvutud röövikud** (mitte ussid!)
 - **Sipelgamunad**
 
-Tähtis! Loodusest püütud kärbsed ja ritsikad tuleb külmutada vähemalt 4 tundi, et vältida linnu nakatumist parasiitidega.
+Tähtis! Loodusest püütud kärbsed ja kilgid/rohutirtsud tuleb külmutada vähemalt 4 tundi, et vältida linnu nakatumist parasiitidega.
 
 <style>
   table {
@@ -74,10 +74,10 @@ Tähtis! Loodusest püütud kärbsed ja ritsikad tuleb külmutada vähemalt 4 tu
   <tr>
     <th>Poja vanus (päeva)</th>
     <th>Vajalik toidu maht päevas (g)</th>
-    <th>Banaaniritsikaid päevas (tk)</th>
-    <th>Toaritsikaid päevas (tk)</th>
-    <th>Väikeseid toaritsikaid päevas (tk)</th>
-    <th>Suuri marmorprussakaid päevas (tk kõhtusid)</th>
+    <th>Banaanikilgid päevas (tk)</th>
+    <th>Toakilgid päevas (tk)</th>
+    <th>Väikesed toakilgid päevas (tk)</th>
+    <th>Suuri marmorprussaka kõhtusid päevas (tk)</th>
     <th>Väikseid marmorprussakaid päevas (tk terveid)</th>
   </tr>
 <tr><td>10-16</td><td style='background-color:#ff4500'>20</td><td>60</td><td>100</td><td>200</td><td>80</td><td>160</td></tr>
@@ -96,7 +96,7 @@ Väike inimeste kätte sattunud poeg ja teismeline, kes on juba harjunud vanemag
 <div class="video-gallery">
   <figure>
     <video width="300" height="405" controls>
-      <source src="{{ 'assets/video/feeding-adult-swift2-rus.mp4' | relative_url }}" type="video/mp4">
+      <source src="{{ 'assets/video/feeding-adult-swift2-ru.mp4' | relative_url }}" type="video/mp4">
       Teie brauser ei toeta videot.
     </video>
     <figcaption>
@@ -115,32 +115,32 @@ Väike inimeste kätte sattunud poeg ja teismeline, kes on juba harjunud vanemag
   </figure>
 </div>
 
-On täheldatud, et mitme poja grupp toitub tavaliselt paremini kui üksikud.
+On täheldated, et mitme poja grupp toitub tavaliselt paremini kui üksikud.
 
 # Nüüd toidu liikidest detailsemalt {#types-of-food}
 
-## Ritsikad
+## Kilgid
 
 ### Ainult eeltäiskasvanud (mitte tiibadega):
-- Toaritsikas: 1,5–2 cm, kõrge toiteväärtus, proteiin 17,8%, rasv 5,33%
-- Banaaniritsikas: kuni 3 cm, proteiin 17,51%, rasv 5,33%
-- Kahelaik-ritsikas: kuni 3 cm, proteiin 17,7%, rasv 5,33%
+- Toakilk: 1,5–2 cm, kõrge toiteväärtus, proteiin 17,8%, rasv 5,33%
+- Banaanikilk: kuni 3 cm, proteiin 17,51%, rasv 5,33%
+- Kahelaiguline kilk: kuni 3 cm, proteiin 17,7%, rasv 5,33%
 
 #### Ettevalmistus:
-1. Külmutatud ritsikaid raputada karbis, et eemaldada jalad.
+1. Külmutatud kilke raputada karbis, et eemaldada jalad.
 2. Sulatada soojas vees (mitte keevas).
 3. Asetada salvrätikule, eemaldada ülejäänud jalad, muljuda pea (kui kõva), suurte puhul on parem tõmmata pea ja soolik välja.
 
-## Prussakad
+## Söödavad prussakad
 
-Sobivad ainult kultiveeritud söödaliigid, punaseid prussakaid ei tohi kasutada.
+Sobivad ainult kultiveeritud söödaliigid, punaseid prussakaid (saksa prussakas / pruun prussakas) ei tohi kasutada.
 
-- **Marmorprussakas**: kuni 3,5 cm, proteiin 22,13%
-- **Türkmenistani prussakas**: ~2,5 cm, proteiin 18,16%, rasv 8,645%
+- **Söödav marmorprussakas**: kuni 3,5 cm, proteiin 22,13%
+- **Türkmeeni prussakas**: ~2,5 cm, proteiin 18,16%, rasv 8,645%
 
 #### Ettevalmistus:
 - Marmorprussakas: suurte puhul kasuta ainult kõhtusid, lõika need pikuti. Väikseid (1 cm) anna tervelt, jalad eemaldatud.
-- Türkmenistani prussakas: eemalda jalad.
+- Türkmeeni prussakas: eemalda jalad.
 
 ## Zophobas (vastsed)
 
@@ -153,9 +153,9 @@ Sobivad ainult kultiveeritud söödaliigid, punaseid prussakaid ei tohi kasutada
 - Täiskasvanud piiritaja – ~12 g päevas, 3–4 toitmist (võib ka 2 toitmist, kui suudab süüa päevanormi kahe korraga).
 
 **Portsjonite näited toitmiseks**:
-- Toaritsikad: 15–20 tk (1,5–2 cm)
-- Banaaniritsikad: 10–15 suurt või 15–20 väikest
-- Marmorprussakad: 10–15 kõhtu või 20–25 väikest
+- Toakilgid: 15–20 tk (1,5–2 cm)
+- Banaanikilgid: 10–15 suurt või 15–20 väikest
+- Söödavad marmorprussakad: 10–15 kõhtu või 20–25 väikest
 - Sipelgamunad: 1 tl “kühmuga”
 
 Kasuta kaalu täpsusega 0,01 g portsjonite kontrollimiseks.
@@ -164,7 +164,7 @@ Kasuta kaalu täpsusega 0,01 g portsjonite kontrollimiseks.
 
 Kiired hankimisvõimalused:
 - Öised liblikad – püüda veeanumaga, mille taga on hele kangas ja taskulamp.
-- Ritsikad/rohutirtsud – püüda rohus, paluda lastel abiks. Külmutada, anda ainult kõhtusid.
+- Kilgid/rohutirtsud – püüda rohus, paluda lastel abiks. Külmutada, anda ainult kõhtusid.
 - Kärbsepüünis (mitte kleepuv lint), püütud kärbsed külmutada.
 - Sipelgamunad – pesta, vormida “tükiks”.
 - Mesilaste haud – mesilaste kasvatajate kaudu.
@@ -177,10 +177,7 @@ Mitmekesisuse puudumisel:
 
 /foto piiritaja suust koos märgistustega/
 
-## Toitmise viisid
-/toitmise protsess, tekstiline kirjeldus/
-/Tanino video subtiitritega/
-/minu vana video/
+## Toitmise viised
 
 <figure>
 <video width="300" height="405" controls>

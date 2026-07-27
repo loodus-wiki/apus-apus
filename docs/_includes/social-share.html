@@ -1,5 +1,22 @@
-<div id="social-share" class="share-buttons">
-  <!-- <span>Share: </span> -->
+﻿<div id="social-share" class="share-buttons">
+  {% assign copy_label = 'Kopeeri link' %}
+  {% assign copy_msg = 'Link kopeeritud' %}
+  {% if page.lang == 'ru' %}
+    {% assign copy_label = 'Ссылка' %}
+    {% assign copy_msg = 'Ссылка скопирована' %}
+  {% elsif page.lang == 'ua' %}
+    {% assign copy_label = 'Посилання' %}
+    {% assign copy_msg = 'Посилання скопійовано' %}
+  {% elsif page.lang == 'en' %}
+    {% assign copy_label = 'Copy link' %}
+    {% assign copy_msg = 'Link copied' %}
+  {% endif %}
+
+  <!-- Copy Link -->
+  <a href="javascript:void(0)" class="btn btn-social btn-copy-link" title="{{ copy_label }}"
+     onclick="if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(window.location.href).catch(function(){}); } showCopyMessage('{{ copy_msg }}'); return false;">
+    <i class="fas fa-link"></i> {{ copy_label }}
+  </a>
   <!-- Twitter/X -->
   <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ site.baseurl }}{{ page.url | url_encode }}"
      class="btn btn-social btn-twitter" title="Share in Twitter/X" onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">
@@ -7,7 +24,7 @@
   </a>
   <!-- Facebook -->
   <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url | url_encode }}"
-     class="btn btn-social btn-facebook" title="Share in в Facebook" onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">
+     class="btn btn-social btn-facebook" title="Share in Facebook" onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">
     <i class="fab fa-facebook"></i> Facebook
   </a>
   <!-- Telegram -->

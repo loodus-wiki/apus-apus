@@ -1,0 +1,23 @@
+﻿- title: "Головна"
+  url: /ua/
+- title: "Повторний огляд"
+  url: /ua/secondary-inspection.html
+- title: "Визначення віку"
+  url: /ua/identifying-swift.html
+- title: "Годування"
+  url: /ua/feeding-swift.html
+- title: "Виснаження"
+  url: /ua/exhaustion.html
+- title: "Повернення у природу"
+  url: /ua/back-to-nature.html
+- title: "Помилки та міфи"
+  url: /ua/main-mistakes.html
+- title: "Мова ▾"
+  class: lang-dropdown-trigger
+  submenu:
+    - title: Eesti
+      lang: est
+    - title: "Русский"
+      lang: ru
+    - title: "Українська"
+      lang: ua

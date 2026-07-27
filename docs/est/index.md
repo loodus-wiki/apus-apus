@@ -1,11 +1,11 @@
----
+﻿---
 layout: default
 title: Ülevaatus ja esimesed sammud
 lang: est
 is_home: false
 ---
 
-**See veebileht on loodud vabatahtlikele, kes päästvad piiritajaid (Apus apus)**
+**See veebileht on loodud vabatahtlikele, kes päästavad piiritajaid (Apus apus)**
 
 
 Eestis on selleks [Eesti Metsloomaabi (avaneb uues aknas)](https://www.facebook.com/profile.php?id=61579913521431/) 
@@ -116,7 +116,7 @@ Kui kaal on alla normaalse 38–42 grammi, tuleb alustada soojendamist ja sööt
 
 ## Muud veebisaidi jaotised:
 
-- [**Teisese ülevaatus**](secondary-inspection.md)
+- [**Teisene ülevaatus**](secondary-inspection.md)
 - [**Kurnatuse märgid**](exhaustion.html)
 - [**Linnu vabastamise kriteeriumid**](back-to-nature.md)
 - [**Tibu paigutamine kasupesasse**](swift-fostering-guidelines.md)

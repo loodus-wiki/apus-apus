@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: Возвращение стрижа в природу
 description: Инструкции как выпускать стрижа
@@ -71,7 +71,7 @@ is_home: false
 
 <div class="image-gallery">
 <figure>
-    <img  data-fancybox="my-gallery"  src="../assets/images/fethers-count-rus.png" frameborder="0">
+    <img  data-fancybox="my-gallery"  src="../assets/images/fethers-count-ru.png" frameborder="0">
     <figcaption>Подсчёт и нумерация перьев</figcaption>
 </figure>
 </div>

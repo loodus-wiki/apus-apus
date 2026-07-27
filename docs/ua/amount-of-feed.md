@@ -1,7 +1,7 @@
 ﻿---
 layout: default
-title: Toidukoguse tabel ja ligikaudne putukate arv
-lang: est
+title: Таблиця об'єму їжі та орієнтовна кількість комах
+lang: ua
 is_home: false
 toc: false
 ---
@@ -24,13 +24,13 @@ toc: false
 
 <table>
 <tr>
-  <th>Poja vanus (päeva)</th>
-  <th>Vajalik toidukogus päevas (g)</th>
-  <th>Banaanikilgid päevas (tk)</th>
-  <th>Toakilgid päevas (tk)</th>
-  <th>Väikesed toakilgid päevas (tk)</th>
-  <th>Suured marmorprussaka kõhud päevas (tk)</th>
-  <th>Väikesed marmorprussakad tervikuna (tk)</th>
+  <th>Вік пташеняти (днів)</th>
+  <th>Необхідний об'єм їжі на день (г)</th>
+  <th>Бананові цвіркуни на день (шт)</th>
+  <th>Домові цвіркуни на день (шт)</th>
+  <th>Дрібні домові цвіркуни на день (шт)</th>
+  <th>Великі черевця мармурових тарганів (шт)</th>
+  <th>Дрібні мармурові таргани цілком (шт)</th>
 </tr>
 <tr><td>10</td><td style='background-color:#ff4500'>20</td><td>60</td><td>100</td><td>200</td><td>80</td><td>160</td></tr>
 <tr><td>11</td><td style='background-color:#ff4500'>20</td><td>60</td><td>100</td><td>200</td><td>80</td><td>160</td></tr>
@@ -68,5 +68,5 @@ toc: false
 <tr><td>43</td><td style='background-color:#f5deb3'>12</td><td>36</td><td>60</td><td>120</td><td>48</td><td>96</td></tr>
 <tr><td>44</td><td style='background-color:#f5deb3'>12</td><td>36</td><td>60</td><td>120</td><td>48</td><td>96</td></tr>
 <tr><td>45</td><td style='background-color:#f5deb3'>12</td><td>36</td><td>60</td><td>120</td><td>48</td><td>96</td></tr>
-<tr><td><b>KOKKU</b></td><td style='background-color:#f5deb3'><b>569</b></td><td><b>1707</b></td><td><b>2845</b></td><td><b>5690</b></td><td><b>2276</b></td><td><b>4552</b></td></tr>
+<tr><td><b>РАЗОМ</b></td><td style='background-color:#f5deb3'><b>569</b></td><td><b>1707</b></td><td><b>2845</b></td><td><b>5690</b></td><td><b>2276</b></td><td><b>4552</b></td></tr>
 </table>

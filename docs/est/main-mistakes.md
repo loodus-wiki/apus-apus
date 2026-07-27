@@ -1,4 +1,4 @@
----
+﻿---
 title: Peamised vead
 layout: default
 lang: est
@@ -25,7 +25,7 @@ is_home: false
   Seda kummalist tegevust harrastavad mõned ornitoloogid loomaarstikliinikutes. Nad ei tea, et täiskasvanud piiritaja sulgimine toimub harva. Näiteks vahetuvad esmasuled kord kahe aasta jooksul. Kahe aasta jooksul kaotab piiritaja kodutingimustes kindlasti lennuvõime. Kui sulgedega on midagi valesti, ärge laske neid loomaarstikliinikus eemaldada, küsige esmalt vabatahtlikelt, mida sellega teha ja kas sulgede taastamine on võimalik.
 
 - **Viga – Vee jootmine kolju-ajutrauma korral**  
-  Kahjuks ei tohi kolju-ajutrauma korral linnule anda vedelikku peale ravimite, kuna see soodustab ajuturset. Piiritaja ei vaja üldiselt palju vett, tavaliselt piisab niiskest toidust (näiteks sulatatud ritsikatest).
+  Kahjuks ei tohi kolju-ajutrauma korral linnule anda vedelikku peale ravimite, kuna see soodustab ajuturset. Piiritaja ei vaja üldiselt palju vett, tavaliselt piisab niiskest toidust (näiteks sulatatud kilkidest).
 
 - **Viga – Sidumine ümber keha**  
   Lindude hingamiselundid erinevad meie omadest, seega ei tohi vigastatud tiiba vms keha külge siduda, kuna lind võib lämbuda.

@@ -1,4 +1,4 @@
-- title: Avaleht
+﻿- title: Avaleht
   url: /est/
 - title: Teisene kontroll
   url: /est/secondary-inspection.html
@@ -12,5 +12,12 @@
   url: /est/back-to-nature.html
 - title: Vead ja müüdid
   url: /est/main-mistakes.html
-- title: "ru RUS"
-  class: lang-switch lang-ru
+- title: "Keel ▾"
+  class: lang-dropdown-trigger
+  submenu:
+    - title: Eesti
+      lang: est
+    - title: "Русский"
+      lang: ru
+    - title: "Українська"
+      lang: ua

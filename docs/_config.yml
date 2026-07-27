@@ -37,21 +37,22 @@ kramdown:
 
 include:
   - "ru/*.md"
-  - "en/*.md" 
+  - "en/*.md"
+  - "ua/*.md"
   - "est/*.md"
   - sitemap.xml
 
 # Языки
 languages:
-  - code: ru
-    name: Русский
-    url: /apus-apus/ru/
-  - code: en
-    name: English
-    url: /apus-apus/en/
   - code: est
     name: Eesti
     url: /apus-apus/est/
+  - code: ru
+    name: Русский
+    url: /apus-apus/ru/
+  - code: ua
+    name: Українська
+    url: /apus-apus/ua/
 
 # Исключения из сборки
 exclude:
