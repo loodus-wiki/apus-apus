@@ -1,10 +1,12 @@
-﻿document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
     const navToggle = document.querySelector('.nav-toggle');
     const navMenu = document.querySelector('.nav-menu');
+    const mainNav = document.querySelector('.main-nav');
 
     // Обработчик для мобильного меню (гамбургер)
     if (navToggle && navMenu) {
-        navToggle.addEventListener('click', () => {
+        navToggle.addEventListener('click', (e) => {
+            e.stopPropagation();
             const isExpanded = navToggle.getAttribute('aria-expanded') === 'true';
             navToggle.setAttribute('aria-expanded', !isExpanded);
             navMenu.classList.toggle('active');
@@ -71,7 +73,7 @@
         });
     });
 
-    // Закрыть дропдаун при клике вне него
+    // Закрыть дропдаун и мобильное меню при клике вне них
     document.addEventListener('click', (e) => {
         document.querySelectorAll('.lang-dropdown.open').forEach(dd => {
             if (!dd.contains(e.target)) {
@@ -79,15 +81,31 @@
                 dd.querySelector('.lang-dropdown-trigger')?.setAttribute('aria-expanded', 'false');
             }
         });
+
+        if (navMenu && navMenu.classList.contains('active')) {
+            if (mainNav && !mainNav.contains(e.target)) {
+                navMenu.classList.remove('active');
+                if (navToggle) {
+                    navToggle.setAttribute('aria-expanded', 'false');
+                }
+            }
+        }
     });
 
-    // Закрыть дропдаун при нажатии Escape
+    // Закрыть дропдаун и мобильное меню при нажатии Escape
     document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape') {
             document.querySelectorAll('.lang-dropdown.open').forEach(dd => {
                 dd.classList.remove('open');
                 dd.querySelector('.lang-dropdown-trigger')?.setAttribute('aria-expanded', 'false');
             });
+
+            if (navMenu && navMenu.classList.contains('active')) {
+                navMenu.classList.remove('active');
+                if (navToggle) {
+                    navToggle.setAttribute('aria-expanded', 'false');
+                }
+            }
         }
     });
 });

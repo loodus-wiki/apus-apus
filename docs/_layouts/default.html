@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="{{ page.lang | default: site.default_language }}">
 
 <head>
@@ -73,6 +73,7 @@
     <header>
         <nav class="main-nav" role="navigation" aria-label="Main navigation">
             <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation">
+                <span class="nav-toggle-label">{% if page.lang == 'ru' %}меню{% elsif page.lang == 'ua' %}меню{% elsif page.lang == 'est' %}menüü{% else %}menu{% endif %}</span>
                 <span class="hamburger"></span>
             </button>
             <ul id="nav-menu" class="nav-menu">
@@ -115,26 +116,26 @@
             {% endif %}
 
             {% include sticky-social-share.html %}
-            <a href="/apus-apus/{{ page.lang }}/" class="sticky-button" title="{{ sticky_data.sticky_menu.home }}">
+            <a href="/apus-apus/{{ page.lang }}/" class="sticky-button sticky-button-home" title="{{ sticky_data.sticky_menu.home }}">
                 <i class="fas fa-home"></i>
             </a>
-            <a href="javascript:history.back()" class="sticky-button">{{ sticky_data.sticky_menu.back }}</a>
+            <a href="javascript:history.back()" class="sticky-button sticky-button-back">{{ sticky_data.sticky_menu.back }}</a>
         </div>
 
         <script>
             document.addEventListener('DOMContentLoaded', function () {
-                const navMenu = document.getElementById('nav-menu');
                 const stickyHeader = document.getElementById('sticky-header');
 
-                if (navMenu && stickyHeader) {
-                    window.addEventListener('scroll', function () {
-                        const navMenuRect = navMenu.getBoundingClientRect();
-                        if (navMenuRect.bottom < 0) {
-                            stickyHeader.style.display = 'flex';
+                if (stickyHeader) {
+                    function updateStickyState() {
+                        if (window.scrollY > 40) {
+                            stickyHeader.classList.add('is-scrolled');
                         } else {
-                            stickyHeader.style.display = 'none';
+                            stickyHeader.classList.remove('is-scrolled');
                         }
-                    });
+                    }
+                    window.addEventListener('scroll', updateStickyState);
+                    updateStickyState();
                 }
             });
         </script>

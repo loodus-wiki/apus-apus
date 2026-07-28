@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title: Ülevaatus ja esimesed sammud
 lang: est
@@ -7,13 +7,10 @@ is_home: false
 
 **See veebileht on loodud vabatahtlikele, kes päästavad piiritajaid (Apus apus)**
 
-
 Eestis on selleks [Eesti Metsloomaabi (avaneb uues aknas)](https://www.facebook.com/profile.php?id=61579913521431/) 
 või [Eesti Metsloomaühing (avaneb uues aknas)](https://www.metsloom.ee/kontaktid/)
 
-
 Veebisait sisaldab looduslikke fotosid, sealhulgas putukatest, nende osadest ja meditsiinilistest protseduuridest jms.
-
 
 ## Kuidas näeb välja piiritaja (must- või tornipiiritaja, Apus apus)
 
@@ -32,7 +29,11 @@ Järgmine samm – [võtke ühendust Metsloomaabiga või Metsloomaühinguga](con
 
 ### Poeg
 
-Kui teie kätte sattus poeg, [liikuge kohe spetsiaalsele jaotisele, aeg on kallis.](exhaustion.md)
+Piiritajatel pole lennuvõimetuid poegi – täiskasvanud linnud ei toida kunagi oma kasvavaid poegi maapinnal.
+
+Väga sageli satuvad pojad inimeste kätte juba vedelikupuuduses ja märgatavalt kurnatuna. Tegutseda tuleb kiiresti, et lind sellest seisundist minimaalsete tagajärgedega välja tuua.
+
+Poja elule kriitiline kaal on 18–22 grammi. Kurnatud piiritajapojad kaaluvad tavaliselt **20–27 grammi**.
 
 Kui kahtlete, siin on [piltidega juhend linnu vanuse määramiseks päevade kaupa](identifying-swift.html)
 
@@ -57,29 +58,25 @@ Kui kahtlete, siin on [piltidega juhend linnu vanuse määramiseks päevade kaup
   <figcaption>Täiskasvanud piiritaja. On lennanud Aafrikasse</figcaption>
 </figure>
 
-### Piiritajatel pole lennuvõimetuid poegi
-
-Maapinnal satub lind olema ainult mingi probleemi korral.
-
-Vanalinnud võivad lennata vastu klaasi, kukkuda liiga külma ilma tõttu jne.
-
-Poeg võib välja kukkuda. Või välja hüpata, kui vanemad on ta hüljanud, eriti augustis.
-
 ### Kiireloomulised seisundid
-- Kõrge kurnatuse tase.  
 
-Märgid: poja kaal alla 25 grammi, täiskasvanud linnu puhul alla 35 grammi.  
+<div class="emergency-box box-warning">
+  <h3>⚠️ Kõrge kurnatuse tase</h3>
+  <p><strong>Märgid:</strong> poja kaal alla 25 g, täiskasvanud linnu puhul alla 35 g.</p>
+  <p>Piiritaja vajab välist soojendamist ja tuleb hakata tegutsema vastavalt kurnatuse leevendamise skeemile, kuna isegi õige toidu seedimiseks ei pruugi pojal jõudu olla.</p>
+  <a href="exhaustion.html" class="btn-emergency">👉 Kurnatuse leevendamise skeem</a>
+</div>
 
-Piiritaja vajab välist soojendamist ja tuleb hakata tegutsema vastavalt [kurnatuse leevendamise skeemile](exhaustion.html), kuna isegi õige toidu seedimiseks ei pruugi pojal jõudu olla.
+<div class="emergency-box box-danger">
+  <h3>🩸 Kassihammustus (Pasteurelloosi oht)</h3>
+  <p>Vajalik on <strong>veterinaari määratud kiire antibiootikumikuur</strong> pasteurella vastu. Ilma ravita võib surm saabuda mõne tunni jooksul!</p>
+  <ul>
+    <li><strong>Täiskasvanud piiritajale:</strong> Ciprofloxacin</li>
+    <li><strong>Pojale:</strong> Amoxicillin / clavulanate <em>(Ciprofloxacin võib mõjutada sulgede kasvu, seetõttu püütakse seda poegadele mitte anda)</em></li>
+  </ul>
+</div>
 
-[Lisateave: Kurnatus](exhaustion.html)
-
-- Kassihammustus – vajalik on veterinaari määratud antibiootikumikuur – pasteurella vastu.  
-
-Täiskasvanud piiritajale Ciprofloxacin, pojale Amoxicillin/clavulanate.  
-Ciprofloxacin võib mõjutada sulgede kasvu, seetõttu püütakse seda poegadele mitte anda.
-
-### Piiritaja turvaline majutamine
+## Piiritaja turvaline majutamine
 
 Piiritajale ei sobi puur, see on traumaatiline ja rikub sulgi.
 
@@ -113,8 +110,7 @@ Kui kaal on alla normaalse 38–42 grammi, tuleb alustada soojendamist ja sööt
 
 **Sügava nälja korral on vajalik spetsiaalne näljast väljatoomise protokoll** [putukate ekstrakti kasutamisega](exhaustion.md#extraction)
 
-
-## Muud veebisaidi jaotised:
+### Muud veebisaidi jaotised:
 
 - [**Teisene ülevaatus**](secondary-inspection.md)
 - [**Kurnatuse märgid**](exhaustion.html)
