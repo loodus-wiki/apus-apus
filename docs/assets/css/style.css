@@ -1162,7 +1162,8 @@ video {
   padding: 18px 20px;
   margin: 20px 0;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
-  border-left: 2px solid #ccc;
+  border-left: 4px solid #ccc;
+  clear: both;
 }
 
 #t-main-content .emergency-box h3,
@@ -1193,6 +1194,16 @@ video {
 .emergency-box li {
   margin-bottom: 6px;
   text-indent: 0 !important;
+}
+
+.emergency-box.box-info {
+  background-color: #eef6fc;
+  border-left-color: #3498db;
+  color: #1e3a5f;
+}
+
+.emergency-box.box-info h3 {
+  color: #2980b9;
 }
 
 .emergency-box.box-warning {

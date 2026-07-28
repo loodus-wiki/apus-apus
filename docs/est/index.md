@@ -79,19 +79,19 @@ Kui kahtlete, siin on [piltidega juhend linnu vanuse määramiseks päevade kaup
 {% assign copy_anchor_msg = 'Sektsiooni link kopeeritud' %}
 <h2 id="housing">Piiritaja turvaline majutamine <a href="#housing" class="btn-anchor-copy" title="{{ copy_anchor_label }}" onclick="if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(window.location.origin + window.location.pathname + '#housing').catch(function(){}); } showCopyMessage('{{ copy_anchor_msg }}'); return false;"><i class="fas fa-link"></i></a></h2>
 
-Piiritajale ei sobi puur, see on traumaatiline ja rikub sulgi.
-
-Otsige jalatsikarbi suurune või suurem karp, tehke seestpoolt väljapoole ventilatsiooniavad. Sobib ka kauss või mõni plastkonteiner, mis on kaetud kangaga. Põhja pange lõhnata ja värvaineta kuivad paberisalvrätikud. Salvrätikud võimaldavad kiiresti eemaldada karbist linnu väljaheited.
-
   <figure class="image-float">
   <img src="../assets/images/swift-in-box.jpg" alt="Tibu karbis" width="300">
   <figcaption>Tibu karbis, allpool soojendatakse matiga</figcaption>
   </figure>
 
+Piiritajale ei sobi puur, see on traumaatiline ja rikub sulgi.
+
+Otsige jalatsikarbi suurune või suurem karp, tehke seestpoolt väljapoole ventilatsiooniavad. Sobib ka kauss või mõni plastkonteiner, mis on kaetud kangaga. Põhja pange lõhnata ja värvaineta kuivad paberisalvrätikud. Salvrätikud võimaldavad kiiresti eemaldada karbist linnu väljaheited.
+
 Asetage lind pimedasse kohta, et ta saaks rahus olla.
 
-<div class="emergency-box box-warning">
-  <h3>⚠️ Olge küünistega ettevaatlik!</h3>
+<div class="emergency-box box-info">
+  <h3>ℹ️ Olge küünistega ettevaatlik!</h3>
   <p>Ärge kartke piiritajat karpi panna. Isegi kui piiritaja teie peale susiseb, ei hammusta ta teid. <strong>Olge siiski ettevaatlik küünistega</strong>, ta võib neid tugevalt pigistada, näiteks sõrme kinni haarates.</p>
 </div>
 
