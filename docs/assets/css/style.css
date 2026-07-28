@@ -89,6 +89,7 @@ body {
   background: #ecf0f1;
   margin: 3px auto;
   display: block;
+  transition: background-color 0.3s ease;
 }
 
 .hamburger::before {
@@ -99,10 +100,21 @@ body {
   width: 22px;
   height: 2px;
   background: #ecf0f1;
+  transition: background-color 0.3s ease;
 }
 
 .hamburger::after {
   display: none; /* Две горизонтальные полоски */
+}
+
+/* Цвет кнопки гамбургера при прокрутке мобильной шапки */
+.nav-toggle.is-scrolled .hamburger,
+.nav-toggle.is-scrolled .hamburger::before {
+  background-color: #4e75be !important;
+}
+
+.nav-toggle.is-scrolled .nav-toggle-label {
+  color: #4e75be !important;
 }
 
 .nav-toggle[aria-expanded="true"] .hamburger {
@@ -141,19 +153,23 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: auto;
+    position: fixed;
+    top: 6px;
+    right: 12px;
+    z-index: 10010;
   }
 
   .nav-menu {
     display: none;
     flex-direction: column;
     background-color: #2c3e50;
-    position: absolute;
-    top: 100%;
+    position: fixed;
+    top: 44px;
     left: 0;
     width: 100%;
     padding: 8px 0;
-    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    z-index: 10009;
   }
 
   .nav-menu.active {
@@ -400,31 +416,31 @@ blockquote {
 #t-main-content ul,
 #t-main-content ol {
   margin: 1.15rem 0;
-  padding-left: 1.5rem;
+  padding-left: 1.8rem;
   color: #2c3e50;
   line-height: 1.65;
   font-size: 1.125rem;
 }
 
 #t-main-content li {
-  margin-bottom: 0.5rem;
-  line-height: 1.65;
-  font-size: 1.125rem;
+  margin-bottom: 0.45rem;
 }
 
+<<<<<<< HEAD
 /* Сброс верхнего отступа у тегов <p> внутри элементов списка для идеального выравнивания с маркером */
 #t-main-content li p {
-  margin: 0 0 0.4rem 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0.5rem !important;
   padding: 0 !important;
-  font-size: inherit !important;
-  line-height: inherit !important;
-  text-indent: 0 !important;
+  display: block !important;
 }
 
 #t-main-content li p:last-child {
   margin-bottom: 0 !important;
 }
 
+=======
+>>>>>>> 28b9c2ba40fcc2f4b6355cc1570f6c726fadb299
 @media (max-width: 768px) {
   #t-main-content {
     padding: 20px 16px;
@@ -439,43 +455,6 @@ blockquote {
     line-height: 1.65 !important;
     text-indent: 0 !important;
   }
-/* Table of Contents (#markdown-toc) Compact Styling */
-#markdown-toc {
-  background-color: #f8fafc;
-  border: 1px solid #e2e8f0;
-  border-left: 4px solid #3498db;
-  border-radius: 6px;
-  padding: 14px 18px 14px 34px !important;
-  margin: 1.2rem 0 1.8rem 0 !important;
-  list-style-type: disc;
-}
-
-#markdown-toc ul {
-  margin: 0.2rem 0 0.2rem 0 !important;
-  padding-left: 1.2rem !important;
-  list-style-type: circle;
-}
-
-#markdown-toc ul ul {
-  list-style-type: square;
-}
-
-#markdown-toc li {
-  margin-bottom: 0.25rem !important;
-  margin-top: 0 !important;
-  font-size: 0.98rem !important;
-  line-height: 1.4 !important;
-}
-
-#markdown-toc a {
-  color: #2b6cb0 !important;
-  text-decoration: none !important;
-  transition: color 0.15s ease;
-}
-
-#markdown-toc a:hover {
-  color: #1a365d !important;
-  text-decoration: underline !important;
 }
 
 /* Figures & Images */
@@ -641,18 +620,10 @@ blockquote {
   .sticky-header {
     display: flex !important;
     z-index: 1002;
-    width: calc(100% - 200px) !important;
-    max-width: calc(100% - 100px) !important;
-    padding-left: 5px !important;
+            width: calc(100% - 200px) !important;
+        max-width: calc(100% - 100px) !important;
+        padding-left: 5px !important;
     box-sizing: border-box !important;
-  }
-}
-
-/* Скрываем sticky-header на десктопах */
-@media (min-width: 769px) {
-  #sticky-header,
-  .sticky-header {
-    display: none !important;
   }
 }
 
@@ -1097,10 +1068,6 @@ video {
     position: relative;
 }
 
-.lang-dropdown {
-    position: relative;
-}
-
 .lang-dropdown-trigger {
     cursor: pointer;
     user-select: none;
@@ -1122,7 +1089,7 @@ video {
 }
 
 .lang-dropdown.open .lang-dropdown-menu {
-    display: block !important;
+    display: block;
 }
 
 .lang-dropdown-menu li {
