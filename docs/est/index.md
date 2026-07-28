@@ -18,6 +18,11 @@ Piiritaja on väike, peopesa suurune lind, tumepruuni, peaaegu ühevärvilise su
 
 Täiskasvanud linnu jalad on tumedat värvi, kõigil neljal varbal mõlemal jalal on suund ettepoole (räästalindudel on see teisiti), neil on pikad teravad küünised.
 
+<figure>
+  <img src="../assets/images/adult_swift.webp" alt="Взрослый стриж" width="400">
+  <figcaption>Täiskasvanud piiritaja. On lennanud Aafrikasse</figcaption>
+</figure>
+
 ## Kui piiritaja on maas, vajab ta abi
 
 Kui olete leidnud täiskasvanud piiritaja, kellel pole sulgedel heledat äärist ja nähtavaid vigastusi, võite ta üles tõsta ja hoida avatud kohas sirutatud käel, ilma teda õhku viskamata.  
@@ -51,12 +56,6 @@ Kui kahtlete, siin on [piltidega juhend linnu vanuse määramiseks päevade kaup
   <figcaption>Ka see on poeg! Nooruk, kes pole veel Aafrikasse lennanud, tal on peas ja tiibadel heledad sulgede äärised. Ja roosad, veel päevitamata jalad.</figcaption>
 </figure>
 </div>
-
-### Täiskasvanud lind
-<figure>
-  <img src="../assets/images/adult_swift.webp" alt="Взрослый стриж" width="400">
-  <figcaption>Täiskasvanud piiritaja. On lennanud Aafrikasse</figcaption>
-</figure>
 
 ### Kiireloomulised seisundid
 
