@@ -378,6 +378,7 @@ blockquote {
   margin-bottom: 0.45rem;
 }
 
+<<<<<<< HEAD
 /* Сброс верхнего отступа у тегов <p> внутри элементов списка для идеального выравнивания с маркером */
 #t-main-content li p {
   margin-top: 0 !important;
@@ -390,6 +391,8 @@ blockquote {
   margin-bottom: 0 !important;
 }
 
+=======
+>>>>>>> 28b9c2ba40fcc2f4b6355cc1570f6c726fadb299
 @media (max-width: 768px) {
   #t-main-content {
     padding: 20px 16px;
