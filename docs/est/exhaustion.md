@@ -157,7 +157,10 @@ Oota 20 minutit. Lind peab kogu aeg olema soojas. Mugav on hoida soojenduskotti 
 
 Seedetrakti töö alustamiseks toida sageli väikeste portsjonitega. Valmista kilkide või marmorprussaka mahl. Eemalda putukalt pea koos maoga ja pigista kõhust välja “liha”. Kitiinist kest on surevale linnule liiga jäme, seda ära anna. Mida suuremad putukad, seda rohkem mahla saab. Koguge **0,2–0,25 ml** mahla. Lisa portsjonisse Mezymi pulbrit seesamiseemne suuruses. Silitage piiritaja kurku ülalt alla, et tal oleks kergem neelata. Kui mahl jääb kurku, tõmba pea ettevaatlikult ette ja üles (diagonaalis), et kael sirguks ja mahl liiguks söögitorusse. Hoia lähedal vatitikke, et vajadusel kiiresti puhastada hingamisavad, kui vedel toit sinna satub. Iga tilk toitu pigista süstlast alles siis, kui eelmine tilk on kindlasti alla neelatud.
 
-Kui putukaid pole, ära asenda neid muu toiduga. Piiritajat võib 1 päeva hoida füsioloogilise lahuse ja meevee segul (1:1), kuid anna maksimaalselt **5 tilka** ühe “toitmise” kohta. Sama kehtib, kui leidsid piiritaja õhtul ja midagi osta ei saa. Kogenud vabatahtlikel on soovitatav kodus varu hoida.
+<div class="emergency-box box-warning">
+  <h3>⚠️ Tähelepanu! Kui toiduputukaid pole</h3>
+  <p>Ära asenda neid muu toiduga! Piiritajat võib 1 päeva hoida füsioloogilise lahuse ja meevee segul (1:1), kuid anna maksimaalselt <strong>5 tilka</strong> ühe “toitmise” kohta. Sama kehtib, kui leidsid piiritaja õhtul ja midagi osta ei saa. Kogenud vabatahtlikel on soovitatav kodus varu hoida.</p>
+</div>
 
 Esimesel päeval toida ainult mahladega. Valmista putukatest **0,2–0,25 ml** mahla (2–3 kilg või marmorprussaka mahl) ja toida iga **25–40 minuti** tagant esimesed 5 toitmist. Pärast viiendat toitmist ilmub tavaliselt väljaheide. Kui väljaheide on olemas, suurenda portsjonit **0,3–0,35 ml-ni** (4–5 mahla) ja pikenda intervalli 1 tunnini kuni päeva lõpuni. Öised pausid toitmiste vahel ei tohi olla pikemad kui 3 tundi.
 
