@@ -380,7 +380,7 @@ blockquote {
   font-size: 1.125rem;
 }
 
-/* Uniform styling for paragraphs inside list items */
+/* Сброс верхнего отступа у тегов <p> внутри элементов списка для идеального выравнивания с маркером */
 #t-main-content li p {
   margin: 0 0 0.4rem 0 !important;
   padding: 0 !important;
@@ -392,6 +392,7 @@ blockquote {
 #t-main-content li p:last-child {
   margin-bottom: 0 !important;
 }
+
 @media (max-width: 768px) {
   #t-main-content {
     padding: 20px 16px;
