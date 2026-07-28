@@ -90,8 +90,10 @@ Otsige jalatsikarbi suurune või suurem karp, tehke seestpoolt väljapoole venti
 
 Asetage lind pimedasse kohta, et ta saaks rahus olla.
 
-Ärge kartke piiritajat karpi panna.  
-Isegi kui piiritaja teie peale susiseb, ei hammusta ta teid. Siiski olge ettevaatlik küünistega, ta võib neid tugevalt pigistada, näiteks sõrme kinni haarates.
+<div class="emergency-box box-warning">
+  <h3>⚠️ Olge küünistega ettevaatlik!</h3>
+  <p>Ärge kartke piiritajat karpi panna. Isegi kui piiritaja teie peale susiseb, ei hammusta ta teid. <strong>Olge siiski ettevaatlik küünistega</strong>, ta võib neid tugevalt pigistada, näiteks sõrme kinni haarates.</p>
+</div>
 
 Ärge pange karpi heinu, toitu ega proovige panna veega kaussi, kuna piiritaja ei oska nokaga toitu võtta.  
 Piisab salvrätikutest või pehmest kangast, millesse linnu küüned ei takerdu, karbi ventilatsioonist, soojendamiseks mõeldud pudelist ja rahust.
