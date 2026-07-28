@@ -314,6 +314,38 @@ body {
   margin-bottom: 0.8rem;
   border-bottom: 2px solid #eef2f7;
   padding-bottom: 6px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.btn-anchor-copy {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f4f8;
+  color: #4a6572 !important;
+  border: 1px solid #dcdfe6;
+  border-radius: 4px;
+  padding: 3px 8px;
+  font-size: 0.78rem;
+  font-weight: normal;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-decoration: none !important;
+  line-height: 1;
+}
+
+.btn-anchor-copy:hover {
+  background-color: #3498db;
+  color: #ffffff !important;
+  border-color: #3498db;
+}
+
+.btn-anchor-copy i {
+  font-size: 0.82rem;
 }
 
 #t-main-content h3 {
@@ -407,6 +439,43 @@ blockquote {
     line-height: 1.65 !important;
     text-indent: 0 !important;
   }
+/* Table of Contents (#markdown-toc) Compact Styling */
+#markdown-toc {
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-left: 4px solid #3498db;
+  border-radius: 6px;
+  padding: 14px 18px 14px 34px !important;
+  margin: 1.2rem 0 1.8rem 0 !important;
+  list-style-type: disc;
+}
+
+#markdown-toc ul {
+  margin: 0.2rem 0 0.2rem 0 !important;
+  padding-left: 1.2rem !important;
+  list-style-type: circle;
+}
+
+#markdown-toc ul ul {
+  list-style-type: square;
+}
+
+#markdown-toc li {
+  margin-bottom: 0.25rem !important;
+  margin-top: 0 !important;
+  font-size: 0.98rem !important;
+  line-height: 1.4 !important;
+}
+
+#markdown-toc a {
+  color: #2b6cb0 !important;
+  text-decoration: none !important;
+  transition: color 0.15s ease;
+}
+
+#markdown-toc a:hover {
+  color: #1a365d !important;
+  text-decoration: underline !important;
 }
 
 /* Figures & Images */

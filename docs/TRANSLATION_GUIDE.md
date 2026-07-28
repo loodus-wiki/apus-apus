@@ -1,4 +1,4 @@
-﻿# TRANSLATION GUIDE — Сайт помощи стрижам Apus apus
+# TRANSLATION GUIDE — Сайт помощи стрижам Apus apus
 
 > Этот документ — справочник для переводчиков и LLM-агентов.
 > Русский раздел (`ru/`) является «источником правды».
@@ -121,6 +121,80 @@ no_translate: true
 ```html
 <!-- media:localized — видео/фото имеет версию на языке страницы -->
 <!-- media:pending-localization — нужна локализация, пока общая версия -->
+```
+
+---
+
+---
+
+## Элементы форматирования и верстки (UI Components)
+
+Все страницы должны поддерживать единый стиль оформления сигнальных блоков, разделов и оглавления.Ниже приведена спецификация используемых веб-компонентов с примерами кода.
+
+### 1. Сигнальные и экстренные блоки (Emergency & Warning Boxes)
+
+Используются для мгновенного привлечения внимания к смертельным рискам и срочным инструкциям (критическое истощение, укусы кошек, отсутствие корма).
+
+#### ⚠️ Предупреждающий блок (Warning Alert)
+```html
+<div class="emergency-box box-warning">
+  <h3>⚠️ Заголовок предупреждения</h3>
+  <p><strong>Признаки:</strong> текстовое описание или предупреждающая инструкция.</p>
+  <a href="exhaustion.html" class="btn-emergency">👉 Текст кнопки или ссылки</a>
+</div>
+```
+
+#### 🩸 Критический/опасный блок (Danger Alert)
+```html
+<div class="emergency-box box-danger">
+  <h3>🩸 Заголовок опасного состояния</h3>
+  <p>Инструкция по срочным действиям (например, обязательный визит к ветеринару).</p>
+  <ul>
+    <li><strong>Пункт 1:</strong> детализация</li>
+    <li><strong>Пункт 2:</strong> детализация</li>
+  </ul>
+</div>
+```
+
+---
+
+### 2. Кнопки быстрой копировки ссылки на раздел (Section Anchor Copy Button)
+
+Используются на основных заголовках уровня `H2` для быстрой копировки прямой ссылки на нужный раздел страницы.
+
+```html
+{% assign copy_anchor_label = 'Скопировать ссылку на раздел' %}
+{% assign copy_anchor_msg = 'Ссылка на раздел скопирована' %}
+<h2 id="housing">Безопасное обустройство стрижа <a href="#housing" class="btn-anchor-copy" title="{{ copy_anchor_label }}" onclick="if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(window.location.origin + window.location.pathname + '#housing').catch(function(){}); } showCopyMessage('{{ copy_anchor_msg }}'); return false;"><i class="fas fa-link"></i></a></h2>
+```
+
+> **Метки для языков:**
+> - **RU:** `copy_anchor_label = 'Скопировать ссылку на раздел'`, `copy_anchor_msg = 'Ссылка на раздел скопирована'`
+> - **EST:** `copy_anchor_label = 'Kopeeri sektsiooni link'`, `copy_anchor_msg = 'Sektsiooni link kopeeritud'`
+> - **UA:** `copy_anchor_label = 'Скопіювати посилання на розділ'`, `copy_anchor_msg = 'Посилання на розділ скопійовано'`
+
+---
+
+### 3. Компактное оглавление (Compact TOC)
+
+Генерируется автоматически через Kramdown при наличии разметки `{::options toc_levels="1..3" /}` и списка `* TOC\n{:toc}`. Стилизуется браузером с аккуратными подсписками и левой синей акцентной полосой `#markdown-toc`.
+
+```markdown
+* TOC
+{:toc}
+```
+
+---
+
+### 4. Изображения с обтеканием текстом (Floating Images)
+
+Используются для фотографий, размещаемых рядом с текстом.
+
+```html
+<figure class="float-right">
+  <img src="../assets/images/adult_swift.webp" alt="Описание изображения" width="320" />
+  <figcaption>Подпись к изображению</figcaption>
+</figure>
 ```
 
 ---

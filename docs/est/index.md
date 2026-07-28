@@ -75,7 +75,9 @@ Kui kahtlete, siin on [piltidega juhend linnu vanuse määramiseks päevade kaup
 </figure>
 </div>
 
-## Piiritaja turvaline majutamine
+{% assign copy_anchor_label = 'Kopeeri sektsiooni link' %}
+{% assign copy_anchor_msg = 'Sektsiooni link kopeeritud' %}
+<h2 id="housing">Piiritaja turvaline majutamine <a href="#housing" class="btn-anchor-copy" title="{{ copy_anchor_label }}" onclick="if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(window.location.origin + window.location.pathname + '#housing').catch(function(){}); } showCopyMessage('{{ copy_anchor_msg }}'); return false;"><i class="fas fa-link"></i></a></h2>
 
 Piiritajale ei sobi puur, see on traumaatiline ja rikub sulgi.
 

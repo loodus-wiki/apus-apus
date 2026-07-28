@@ -76,7 +76,9 @@ is_home: false
 </figure>
 </div>
 
-## Безпечне розміщення серпокрильця
+{% assign copy_anchor_label = 'Скопіювати посилання на розділ' %}
+{% assign copy_anchor_msg = 'Посилання на розділ скопійовано' %}
+<h2 id="housing">Безпечне розміщення серпокрильця <a href="#housing" class="btn-anchor-copy" title="{{ copy_anchor_label }}" onclick="if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(window.location.origin + window.location.pathname + '#housing').catch(function(){}); } showCopyMessage('{{ copy_anchor_msg }}'); return false;"><i class="fas fa-link"></i></a></h2>
 
 Для серпокрильця не підходить клітка — це травмонебезпечно та псує пір'я.
 

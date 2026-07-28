@@ -76,7 +76,9 @@ is_home: false
 </figure>
 </div>
 
-## Безопасное обустройство стрижа
+{% assign copy_anchor_label = 'Скопировать ссылку на раздел' %}
+{% assign copy_anchor_msg = 'Ссылка на раздел скопирована' %}
+<h2 id="housing">Безопасное обустройство стрижа <a href="#housing" class="btn-anchor-copy" title="{{ copy_anchor_label }}" onclick="if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(window.location.origin + window.location.pathname + '#housing').catch(function(){}); } showCopyMessage('{{ copy_anchor_msg }}'); return false;"><i class="fas fa-link"></i></a></h2>
 
   Стрижу клетка совсем не подходит, это травмоопасно и портит перо. 
 
