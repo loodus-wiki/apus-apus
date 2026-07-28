@@ -14,14 +14,14 @@ Veebisait sisaldab looduslikke fotosid, sealhulgas putukatest, nende osadest ja 
 
 ## Kuidas näeb välja piiritaja (must- või tornipiiritaja, Apus apus)
 
+<figure class="float-right">
+  <img src="../assets/images/adult_swift.webp" alt="Взрослый стриж" width="320">
+  <figcaption>Täiskasvanud piiritaja. On lennanud Aafrikasse</figcaption>
+</figure>
+
 Piiritaja on väike, peopesa suurune lind, tumepruuni, peaaegu ühevärvilise sulestikuga, millel on väike valge laik noka all ja tumepruunid pärlilaadsed silmad. Tiivad on pikad, sirbikujulised, **täiskasvanud linnul** ulatuvad sabast umbes 3,5 cm võrra välja, normaalne kaal on 38–43 grammi.
 
 Täiskasvanud linnu jalad on tumedat värvi, kõigil neljal varbal mõlemal jalal on suund ettepoole (räästalindudel on see teisiti), neil on pikad teravad küünised.
-
-<figure>
-  <img src="../assets/images/adult_swift.webp" alt="Взрослый стриж" width="400">
-  <figcaption>Täiskasvanud piiritaja. On lennanud Aafrikasse</figcaption>
-</figure>
 
 ## Kui piiritaja on maas, vajab ta abi
 
@@ -31,6 +31,24 @@ Seda tuleb proovida pehme pinnase kohal, et lind võimaliku kukkumise korral end
 Võimalik, et ta on juba toibunud ja suudab ära lennata. Kui ta ei lenda, vajab ta abi ja teile on vaja pappkasti, kuhu lind panna.
 
 Järgmine samm – [võtke ühendust Metsloomaabiga või Metsloomaühinguga](contact-abi.html)
+
+### Kiireloomulised seisundid
+
+<div class="emergency-box box-warning">
+  <h3>⚠️ Kõrge kurnatuse tase</h3>
+  <p><strong>Märgid:</strong> poja kaal alla 25 g, täiskasvanud linnu puhul alla 35 g.</p>
+  <p>Piiritaja vajab välist soojendamist ja tuleb hakata tegutsema vastavalt kurnatuse leevendamise skeemile, kuna isegi õige toidu seedimiseks ei pruugi pojal jõudu olla.</p>
+  <a href="exhaustion.html" class="btn-emergency">👉 Kurnatuse leevendamise skeem</a>
+</div>
+
+<div class="emergency-box box-danger">
+  <h3>🩸 Kassihammustus (Pasteurelloosi oht)</h3>
+  <p>Vajalik on <strong>veterinaari määratud kiire antibiootikumikuur</strong> pasteurella vastu. Ilma ravita võib surm saabuda mõne tunni jooksul!</p>
+  <ul>
+    <li><strong>Täiskasvanud piiritajale:</strong> Ciprofloxacin</li>
+    <li><strong>Pojale:</strong> Amoxicillin / clavulanate <em>(Ciprofloxacin võib mõjutada sulgede kasvu, seetõttu püütakse seda poegadele mitte anda)</em></li>
+  </ul>
+</div>
 
 ### Poeg
 
@@ -55,24 +73,6 @@ Kui kahtlete, siin on [piltidega juhend linnu vanuse määramiseks päevade kaup
   <img src="../assets/images/timeline_day_28__29.webp" alt="Подросток стрижа" width="400">
   <figcaption>Ka see on poeg! Nooruk, kes pole veel Aafrikasse lennanud, tal on peas ja tiibadel heledad sulgede äärised. Ja roosad, veel päevitamata jalad.</figcaption>
 </figure>
-</div>
-
-### Kiireloomulised seisundid
-
-<div class="emergency-box box-warning">
-  <h3>⚠️ Kõrge kurnatuse tase</h3>
-  <p><strong>Märgid:</strong> poja kaal alla 25 g, täiskasvanud linnu puhul alla 35 g.</p>
-  <p>Piiritaja vajab välist soojendamist ja tuleb hakata tegutsema vastavalt kurnatuse leevendamise skeemile, kuna isegi õige toidu seedimiseks ei pruugi pojal jõudu olla.</p>
-  <a href="exhaustion.html" class="btn-emergency">👉 Kurnatuse leevendamise skeem</a>
-</div>
-
-<div class="emergency-box box-danger">
-  <h3>🩸 Kassihammustus (Pasteurelloosi oht)</h3>
-  <p>Vajalik on <strong>veterinaari määratud kiire antibiootikumikuur</strong> pasteurella vastu. Ilma ravita võib surm saabuda mõne tunni jooksul!</p>
-  <ul>
-    <li><strong>Täiskasvanud piiritajale:</strong> Ciprofloxacin</li>
-    <li><strong>Pojale:</strong> Amoxicillin / clavulanate <em>(Ciprofloxacin võib mõjutada sulgede kasvu, seetõttu püütakse seda poegadele mitte anda)</em></li>
-  </ul>
 </div>
 
 ## Piiritaja turvaline majutamine

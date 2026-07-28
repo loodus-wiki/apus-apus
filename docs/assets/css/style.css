@@ -277,13 +277,13 @@ body {
 
 /* Main content styles */
 #t-main-content {
-  max-width: 800px; /* Limit content width for readability */
-  margin: 0 auto; /* Center content */
-  padding: 25px 15px; /* Comfortable padding */
-  box-sizing: border-box; /* Include padding in width calculations */
-  background-color: #ffffff; /* White background for content area */
-  border-radius: 8px; /* Rounded corners for aesthetics */
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+  max-width: 880px; /* Limit content width for optimal line length */
+  margin: 0 auto;
+  padding: 28px 24px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
 #t-main-content p.no-indent {
@@ -294,97 +294,138 @@ body {
 #t-main-content h1,
 #t-main-content h2,
 #t-main-content h3 {
-  color: #1a1a1a; /* Darker color for headings */
-  line-height: 1.3; /* Tighter line spacing for headings */
-  margin-bottom: 0.75em; /* Consistent spacing below headings */
+  color: #2c3e50;
+  line-height: 1.35;
+  margin-bottom: 0.75em;
+  clear: both;
 }
 
 #t-main-content h1 {
-  font-size: 2em; /* Smaller but clear for adaptability */
-  font-weight: 700; /* Bold for prominence */
+  font-size: 1.85rem;
+  font-weight: 700;
+  margin-top: 1.4rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 8px;
 }
 
 #t-main-content h2 {
-  font-size: 1.5em; /* Medium size for subheadings */
-  font-weight: 600; /* Semi-bold for hierarchy */
+  font-size: 1.45rem;
+  font-weight: 600;
+  margin-top: 1.8rem;
+  margin-bottom: 0.8rem;
+  border-bottom: 2px solid #eef2f7;
+  padding-bottom: 6px;
 }
 
 #t-main-content h3 {
-  font-size: 1.2em; /* Smaller for lower-level headings */
-  font-weight: 500; /* Medium weight for clarity */
+  font-size: 1.22rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-top: 1.5rem;
+  margin-bottom: 0.6rem;
+  background: none;
+  border: none;
+  padding: 0;
 }
 
 /* Paragraphs */
 #t-main-content p {
-  margin: 1.2em 0; /* Balanced vertical spacing */
-  padding: 0 0px; /* Horizontal padding for alignment */
-  text-indent: 1.25em; /* Reduced indent for modern look */
-  font-size: 1rem; /* Standard font size */
-  color: #333333; /* Slightly lighter than headings */
+  margin: 1rem 0;
+  line-height: 1.6;
+  font-size: 1.02rem;
+  color: #2c3e50;
 }
 
 /* Links in content */
-#t-main-content a {
-  color: #005f99; /* Soft blue for links */
-  text-decoration: none; /* Remove default underline */
-  transition: color 0.2s ease; /* Smooth color transition */
-  border-bottom: 1px dotted #005f99; /* Dotted underline for subtle emphasis */
+#t-main-content a:not(.btn-emergency):not(.btn-copy-link):not(.sticky-button) {
+  color: #2980b9;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: rgba(41, 128, 185, 0.4);
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
+  border-bottom: none;
 }
 
-#t-main-content a:hover,
-#t-main-content a:focus {
-  color: #003d66; /* Darker blue on hover/focus */
-  border-bottom: 1px solid #003d66; /* Solid underline for feedback */
+#t-main-content a:not(.btn-emergency):not(.btn-copy-link):not(.sticky-button):hover,
+#t-main-content a:not(.btn-emergency):not(.btn-copy-link):not(.sticky-button):focus {
+  color: #1a5276;
+  text-decoration-color: #1a5276;
 }
 
 /* Blockquotes */
 blockquote {
-  border-left: 4px solid #6b7280; /* Gray border for versatility */
-  padding-left: 1.25em; /* Comfortable padding */
-  margin: 1.5em 0; /* Vertical spacing */
-  color: #4b5563; /* Muted gray text */
-  font-style: italic; /* Italic for emphasis */
-  background-color: #f9fafb; /* Light background for distinction */
-  border-radius: 4px; /* Rounded corners */
+  border-left: 4px solid #3498db;
+  padding: 12px 18px;
+  margin: 1.5rem 0;
+  color: #34495e;
+  font-style: italic;
+  background-color: #f8fafc;
+  border-radius: 0 6px 6px 0;
 }
 
 /* Lists */
 #t-main-content ul,
 #t-main-content ol {
-  margin: 1.2em 0; /* Vertical spacing */
-  padding-left: 2em; /* Indent for clarity */
-  color: #333333; /* Consistent text color */
+  margin: 1.1rem 0;
+  padding-left: 1.8rem;
+  color: #2c3e50;
+  line-height: 1.6;
 }
 
 #t-main-content li {
-  margin-bottom: 0.5em; /* Spacing between list items */
+  margin-bottom: 0.4rem;
 }
 
-/* Медиа-запрос для больших экранов */
-@media screen and (min-width: 1200px) {
-  #t-main-content {
-    max-width: 1200px;
-    /* Увеличиваем max-width для больших экранов */
-    padding: 20px 15px;
-    /* Увеличиваем padding для лучшего отображения */
-  }
-  #t-main-content h3 {
-  font-size: 1,5em; /* Medium size for subheadings */
-  font-weight: 600; /* Semi-bold for hierarchy */
-}
-#t-main-content li {    margin-bottom: 0.0em; font-size: 1.2rem; }
+/* Figures & Images */
+#t-main-content figure img {
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  max-width: 100%;
+  height: auto;
 }
 
-@media (min-width: 1200px) {
-#t-main-content p {
-    margin: 0.5em;
-    font-size: 1.2rem;
-    line-height: 1.2;
-    text-indent: 30px; /* Более выраженный отступ для длинных абзацев */
-  }
-  p.no-indent {
-    text-indent: 0; /* Сохраняем отсутствие отступа для коротких */
-  }
+#t-main-content figcaption {
+  font-size: 0.88rem;
+  color: #555;
+  font-style: italic;
+  margin-top: 6px;
+  text-align: center;
+}
+
+/* Tables inside content */
+#t-main-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+#t-main-content th {
+  background-color: #2c3e50;
+  color: #ffffff;
+  padding: 10px 14px;
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+#t-main-content td {
+  padding: 10px 14px;
+  border-bottom: 1px solid #eef2f5;
+  font-size: 0.95rem;
+  color: #2c3e50;
+}
+
+#t-main-content tr:nth-child(even) {
+  background-color: #f9fbfd;
+}
+
+/* Ограничение ширины контентного блока для идеальной читаемости на всех экранах */
+#t-main-content {
+  max-width: 880px;
+  margin: 0 auto;
 }
 
 /* Кнопка "Наверх" Стили для кнопки */
@@ -1122,4 +1163,36 @@ video {
 .btn-emergency:hover {
   background-color: #d9480f;
   color: #ffffff !important;
+}
+
+/* Float utilities for text wrapping around figures */
+figure.float-right,
+.float-right {
+  float: right !important;
+  width: 320px !important;
+  max-width: 45% !important;
+  margin: 4px 0 15px 20px !important;
+  box-sizing: border-box !important;
+}
+
+figure.float-left,
+.float-left {
+  float: left !important;
+  width: 320px !important;
+  max-width: 45% !important;
+  margin: 4px 20px 15px 0 !important;
+  box-sizing: border-box !important;
+}
+
+@media (max-width: 600px) {
+  figure.float-right,
+  figure.float-left,
+  .float-right,
+  .float-left {
+    float: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 15px auto !important;
+    display: block !important;
+  }
 }
